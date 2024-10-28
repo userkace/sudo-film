@@ -67,8 +67,8 @@ export default defineConfig(({ mode }) => {
           "safari-pinned-tab.svg",
         ],
         manifest: {
-          name: "film.kace.dev",
-          short_name: "film.kace",
+          name: "sudo-flix",
+          short_name: "sudo-flix",
           description: "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
           theme_color: "#120f1d",
           background_color: "#120f1d",
