@@ -20,12 +20,14 @@ film.kace.dev does not host any files, it merely links to 3rd party services. Le
 
 ## technologies
 
+![react](https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=61DAFB)
+![vite](https://img.shields.io/badge/Vite-0f0f0f?style=for-the-badge&logo=vite&logoColor=ffca22)
 ![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=333)
+![ts](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Links And Resources
-| Service        | Link                                                             | Source Code                                              |
+## links And resources
+| service        | link                                                             | source code                                              |
 |----------------|------------------------------------------------------------------|----------------------------------------------------------|
 | Sudo-Flix Docs | [sudo-docs](https://docs.undi.rest)                          | [source code](https://github.com/sussy-code/docs)        |
 | Extension      | [extension](https://docs.undi.rest/extension)                | [source code](https://github.com/sussy-code/browser-ext) |
@@ -34,7 +36,7 @@ film.kace.dev does not host any files, it merely links to 3rd party services. Le
 | Frontend       | [sudo-flix](https://docs.undi.rest/instances)                | [source code](https://github.com/sussy-code/smov)        |
 | Weblate        | [sudo-weblate](https://docs.undi.rest/links/weblate)         | [source code](https://github.com/sussy-code/docs)        |
 
-## Running Locally
+## running Locally
 Type the following commands into your terminal / command line to run Sudo-Flix locally
 ```bash
 git clone https://github.com/sussy-code/smov.git
@@ -45,7 +47,7 @@ pnpm run dev
 ```
 Then you can visit the local instance [here](http://localhost:5173) or, at local host on port 5173.
 
-## Updating a sudo-flix Instance
+## updating a sudo-flix Instance
 To update a sudo-flix instance you can type the below commands into a terminal at the root of your project.
 ```bash
 git remote add upstream https://github.com/sussy-code/smov.git
