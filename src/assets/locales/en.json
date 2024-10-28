@@ -3,7 +3,7 @@
     "description": "film.kace.dev is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. film.kace.dev runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
     "faqTitle": "Common questions",
     "q1": {
-      "body": "film.kace.dev does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by sudo-flix, everything is through this searching mechanism.",
+      "body": "film.kace.dev does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by film.kace.dev, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
@@ -101,7 +101,7 @@
     "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
   },
   "global": {
-    "name": "sudo-film",
+    "name": "film.kace.dev",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
@@ -109,7 +109,7 @@
       "support": "Support",
       "login": "Login",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - sudo-film",
+      "pagetitle": "{{title}} - film",
       "register": "Register",
       "settings": "Settings",
       "jip": "Jip"
@@ -136,11 +136,11 @@
           "What are you in the mood for?",
           "Should we delete your browser history?",
           "What do you want to stream?",
-          "Sudo-Film is the best site ever!",
+          "film.kace.dev is the best site ever!",
           "What's on your watchlist today?",
           "How was your day?",
           "My bad the site never works...",
-          "Isn't sudo-film just the best?",
+          "Isn't film.kace.dev just the best?",
           ">ᴗ<"
         ]
       },
@@ -161,7 +161,7 @@
       "day": {
         "default": "What would you like to watch this afternoon?",
         "extra": ["Have you seen Blazing Saddles?"],
-        "extra": ["Welcome to Sudo-Film!"],
+        "extra": ["Welcome to film.kace.dev!"],
         "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
         "extra": ["Viva la movie-web!"]
       },
