@@ -1,7 +1,28 @@
-# Sudo-Film
-[![Sudo-Flix Image](.github/Sudo-Flix.png)](https://docs.undi.rest)
+# film.kace.dev
+film.kace.dev is an online streaming website for movies and tv shows. <br>
+a predecessor to the late movie-web.
 
-**I *do not* endorse piracy of any kind I simply enjoy programming and large user counts.**
+## philosophy
+"culture shouldn't exist only for those who can afford it."
+
+## features
+- automatic saving of progress - optionally synced to an account.
+- bookmark shows or movies, keep track of what you want to watch.
+- minimalistic interface that only shows whats required - no algorithm to consume you.
+- no ads! - enjoy ad free content watching.
+
+## extension
+due to the removal of the extension from both chromium and firefox the extension must now be installed locally. <br>
+extension installation guide can be found [here](https://github.com/userkace/film-ext).
+
+## disclaimer
+film.kace.dev does not host any files, it merely links to 3rd party services. Legal issues should be taken up with the file hosts and providers. film.kace.dev is not responsible for any media files shown by the video providers.
+
+## technologies
+
+![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=333)
 
 ## Links And Resources
 | Service        | Link                                                             | Source Code                                              |
@@ -13,18 +34,6 @@
 | Frontend       | [sudo-flix](https://docs.undi.rest/instances)                | [source code](https://github.com/sussy-code/smov)        |
 | Weblate        | [sudo-weblate](https://docs.undi.rest/links/weblate)         | [source code](https://github.com/sussy-code/docs)        |
 
-***I provide these if you are not able to host yourself, though I do encourage hosting the frontend.***
-
-
-## Referrers
-- [FMHY (Voted as #1 multi-server streaming site of 2024)](https://fmhy.net)
-- [Piracy Subreddit Megathread](https://www.reddit.com/r/Piracy/s/iymSloEpXn)
-- [Toon's Instances](https://erynith.github.io/movie-web-instances)
-- [Entertainment Empire](https://discord.gg/8NSDNEMfja)
-- Search Engines: DuckDuckGo, Bing, Google
-- Rentry.co
-
-
 ## Running Locally
 Type the following commands into your terminal / command line to run Sudo-Flix locally
 ```bash
@@ -35,7 +44,6 @@ pnpm install
 pnpm run dev
 ```
 Then you can visit the local instance [here](http://localhost:5173) or, at local host on port 5173.
-
 
 ## Updating a sudo-flix Instance
 To update a sudo-flix instance you can type the below commands into a terminal at the root of your project.
@@ -49,7 +57,3 @@ git add .  # Add all changes made during merge and conflict fixing
 git commit -m "Update sudo-flix instance (merge upstream/main)"
 git push  # Push to YOUR repository
 ```
-
-
-## Contact Me
-**Email:** *[dev@sudo-flix.lol](mailto:dev@sudo-flix.lol)* 
