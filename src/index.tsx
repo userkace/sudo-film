@@ -191,3 +191,12 @@ root.render(
     </ErrorBoundary>
   </StrictMode>,
 );
+
+// Cloudflare Web Analytics
+(window as any).CF_BEACON = {
+  token: "22de9b01c7d34bdfa6cc51ac9d6f8ee9",
+};
+const script = document.createElement("script");
+script.defer = true;
+script.src = "https://static.cloudflareinsights.com/beacon.min.js";
+document.head.appendChild(script);
