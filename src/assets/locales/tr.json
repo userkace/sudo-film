@@ -1,31 +1,31 @@
 {
     "about": {
-        "description": "VidBinge.com'a hoş geldiniz, film ve TV dizileri için sınırsız yayınların gerçek adresi. Klasiklerden en yeni çıkışlara kadar uzanan geniş kütüphanemizi keşfedin, üstelik her cihazda erişilebilir. Hizmetimiz tamamen abonelik ve reklam içermeden sunulmaktadır. Hemen dalın ve Vid Binge keyfine katılın!",
+        "description": "VidBinge.com'a hoş geldiniz, film ve TV dizileri için sınırsız yayınların gerçek adresi. Klasiklerden en yeni çıkışlara kadar uzanan geniş kütüphanemizi keşfedin, üstelik her cihazda erişilebilir. Hizmetimiz tamamen abonelik ve reklam içermeden sunulmaktadır. Hemen dalın ve film.kace.dev keyfine katılın!",
         "faqTitle": "Sıkça sorulan sorular",
         "q1": {
-            "body": "Vid Binge herhangi bir içerik barındırmaz. İzlemek için bir şeye tıkladığınızda, seçilen medya için internette arama yapılır (Yükleme ekranında ve 'video kaynakları' sekmesinde hangi kaynağı kullandığınızı görebilirsiniz). Medya hiçbir zaman Vid Binge tarafından yüklenmez, her şey bu arama mekanizması aracılığıyla gerçekleşir.",
+            "body": "film.kace.dev herhangi bir içerik barındırmaz. İzlemek için bir şeye tıkladığınızda, seçilen medya için internette arama yapılır (Yükleme ekranında ve 'video kaynakları' sekmesinde hangi kaynağı kullandığınızı görebilirsiniz). Medya hiçbir zaman film.kace.dev tarafından yüklenmez, her şey bu arama mekanizması aracılığıyla gerçekleşir.",
             "title": "İçerikler nereden geliyor?"
         },
         "q2": {
-            "body": "Bir dizi veya film talep etmek mümkün değildir, Vid Binge içeriklerin hiçbirini yönetmez. Tüm içerikler internet üzerindeki kaynaklar aracılığıyla görüntülenir.",
+            "body": "Bir dizi veya film talep etmek mümkün değildir, film.kace.dev içeriklerin hiçbirini yönetmez. Tüm içerikler internet üzerindeki kaynaklar aracılığıyla görüntülenir.",
             "title": "Bir dizi veya filmi nereden talep edebilirim?"
         },
         "q3": {
             "body": "Arama sonuçlarımız The Movie Database (TMDB) tarafından desteklenmektedir ve kaynaklarımızın içeriğe gerçekten sahip olup olmadığına bakılmaksızın görüntülenir.",
             "title": "Arama sonuçları diziyi veya filmi gösteriyor, neden oynatamıyorum?"
         },
-        "title": "Vid Binge hakkında",
+        "title": "film.kace.dev hakkında",
         "q4": {
             "body": "VidBinge'de ne kadar izleyebileceğinizin bir sınırı yoktur. İstediğiniz zaman, herhangi bir kısıtlama veya ek ücret olmadan istediğiniz kadar izleyin.",
             "title": "Ne kadar izleyebileceğimin bir sınırı var mı?"
         },
         "q7": {
             "body": "Altyazıların veya dublajlı sürümlerin kullanılabilirliği kaynağa bağlıdır. Bazı kaynaklar çeşitli dillerde altyazı veya dublajlı içerik seçenekleri sunabilir ve bunlar varsa doğrudan video oynatıcıdan seçilebilir.",
-            "title": "Vid Binge altyazı veya dublajlı içerik sunuyor mu?"
+            "title": "film.kace.dev altyazı veya dublajlı içerik sunuyor mu?"
         },
         "q5": {
             "body": "Yeni içerik kullanılabilirliği, platformumuza bağlı kaynaklara dayanmaktadır. Bu kaynaklar kütüphanelerini güncelledikçe, yeni filmler ve TV şovları VidBinge aracılığıyla erişilebilir hale gelecektir.",
-            "title": "Vid Binge'ye ne sıklıkla yeni içerik ekleniyor?"
+            "title": "film.kace.dev'ye ne sıklıkla yeni içerik ekleniyor?"
         },
         "contact": "Herhangi bir sorunuz mu var? Bize Discord sunucumuzdan ya da contact@vidbinge.com adresine e-posta göndererek ulaşabilirsiniz",
         "q6": {
@@ -99,7 +99,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Sorumluluk Reddi",
-            "disclaimerText": "Vid Binge herhangi bir dosya barındırmaz, yalnızca 3. taraf hizmetlerden akışları çeker. Yasal konular dosya barındırıcıları ve sağlayıcıları ile görüşülmelidir. Vid Binge, video sağlayıcıları tarafından gösterilen hiçbir medya dosyasından sorumlu değildir."
+            "disclaimerText": "film.kace.dev herhangi bir dosya barındırmaz, yalnızca 3. taraf hizmetlerden akışları çeker. Yasal konular dosya barındırıcıları ve sağlayıcıları ile görüşülmelidir. film.kace.dev, video sağlayıcıları tarafından gösterilen hiçbir medya dosyasından sorumlu değildir."
         },
         "links": {
             "discord": "Discord",
@@ -109,16 +109,16 @@
             "facebook": "Facebook",
             "instagram": "Instagram"
         },
-        "tagline": "Vid Binge ile sonsuz saatler süren ücretsiz eğlence içeriklerine dalın! Tıkınırcasına izleme devrimine katılın ve abonelik olmadan film ve TV şovları dünyasını keşfedin."
+        "tagline": "film.kace.dev ile sonsuz saatler süren ücretsiz eğlence içeriklerine dalın! Tıkınırcasına izleme devrimine katılın ve abonelik olmadan film ve TV şovları dünyasını keşfedin."
     },
     "global": {
-        "name": "Vid Binge",
+        "name": "film.kace.dev",
         "pages": {
             "about": "Hakkında",
             "dmca": "DMCA",
             "login": "Giriş",
             "onboarding": "Kur",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - film.kace.dev",
             "register": "Kayıt",
             "settings": "Ayarlar",
             "privacy": "Gizlilik Politikası",
@@ -155,8 +155,8 @@
             "day": {
                 "default": "Bu öğleden sonra ne izlemek istersiniz?",
                 "extra": [
-                    "Yaşasın Vid Binge!",
-                    "Vid Binge'e Hoş Geldiniz!",
+                    "Yaşasın film.kace.dev!",
+                    "film.kace.dev'e Hoş Geldiniz!",
                     "The Big Lebowski ile yanlış yapamazsın!"
                 ]
             },
@@ -165,7 +165,7 @@
                 "extra": [
                     "Günaydın! Biraz “Always Sunny ”ye ne dersin?",
                     "The Expanse'in popüler olduğunu duydum",
-                    "Çok yaşa Vid Binge!"
+                    "Çok yaşa film.kace.dev!"
                 ]
             },
             "night": {
@@ -175,7 +175,7 @@
                     "The Godfather bir klasiktir!",
                     "Git sigara iç ve The Simpsons izle!",
                     "The Office her zaman iyi bir seçimdir!",
-                    "Yaşasın Vid Binge!"
+                    "Yaşasın film.kace.dev!"
                 ]
             },
             "420": {
@@ -280,7 +280,7 @@
                     "title": "Özel Proxy"
                 }
             },
-            "title": "Vid Binge ile kurulumunuzu gerçekleştirelim"
+            "title": "film.kace.dev ile kurulumunuzu gerçekleştirelim"
         }
     },
     "overlays": {
@@ -297,10 +297,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "HLS oynatma listesi bağlantısını kopyala",
-                "disclaimer": "İndirmeler doğrudan sağlayıcıdan alınır. Vid Binge, indirmelerin nasıl sağlandığı üzerinde kontrol sahibi değildir.",
+                "disclaimer": "İndirmeler doğrudan sağlayıcıdan alınır. film.kace.dev, indirmelerin nasıl sağlandığı üzerinde kontrol sahibi değildir.",
                 "downloadSubtitle": "Geçerli altyazıyı indir",
                 "downloadVideo": "Videoyu indir",
-                "hlsDisclaimer": "İndirmeler doğrudan sağlayıcıdan alınır. Vid Binge, indirmelerin nasıl sağlanacağı üzerinde kontrole sahip değildir.<br /><br />Lütfen bir HLS oynatma listesi indirdiğinizi unutmayın; <bold>ileri seviye bilginiz yoksa indirmeniz önerilmez. akış biçimleri</bold>. Farklı formatlar için farklı kaynakları deneyin.",
+                "hlsDisclaimer": "İndirmeler doğrudan sağlayıcıdan alınır. film.kace.dev, indirmelerin nasıl sağlanacağı üzerinde kontrole sahip değildir.<br /><br />Lütfen bir HLS oynatma listesi indirdiğinizi unutmayın; <bold>ileri seviye bilginiz yoksa indirmeniz önerilmez. akış biçimleri</bold>. Farklı formatlar için farklı kaynakları deneyin.",
                 "onAndroid": {
                     "1": "Android'de indirmek için indirme düğmesine tıklayın, ardından yeni sayfada videoya <bold>dokunun ve basılı tutun</bold>, ardından <bold>kaydet</bold> seçeneğini seçin.",
                     "shortTitle": "İndir / Android",
@@ -432,7 +432,7 @@
                 "badge": "Uzantı devre dışı",
                 "enableExtension": "Uzantıyı etkinleştir",
                 "homeButton": "Ana sayfa",
-                "text": "Vid Binge uzantısını yüklediniz. Kullanmaya başlamak için bu site için uzantıyı etkinleştirmeniz gerekir.",
+                "text": "film.kace.dev uzantısını yüklediniz. Kullanmaya başlamak için bu site için uzantıyı etkinleştirmeniz gerekir.",
                 "title": "Lütfen uzantıyı etkinleştirin"
             },
             "items": {
@@ -455,7 +455,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Lütfen sağ taraftaki Captcha'yı çözerek insan olduğunuzu doğrulayın. Bu, Vid Binge'i güvende tutmak içindir!",
+            "description": "Lütfen sağ taraftaki Captcha'yı çözerek insan olduğunuzu doğrulayın. Bu, film.kace.dev'i güvende tutmak içindir!",
             "error": "İnsan olduğunuz doğrulanamadı. Lütfen tekrar deneyin.",
             "title": "İnsan olduğunuzu doğrulamamız gerekiyor.",
             "verifyingHumanity": "İnsan olduğunuz doğrulanıyor..."
@@ -463,7 +463,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Vid Binge'in DMCA iletişim sayfasına hoş geldiniz! Fikri mülkiyet haklarına saygı duyuyoruz ve telif hakkıyla ilgili endişeleri hızlı bir şekilde ele almak istiyoruz. Telif hakkıyla korunan çalışmanızın platformumuzda uygunsuz şekilde kullanıldığını düşünüyorsanız lütfen aşağıdaki e-postaya ayrıntılı bir DMCA bildirimi gönderin. Lütfen telif hakkıyla korunan materyalin açıklamasını, iletişim bilgilerinizi ve iyi niyet beyanınızı ekleyin. Bu sorunları derhal çözmeye kararlıyız ve ayrıca Vid Binge'i yaratıcılığa ve telif haklarına saygılı bir yer olarak tutma konusundaki işbirliğiniz için teşekkür ederiz.",
+            "text": "film.kace.dev'in DMCA iletişim sayfasına hoş geldiniz! Fikri mülkiyet haklarına saygı duyuyoruz ve telif hakkıyla ilgili endişeleri hızlı bir şekilde ele almak istiyoruz. Telif hakkıyla korunan çalışmanızın platformumuzda uygunsuz şekilde kullanıldığını düşünüyorsanız lütfen aşağıdaki e-postaya ayrıntılı bir DMCA bildirimi gönderin. Lütfen telif hakkıyla korunan materyalin açıklamasını, iletişim bilgilerinizi ve iyi niyet beyanınızı ekleyin. Bu sorunları derhal çözmeye kararlıyız ve ayrıca film.kace.dev'i yaratıcılığa ve telif haklarına saygılı bir yer olarak tutma konusundaki işbirliğiniz için teşekkür ederiz.",
             "title": "DMCA"
         },
         "loadingApp": "Uygulama yükleniyor",
@@ -617,7 +617,7 @@
             "body": "Gizlilik Politikasını bazen güncelleyebiliriz. Politikanın en son sürümü her zaman sitemizde yayınlanacaktır. Herhangi bir değişiklik için bu Gizlilik Politikasını düzenli olarak gözden geçirmenizi öneririz."
         },
         "p1": {
-            "body": "Vid Binge herhangi bir içerik barındırmaz. İzlemek için bir şeye tıkladığınızda, seçilen medya için internette arama yapılır (Yükleme ekranında ve 'video kaynakları' sekmesinde hangi kaynağı kullandığınızı görebilirsiniz). Medya Vid Binge tarafından asla yüklenmez, her şey bu arama mekanizması aracılığıyla gerçekleşir.",
+            "body": "film.kace.dev herhangi bir içerik barındırmaz. İzlemek için bir şeye tıkladığınızda, seçilen medya için internette arama yapılır (Yükleme ekranında ve 'video kaynakları' sekmesinde hangi kaynağı kullandığınızı görebilirsiniz). Medya film.kace.dev tarafından asla yüklenmez, her şey bu arama mekanizması aracılığıyla gerçekleşir.",
             "title": "Toplamadığımız Bilgiler"
         },
         "p6": {

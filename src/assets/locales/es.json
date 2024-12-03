@@ -3,11 +3,11 @@
         "description": "Bienvenido a VidBinge.com, tu destino definitivo para el streaming ilimitado de películas y programas de televisión. Explora nuestra extensa biblioteca de clásicos y nuevos lanzamientos, disponible en cualquier dispositivo. Disfruta de nuestro servicio 100% libre de suscripciones y 100% libre de anuncios. ¡Sumérgete y únete al maratón hoy!",
         "faqTitle": "Preguntas Frecuentes",
         "q1": {
-            "body": "Vid Binge no aloja ningún contenido. Cuando haces clic en algo para ver, se busca en internet el medio seleccionado (En la pantalla de carga y en la pestaña 'fuentes de video' puedes ver qué fuente estás utilizando). Los medios nunca son subidos por Vid Binge, todo es a través de este mecanismo de búsqueda.",
+            "body": "film.kace.dev no aloja ningún contenido. Cuando haces clic en algo para ver, se busca en internet el medio seleccionado (En la pantalla de carga y en la pestaña 'fuentes de video' puedes ver qué fuente estás utilizando). Los medios nunca son subidos por film.kace.dev, todo es a través de este mecanismo de búsqueda.",
             "title": "¿De dónde proviene el contenido?"
         },
         "q2": {
-            "body": "No es posible solicitar un programa o película, Vid Binge no gestiona ningún contenido. Todo el contenido se ve a través de fuentes en internet.",
+            "body": "No es posible solicitar un programa o película, film.kace.dev no gestiona ningún contenido. Todo el contenido se ve a través de fuentes en internet.",
             "title": "¿Dónde puedo solicitar un programa o una película?"
         },
         "q3": {
@@ -19,7 +19,7 @@
             "title": "¿Hay un límite de cuánto puedo ver?"
         },
         "q5": {
-            "title": "¿Con qué frecuencia se añade contenido nuevo a Vid Binge?",
+            "title": "¿Con qué frecuencia se añade contenido nuevo a film.kace.dev?",
             "body": "La disponibilidad de contenido nuevo se basa en las fuentes conectadas a nuestra plataforma. A medida que estas fuentes actualizan sus bibliotecas, nuevas películas y programas de televisión se volverán accesibles a través de VidBinge."
         },
         "q6": {
@@ -27,16 +27,16 @@
             "body": "Si un video no se reproduce, podría deberse a problemas con la fuente. Intenta hacer clic de nuevo en el botón de Reproducir o selecciona una fuente diferente en la pestaña 'fuentes de video'. Si los problemas persisten, por favor verifica tu conexión a internet o intenta más tarde."
         },
         "q7": {
-            "title": "¿Vid Binge ofrece subtítulos o contenido doblado?",
+            "title": "¿film.kace.dev ofrece subtítulos o contenido doblado?",
             "body": "La disponibilidad de subtítulos o versiones dobladas depende de la fuente. Algunas fuentes pueden ofrecer opciones para subtítulos en varios idiomas o contenido doblado, que se pueden seleccionar directamente dentro del reproductor de video si están disponibles."
         },
-        "title": "Acerca de Vid Binge"
+        "title": "Acerca de film.kace.dev"
     },
     "privacy": {
         "description": "¡Bienvenido a VidBinge! Tu privacidad es importante para nosotros. VidBinge (vidbinge.com) está comprometido a proteger tu privacidad mientras disfrutas de tus películas y programas favoritos en nuestra plataforma. Esta Política de Privacidad explica cómo manejamos y protegemos tus datos.",
         "lastUpdated": "Última actualización: 21/4/2024",
         "p1": {
-            "body": "Vid Binge no aloja ningún contenido. Cuando haces clic en algo para ver, se busca en internet el medio seleccionado (En la pantalla de carga y en la pestaña 'fuentes de video' puedes ver qué fuente estás utilizando). Los medios nunca son subidos por Vid Binge, todo es a través de este mecanismo de búsqueda.",
+            "body": "film.kace.dev no aloja ningún contenido. Cuando haces clic en algo para ver, se busca en internet el medio seleccionado (En la pantalla de carga y en la pestaña 'fuentes de video' puedes ver qué fuente estás utilizando). Los medios nunca son subidos por film.kace.dev, todo es a través de este mecanismo de búsqueda.",
             "title": "Información que No Recolectamos"
         },
         "p2": {
@@ -127,7 +127,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Descargo de responsabilidad",
-            "disclaimerText": "Vid Binge no aloja ningún archivo, simplemente enlaza a servicios de terceros. Los problemas legales deben ser tratados con los proveedores de archivos y servicios. Vid Binge no se hace responsable de los archivos multimedia mostrados por los proveedores de vídeo."
+            "disclaimerText": "film.kace.dev no aloja ningún archivo, simplemente enlaza a servicios de terceros. Los problemas legales deben ser tratados con los proveedores de archivos y servicios. film.kace.dev no se hace responsable de los archivos multimedia mostrados por los proveedores de vídeo."
         },
         "links": {
             "discord": "Discord",
@@ -137,17 +137,17 @@
             "dmca": "DMCA",
             "github": "GitHub"
         },
-        "tagline": "¡Sumérgete en horas interminables de entretenimiento en streaming gratuito con Vid Binge! Únete a la revolución del binge-watching y explora un mundo de películas y programas de televisión, todo sin necesidad de suscripción."
+        "tagline": "¡Sumérgete en horas interminables de entretenimiento en streaming gratuito con film.kace.dev! Únete a la revolución del binge-watching y explora un mundo de películas y programas de televisión, todo sin necesidad de suscripción."
     },
     "global": {
-        "name": "Vid Binge",
+        "name": "film.kace.dev",
         "pages": {
             "about": "Acerca de",
             "dmca": "DMCA",
             "discover": "Descubrir",
             "login": "Iniciar sesión",
             "onboarding": "Configurar",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - film.kace.dev",
             "register": "Registrarse",
             "settings": "Configuración"
         }
@@ -286,7 +286,7 @@
                     "title": "Proxy personalizado"
                 }
             },
-            "title": "Vamos a configurar Vid Binge"
+            "title": "Vamos a configurar film.kace.dev"
         }
     },
     "overlays": {
@@ -303,10 +303,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Copiar enlace de reproducción HLS",
-                "disclaimer": "Las descargas se realizan directamente desde el proveedor. Vid Binge no tiene control sobre cómo se proporcionan las descargas.",
+                "disclaimer": "Las descargas se realizan directamente desde el proveedor. film.kace.dev no tiene control sobre cómo se proporcionan las descargas.",
                 "downloadSubtitle": "Descargar subtítulo actual",
                 "downloadVideo": "Descargar vídeo",
-                "hlsDisclaimer": "Las descargas se realizan directamente del proveedor. Vid Binge no tiene control sobre cómo se proporcionan las descargas. <br /><br />Tenga en cuenta que está descargando una lista de reproducción HLS, <bold>dirigida a usuarios familiarizados con la transmisión multimedia avanzada.</bold> Prueba con diferentes fuentes para diferentes formatos.",
+                "hlsDisclaimer": "Las descargas se realizan directamente del proveedor. film.kace.dev no tiene control sobre cómo se proporcionan las descargas. <br /><br />Tenga en cuenta que está descargando una lista de reproducción HLS, <bold>dirigida a usuarios familiarizados con la transmisión multimedia avanzada.</bold> Prueba con diferentes fuentes para diferentes formatos.",
                 "onAndroid": {
                     "1": "Para descargar en Android, haz clic en el botón de descarga y luego, en la nueva página, <bold>mantén presionado</bold> el vídeo y selecciona <bold>guardar</bold>.",
                     "shortTitle": "Descargar / Android",
@@ -451,7 +451,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Por favor, confirma que eres humano completando el Captcha. ¡Esto es para mantener Vid Binge seguro!",
+            "description": "Por favor, confirma que eres humano completando el Captcha. ¡Esto es para mantener film.kace.dev seguro!",
             "error": "Ha habido un error al verificar tu humanidad. Por favor, prueba de nuevo.",
             "title": "Necesitamos verificar que eres humano.",
             "verifyingHumanity": "Verificando tu hunanidad…"
@@ -459,7 +459,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "¡Bienvenido a la página de contacto DMCA de Vid Binge! Respetamos los derechos de propiedad intelectual y queremos abordar cualquier problema de derechos de autor de manera rápida. Si cree que su trabajo con derechos de autor se ha utilizado incorrectamente en nuestra plataforma, envíe un aviso DMCA detallado al correo electrónico que se muestra a continuación. Incluya una descripción del material con derechos de autor, sus datos de contacto y una declaración de buena fe. Estamos comprometidos a resolver estos asuntos de manera pronta y agradecemos su cooperación para mantener a Vid Binge como un lugar que respeta la creatividad y los derechos de autor.",
+            "text": "¡Bienvenido a la página de contacto DMCA de film.kace.dev! Respetamos los derechos de propiedad intelectual y queremos abordar cualquier problema de derechos de autor de manera rápida. Si cree que su trabajo con derechos de autor se ha utilizado incorrectamente en nuestra plataforma, envíe un aviso DMCA detallado al correo electrónico que se muestra a continuación. Incluya una descripción del material con derechos de autor, sus datos de contacto y una declaración de buena fe. Estamos comprometidos a resolver estos asuntos de manera pronta y agradecemos su cooperación para mantener a film.kace.dev como un lugar que respeta la creatividad y los derechos de autor.",
             "title": "DMCA"
         },
         "loadingApp": "Cargando la aplicación",

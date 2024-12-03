@@ -1,9 +1,9 @@
 {
     "about": {
-        "description": "Vid Binge est une application web qui recherche des flux sur Internet. L'équipe vise une approche minimaliste de la consommation de contenu.",
+        "description": "film.kace.dev est une application web qui recherche des flux sur Internet. L'équipe vise une approche minimaliste de la consommation de contenu.",
         "faqTitle": "Questions fréquentes",
         "q1": {
-            "body": "Vid Binge n'héberge aucun contenu. Lorsque vous cliquez sur un élément à regarder, une recherche est effectuée sur Internet pour trouver le média sélectionné (sur l'écran de chargement et dans l'onglet \"sources vidéo\", vous pouvez voir quelle source vous utilisez). Les médias ne sont jamais téléchargés par Vid Binge, tout passe par ce mécanisme de recherche.",
+            "body": "film.kace.dev n'héberge aucun contenu. Lorsque vous cliquez sur un élément à regarder, une recherche est effectuée sur Internet pour trouver le média sélectionné (sur l'écran de chargement et dans l'onglet \"sources vidéo\", vous pouvez voir quelle source vous utilisez). Les médias ne sont jamais téléchargés par film.kace.dev, tout passe par ce mécanisme de recherche.",
             "title": "D'où vient le contenu ?"
         },
         "q2": {
@@ -14,7 +14,7 @@
             "body": "Nos résultats de recherche sont alimentés par The Movie Database (TMDB) et s'affichent indépendamment de la disponibilité réelle du contenu dans nos sources.",
             "title": "Les résultats de la recherche affichent la série ou le film, pourquoi ne puis-je pas le lire ?"
         },
-        "title": "À propos de Vid Binge"
+        "title": "À propos de film.kace.dev"
     },
     "actions": {
         "copied": "Copié",
@@ -92,13 +92,13 @@
         "tagline": "Regardez vos séries et films préférés avec cette application de streaming open source."
     },
     "global": {
-        "name": "Vid Binge",
+        "name": "film.kace.dev",
         "pages": {
             "about": "À propos",
             "dmca": "DMCA",
             "login": "Se connecter",
             "onboarding": "Mise en place",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - film.kace.dev",
             "register": "Créer un compte",
             "settings": "Paramètres"
         }
@@ -237,7 +237,7 @@
                     "title": "Proxy personnalisé"
                 }
             },
-            "title": "Commençons par configurer Vid Binge"
+            "title": "Commençons par configurer film.kace.dev"
         }
     },
     "overlays": {
@@ -254,7 +254,7 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Copier le lien de la playlist HLS",
-                "disclaimer": "Les téléchargements sont effectués directement par le fournisseur. Vid Binge n'a aucun contrôle sur la manière dont les téléchargements sont effectués.",
+                "disclaimer": "Les téléchargements sont effectués directement par le fournisseur. film.kace.dev n'a aucun contrôle sur la manière dont les téléchargements sont effectués.",
                 "downloadSubtitle": "Télécharger les sous-titres",
                 "downloadVideo": "Télécharger la vidéo",
                 "hlsDisclaimer": "Les téléchargements sont effectués directement auprès du fournisseur. movie-web n'a aucun contrôle sur la façon dont les téléchargements sont fournis.<br /><br />Veuillez noter que vous téléchargez une liste de lecture HLS, <bold>il n'est pas recommandé de la télécharger si vous n'êtes pas familier avec les formats de streaming avancés</bold>. Essayez différentes sources pour différents formats.",
@@ -409,7 +409,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Veuillez vérifier que vous êtes bien humain en complétant le Captcha à droite. C'est pour assurer la sécurité de Vid Binge !",
+            "description": "Veuillez vérifier que vous êtes bien humain en complétant le Captcha à droite. C'est pour assurer la sécurité de film.kace.dev !",
             "error": "Échec de la vérification de votre humanité. Veuillez réessayer.",
             "title": "Nous devons vérifier que vous êtes un humain.",
             "verifyingHumanity": "Vérification de votre humanité..."

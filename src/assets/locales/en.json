@@ -4,11 +4,11 @@
     "contact": "Have any questions? Feel free to contact us at our Discord Server or email us at contact@vidbinge.com",
     "faqTitle": "Frequently Asked Questions",
     "q1": {
-      "body": "Vid Binge does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by Vid Binge, everything is through this searching mechanism.",
+      "body": "film.kace.dev does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by film.kace.dev, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "It's not possible to request a show or movie, Vid Binge does not manage any content. All content is viewed through sources on the internet.",
+      "body": "It's not possible to request a show or movie, film.kace.dev does not manage any content. All content is viewed through sources on the internet.",
       "title": "Where can I request a show or movie?"
     },
     "q3": {
@@ -20,7 +20,7 @@
       "title": "Is there a limit to how much I can watch?"
     },
     "q5":{
-      "title": "How often is new content added to Vid Binge?",
+      "title": "How often is new content added to film.kace.dev?",
       "body": "New content availability is based on the sources connected to our platform. As these sources update their libraries, new movies and TV shows will become accessible through VidBinge."
     },
     "q6":{
@@ -28,16 +28,16 @@
       "body": "If a video doesn’t play, it could be due to issues with the source. Try clicking the Play button again or selecting a different source from the 'video sources' tab. If problems persist, please check your internet connection or try again later."  
     },
     "q7":{
-      "title": "Does Vid Binge offer subtitles or dubbed content?",
+      "title": "Does film.kace.dev offer subtitles or dubbed content?",
       "body": "Availability of subtitles or dubbed versions depends on the source. Some sources may provide options for subtitles in various languages or dubbed content, which can be selected directly within the video player if available."
     },
-    "title": "About Vid Binge"
+    "title": "About film.kace.dev"
   },
   "privacy": {
     "description": "Welcome to VidBinge! Your privacy is important to us. VidBinge (vidbinge.com) is committed to protecting your privacy while you enjoy your favorite movies and shows on our platform. This Privacy Policy explains how we handle and protect your data.",
     "lastUpdated": "Last Updated: April 21, 2024",
     "p1": {
-      "body": "Vid Binge does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by Vid Binge, everything is through this searching mechanism.",
+      "body": "film.kace.dev does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by film.kace.dev, everything is through this searching mechanism.",
       "title": "Information We Do Not Collect"
     },
     "p2": {
@@ -128,7 +128,7 @@
   "footer": {
     "legal": {
       "disclaimer": "Disclaimer",
-      "disclaimerText": "Vid Binge does not host any files, it merely pulls streams from 3rd party services. Legal issues should be taken up with the file hosts and providers. Vid Binge is not responsible for any media files shown by the video providers."
+      "disclaimerText": "film.kace.dev does not host any files, it merely pulls streams from 3rd party services. Legal issues should be taken up with the file hosts and providers. film.kace.dev is not responsible for any media files shown by the video providers."
     },
     "links": {
       "discord": "Discord",
@@ -138,10 +138,10 @@
       "dmca": "DMCA",
       "github": "GitHub"
     },
-    "tagline": "Dive into endless hours of free streaming entertainment with Vid Binge! Join the binge-watching revolution and explore a world of movies and TV shows—all without a subscription."
+    "tagline": "Dive into endless hours of free streaming entertainment with film.kace.dev! Join the binge-watching revolution and explore a world of movies and TV shows—all without a subscription."
   },
   "global": {
-    "name": "Vid Binge",
+    "name": "film.kace.dev",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
@@ -149,7 +149,7 @@
       "login": "Login",
       "privacy": "Privacy Policy",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - Vid Binge",
+      "pagetitle": "{{title}} - film.kace.dev",
       "register": "Register",
       "settings": "Settings"
     }
@@ -184,8 +184,8 @@
       "day": {
         "default": "What would you like to watch this afternoon?",
         "extra": [
-          "Viva la Vid Binge!",
-          "Welcome to Vid Binge!",
+          "Viva la film.kace.dev!",
+          "Welcome to film.kace.dev!",
           "Can't go wrong with The Big Lebowski!"
           ]
       },
@@ -194,7 +194,7 @@
         "extra": [
           "Good morning! How about some \"Always Sunny\"?",
           "I hear The Expanse is popular",
-          "Viva la Vid Binge!"
+          "Viva la film.kace.dev!"
         ]
       },
       "night": {
@@ -204,7 +204,7 @@
           "The Godfather is a classic!",
           "Go smoke and watch The Simpsons!",
           "The Office is always a good choice!",
-          "Viva la Vid Binge!"
+          "Viva la film.kace.dev!"
         ]
       },
       "420": {
@@ -305,7 +305,7 @@
           "title": "Custom proxy"
         }
       },
-      "title": "Let's get you setup with Vid Binge"
+      "title": "Let's get you setup with film.kace.dev"
     }
   },
   "overlays": {
@@ -321,12 +321,12 @@
     },
     "menus": {
       "downloads": {
-        "disclaimer": "Downloads are taken directly from the provider. Vid Binge does not have control over how the downloads are provided.",
+        "disclaimer": "Downloads are taken directly from the provider. film.kace.dev does not have control over how the downloads are provided.",
         "copyHlsPlaylist": "Copy HLS playlist link",
         "downloadSubtitle": "Download current subtitle",
         "downloadVideo": "Download video",
         "downloadHlsAsVideo": "Download HLS as video",
-        "hlsDisclaimer": "Downloads are direct from the provider; Vid Binge cannot control them. <br> <br> You're downloading an HLS playlist, which is for advanced users. Try different sources for other formats.<br /><br />You may also try our HLS to Video downloader tool, but it may not work for some sources.",
+        "hlsDisclaimer": "Downloads are direct from the provider; film.kace.dev cannot control them. <br> <br> You're downloading an HLS playlist, which is for advanced users. Try different sources for other formats.<br /><br />You may also try our HLS to Video downloader tool, but it may not work for some sources.",
         "onAndroid": {
           "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
           "shortTitle": "Download / Android",
@@ -472,7 +472,7 @@
         "homeButton": "Go home",
         "enableExtension": "Enable extension",
         "title": "Please enable the extension",
-        "text": "You've installed the Vid Binge extension. To start using it, you need to enable the extension for this site."
+        "text": "You've installed the film.kace.dev extension. To start using it, you need to enable the extension for this site."
       }
     },
     "time": {
@@ -482,7 +482,7 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please verify that you are human by completing the Captcha on the right. This is to keep Vid Binge safe!",
+      "description": "Please verify that you are human by completing the Captcha on the right. This is to keep film.kace.dev safe!",
       "error": "Failed to verify your humanity. Please try again.",
       "title": "We need to verify that you're human.",
       "verifyingHumanity": "Verifying your humanity..."
@@ -490,7 +490,7 @@
   },
   "screens": {
     "dmca": {
-      "text": "Welcome to Vid Binge's DMCA contact page! We respect intellectual property rights and want to address any copyright concerns swiftly. If you believe your copyrighted work has been improperly used on our platform, please send a detailed DMCA notice to the email below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation in keeping Vid Binge a place that respects creativity and copyrights.",
+      "text": "Welcome to film.kace.dev's DMCA contact page! We respect intellectual property rights and want to address any copyright concerns swiftly. If you believe your copyrighted work has been improperly used on our platform, please send a detailed DMCA notice to the email below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation in keeping film.kace.dev a place that respects creativity and copyrights.",
       "title": "DMCA"
     },
     "loadingApp": "Loading application",

@@ -3,11 +3,11 @@
         "description": "Velkommen til VidBinge.com, din ultimative destination for ubegrænset streaming af film og tv-shows. Udforsk vores omfattende bibliotek af klassikere og nye udgivelser, tilgængelige på enhver enhed. Nyd vores tjeneste 100% abonnement-fri og 100% annonce-fri. Dyk ind og begynd binge i dag!",
         "faqTitle": "Ofte Stillede Spørgsmål",
         "q1": {
-            "body": "Vid Binge hoster ikke noget indhold. Når du klikker på noget for at se, bliver internettet gennemsøgt efter det valgte medie (På indlæsningsskærmen og i fanen 'video sources' kan du se, hvilken kilde du bruger). Medier bliver aldrig uploadet af Vid Binge, alt er gennem denne søgemekanisme.",
+            "body": "film.kace.dev hoster ikke noget indhold. Når du klikker på noget for at se, bliver internettet gennemsøgt efter det valgte medie (På indlæsningsskærmen og i fanen 'video sources' kan du se, hvilken kilde du bruger). Medier bliver aldrig uploadet af film.kace.dev, alt er gennem denne søgemekanisme.",
             "title": "Hvor kommer indholdet fra?"
         },
         "q2": {
-            "body": "Det er ikke muligt at anmode om et show eller en film, Vid Binge administrerer ikke noget indhold. Alt indhold vises gennem kilder på internettet.",
+            "body": "Det er ikke muligt at anmode om et show eller en film, film.kace.dev administrerer ikke noget indhold. Alt indhold vises gennem kilder på internettet.",
             "title": "Hvor kan jeg anmode om et show eller en film?"
         },
         "q3": {
@@ -19,7 +19,7 @@
             "title": "Er der en grænse for, hvor meget jeg kan se?"
         },
         "q5": {
-            "title": "Hvor ofte tilføjes nyt indhold til Vid Binge?",
+            "title": "Hvor ofte tilføjes nyt indhold til film.kace.dev?",
             "body": "Tilgængeligheden af nyt indhold er baseret på de kilder, der er forbundet til vores platform. Når disse kilder opdaterer deres biblioteker, vil nye film og tv-shows blive tilgængelige gennem VidBinge."
         },
         "q6": {
@@ -27,16 +27,16 @@
             "body": "Hvis en video ikke afspilles, kan det skyldes problemer med kilden. Prøv at klikke på afspilningsknappen igen eller vælge en anden kilde fra fanen 'video sources'. Hvis problemerne fortsætter, skal du kontrollere din internetforbindelse eller prøve igen senere."
         },
         "q7": {
-            "title": "Tilbyder Vid Binge undertekster eller dubbede indhold?",
+            "title": "Tilbyder film.kace.dev undertekster eller dubbede indhold?",
             "body": "Tilgængeligheden af undertekster eller dubbede versioner afhænger af kilden. Nogle kilder kan tilbyde muligheder for undertekster på forskellige sprog eller dubbede indhold, som kan vælges direkte inden for videoafspilleren, hvis det er tilgængeligt."
         },
-        "title": "Om Vid Binge"
+        "title": "Om film.kace.dev"
     },
     "privacy": {
         "description": "Velkommen til VidBinge! Din privatliv er vigtig for os. VidBinge (vidbinge.com) er forpligtet til at beskytte dit privatliv, mens du nyder dine yndlingsfilm og shows på vores platform. Denne privatlivspolitik forklarer, hvordan vi håndterer og beskytter dine data.",
         "lastUpdated": "Sidst opdateret: April 21, 2024",
         "p1": {
-            "body": "Vid Binge hoster ikke noget indhold. Når du klikker på noget for at se, bliver internettet gennemsøgt efter det valgte medie (På indlæsningsskærmen og i fanen 'video sources' kan du se, hvilken kilde du bruger). Medier bliver aldrig uploadet af Vid Binge, alt er gennem denne søgemekanisme.",
+            "body": "film.kace.dev hoster ikke noget indhold. Når du klikker på noget for at se, bliver internettet gennemsøgt efter det valgte medie (På indlæsningsskærmen og i fanen 'video sources' kan du se, hvilken kilde du bruger). Medier bliver aldrig uploadet af film.kace.dev, alt er gennem denne søgemekanisme.",
             "title": "Information Vi Ikke Indsamler"
         },
         "p2": {
@@ -127,7 +127,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Ansvarsfraskrivelse",
-            "disclaimerText": "Vid Binge hoster ikke nogen filer, det trækker kun streams fra tredjepartstjenester. Juridiske spørgsmål skal rettes til filværterne og udbyderne. Vid Binge er ikke ansvarlig for nogen mediefiler vist af video-udbyderne."
+            "disclaimerText": "film.kace.dev hoster ikke nogen filer, det trækker kun streams fra tredjepartstjenester. Juridiske spørgsmål skal rettes til filværterne og udbyderne. film.kace.dev er ikke ansvarlig for nogen mediefiler vist af video-udbyderne."
         },
         "links": {
             "discord": "Discord",
@@ -137,10 +137,10 @@
             "dmca": "DMCA",
             "github": "GitHub"
         },
-        "tagline": "Dyk ned i endeløse timer af gratis streaming underholdning med Vid Binge! Deltag i binge-watching revolutionen og udforsk en verden af film og tv-shows - alt sammen uden abonnement."
+        "tagline": "Dyk ned i endeløse timer af gratis streaming underholdning med film.kace.dev! Deltag i binge-watching revolutionen og udforsk en verden af film og tv-shows - alt sammen uden abonnement."
     },
     "global": {
-        "name": "Vid Binge",
+        "name": "film.kace.dev",
         "pages": {
             "about": "Om",
             "dmca": "DMCA",
@@ -148,7 +148,7 @@
             "login": "Log ind",
             "privacy": "Privatlivspolitik",
             "onboarding": "Opsætning",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - film.kace.dev",
             "register": "Opret konto",
             "settings": "Indstillinger"
         }
@@ -189,8 +189,8 @@
             "day": {
                 "default": "Hvad vil du se denne eftermiddag?",
                 "extra": [
-                    "Viva la Vid Binge!",
-                    "Velkommen til Vid Binge!",
+                    "Viva la film.kace.dev!",
+                    "Velkommen til film.kace.dev!",
                     "Du kan ikke gå galt i byen med The Big Lebowski!"
                 ]
             },
@@ -199,7 +199,7 @@
                 "extra": [
                     "God morgen! Hvad med noget \"Always Sunny\"?",
                     "Jeg har hørt, at The Expanse er populær",
-                    "Viva la Vid Binge!"
+                    "Viva la film.kace.dev!"
                 ]
             },
             "night": {
@@ -209,7 +209,7 @@
                     "The Godfather er en klassiker!",
                     "Gå ud og se The Simpsons!",
                     "The Office er altid et godt valg!",
-                    "Viva la Vid Binge!"
+                    "Viva la film.kace.dev!"
                 ]
             },
             "halloween": {
@@ -308,7 +308,7 @@
                     "title": "Brugerdefineret proxy"
                 }
             },
-            "title": "Lad os få dig opsat med Vid Binge"
+            "title": "Lad os få dig opsat med film.kace.dev"
         }
     },
     "overlays": {
@@ -324,12 +324,12 @@
         },
         "menus": {
             "downloads": {
-                "disclaimer": "Downloads tages direkte fra udbyderen. Vid Binge har ingen kontrol over, hvordan downloadene leveres.",
+                "disclaimer": "Downloads tages direkte fra udbyderen. film.kace.dev har ingen kontrol over, hvordan downloadene leveres.",
                 "copyHlsPlaylist": "Kopier HLS-playliste link",
                 "downloadSubtitle": "Download nuværende undertekst",
                 "downloadVideo": "Download video",
                 "downloadHlsAsVideo": "Download HLS som video",
-                "hlsDisclaimer": "Downloads er direkte fra udbyderen; Vid Binge kan ikke kontrollere dem. <br> <br> Du downloader en HLS-playliste, som er for avancerede brugere. Prøv forskellige kilder for andre formater.<br /><br />Du kan også prøve vores HLS til Video downloader værktøj, men det kan ikke virke for nogle kilder.",
+                "hlsDisclaimer": "Downloads er direkte fra udbyderen; film.kace.dev kan ikke kontrollere dem. <br> <br> Du downloader en HLS-playliste, som er for avancerede brugere. Prøv forskellige kilder for andre formater.<br /><br />Du kan også prøve vores HLS til Video downloader værktøj, men det kan ikke virke for nogle kilder.",
                 "onAndroid": {
                     "1": "For at downloade på Android, klik på download-knappen, og på den nye side, <bold>tryk og hold</bold> på videoen, og vælg derefter <bold>gem</bold>.",
                     "shortTitle": "Download / Android",
@@ -473,7 +473,7 @@
                 "homeButton": "Gå hjem",
                 "enableExtension": "Aktiver udvidelse",
                 "title": "Aktiver venligst udvidelsen",
-                "text": "Du har installeret Vid Binge-udvidelsen. For at begynde at bruge den, skal du aktivere udvidelsen for denne side."
+                "text": "Du har installeret film.kace.dev-udvidelsen. For at begynde at bruge den, skal du aktivere udvidelsen for denne side."
             }
         },
         "time": {
@@ -483,7 +483,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Bekræft venligst, at du er menneske ved at gennemføre Captcha til højre. Dette er for at holde Vid Binge sikker!",
+            "description": "Bekræft venligst, at du er menneske ved at gennemføre Captcha til højre. Dette er for at holde film.kace.dev sikker!",
             "error": "Kunne ikke bekræfte din menneskelighed. Prøv igen.",
             "title": "Vi skal bekræfte, at du er menneske.",
             "verifyingHumanity": "Bekræfter din menneskelighed..."
@@ -491,7 +491,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Velkommen til Vid Binge's DMCA-kontaktside! Vi respekterer intellektuelle ejendomsrettigheder og ønsker at tage fat på eventuelle ophavsretsproblemer hurtigt. Hvis du mener, at dit ophavsretligt beskyttede arbejde er blevet brugt forkert på vores platform, bedes du sende en detaljeret DMCA-anmodning til nedenstående e-mail. Inkluder venligst en beskrivelse af det ophavsretligt beskyttede materiale, dine kontaktoplysninger og en god tro-erklæring. Vi er forpligtet til at løse disse sager hurtigt og værdsætter din samarbejde med at holde Vid Binge et sted, der respekterer kreativitet og ophavsret.",
+            "text": "Velkommen til film.kace.dev's DMCA-kontaktside! Vi respekterer intellektuelle ejendomsrettigheder og ønsker at tage fat på eventuelle ophavsretsproblemer hurtigt. Hvis du mener, at dit ophavsretligt beskyttede arbejde er blevet brugt forkert på vores platform, bedes du sende en detaljeret DMCA-anmodning til nedenstående e-mail. Inkluder venligst en beskrivelse af det ophavsretligt beskyttede materiale, dine kontaktoplysninger og en god tro-erklæring. Vi er forpligtet til at løse disse sager hurtigt og værdsætter din samarbejde med at holde film.kace.dev et sted, der respekterer kreativitet og ophavsret.",
             "title": "DMCA"
         },
         "loadingApp": "Indlæser applikation",
