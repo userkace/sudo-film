@@ -502,7 +502,7 @@ export function DiscoverContent() {
         </h2>
         <div
           id={`carousel-${categorySlug}`}
-          className="flex whitespace-nowrap pt-0 pb-4 overflow-auto rounded-xl overflow-y-hidden w-full max-w-lg md:max-w-md sm:max-w-sm"
+          className="flex whitespace-nowrap pt-0 pb-4 overflow-auto scrollbar-thin rounded-xl overflow-y-hidden ml-5 mr-5"
           style={{
             scrollbarWidth: "thin",
             // scrollbarColor: `${bgColor} transparent`,
