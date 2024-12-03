@@ -1,6 +1,6 @@
 {
     "about": {
-        "description": "VidBinge.com'a hoş geldiniz, film ve TV dizileri için sınırsız yayınların gerçek adresi. Klasiklerden en yeni çıkışlara kadar uzanan geniş kütüphanemizi keşfedin, üstelik her cihazda erişilebilir. Hizmetimiz tamamen abonelik ve reklam içermeden sunulmaktadır. Hemen dalın ve film.kace.dev keyfine katılın!",
+        "description": "film.kace.dev'a hoş geldiniz, film ve TV dizileri için sınırsız yayınların gerçek adresi. Klasiklerden en yeni çıkışlara kadar uzanan geniş kütüphanemizi keşfedin, üstelik her cihazda erişilebilir. Hizmetimiz tamamen abonelik ve reklam içermeden sunulmaktadır. Hemen dalın ve film.kace.dev keyfine katılın!",
         "faqTitle": "Sıkça sorulan sorular",
         "q1": {
             "body": "film.kace.dev herhangi bir içerik barındırmaz. İzlemek için bir şeye tıkladığınızda, seçilen medya için internette arama yapılır (Yükleme ekranında ve 'video kaynakları' sekmesinde hangi kaynağı kullandığınızı görebilirsiniz). Medya hiçbir zaman film.kace.dev tarafından yüklenmez, her şey bu arama mekanizması aracılığıyla gerçekleşir.",
@@ -27,7 +27,7 @@
             "body": "Yeni içerik kullanılabilirliği, platformumuza bağlı kaynaklara dayanmaktadır. Bu kaynaklar kütüphanelerini güncelledikçe, yeni filmler ve TV şovları VidBinge aracılığıyla erişilebilir hale gelecektir.",
             "title": "film.kace.dev'ye ne sıklıkla yeni içerik ekleniyor?"
         },
-        "contact": "Herhangi bir sorunuz mu var? Bize Discord sunucumuzdan ya da contact@vidbinge.com adresine e-posta göndererek ulaşabilirsiniz",
+        "contact": "Herhangi bir sorunuz mu var? Bize Discord sunucumuzdan ya da user@kace.dev adresine e-posta göndererek ulaşabilirsiniz",
         "q6": {
             "title": "Bir video oynatılmazsa ne yapmalıyım?",
             "body": "Bir video oynatılmıyorsa, bunun nedeni kaynakla ilgili sorunlar olabilir. Oynat düğmesine tekrar tıklamayı veya 'video kaynakları' sekmesinden farklı bir kaynak seçmeyi deneyin. Sorunlar devam ederse, lütfen internet bağlantınızı kontrol edin veya daha sonra tekrar deneyin."
@@ -621,7 +621,7 @@
             "title": "Toplamadığımız Bilgiler"
         },
         "p6": {
-            "body": "Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen e-posta yoluyla iletişime geçin: contact@vidbinge.com",
+            "body": "Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen e-posta yoluyla iletişime geçin: user@kace.dev",
             "title": "Bizimle İletişime Geçin"
         },
         "p2": {

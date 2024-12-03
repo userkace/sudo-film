@@ -1,6 +1,6 @@
 {
     "about": {
-        "description": "Bienvenido a VidBinge.com, tu destino definitivo para el streaming ilimitado de películas y programas de televisión. Explora nuestra extensa biblioteca de clásicos y nuevos lanzamientos, disponible en cualquier dispositivo. Disfruta de nuestro servicio 100% libre de suscripciones y 100% libre de anuncios. ¡Sumérgete y únete al maratón hoy!",
+        "description": "Bienvenido a film.kace.dev, tu destino definitivo para el streaming ilimitado de películas y programas de televisión. Explora nuestra extensa biblioteca de clásicos y nuevos lanzamientos, disponible en cualquier dispositivo. Disfruta de nuestro servicio 100% libre de suscripciones y 100% libre de anuncios. ¡Sumérgete y únete al maratón hoy!",
         "faqTitle": "Preguntas Frecuentes",
         "q1": {
             "body": "film.kace.dev no aloja ningún contenido. Cuando haces clic en algo para ver, se busca en internet el medio seleccionado (En la pantalla de carga y en la pestaña 'fuentes de video' puedes ver qué fuente estás utilizando). Los medios nunca son subidos por film.kace.dev, todo es a través de este mecanismo de búsqueda.",
@@ -57,7 +57,7 @@
         },
         "p6": {
             "title": "Contáctanos",
-            "body": "Si tienes alguna pregunta sobre esta Política de Privacidad, por favor contacta por correo electrónico a: contact@vidbinge.com"
+            "body": "Si tienes alguna pregunta sobre esta Política de Privacidad, por favor contacta por correo electrónico a: user@kace.dev"
         },
         "title": "Política de Privacidad para VidBinge"
     },

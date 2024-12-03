@@ -1,6 +1,6 @@
 {
     "about": {
-        "description": "Velkommen til VidBinge.com, din ultimative destination for ubegrænset streaming af film og tv-shows. Udforsk vores omfattende bibliotek af klassikere og nye udgivelser, tilgængelige på enhver enhed. Nyd vores tjeneste 100% abonnement-fri og 100% annonce-fri. Dyk ind og begynd binge i dag!",
+        "description": "Velkommen til film.kace.dev, din ultimative destination for ubegrænset streaming af film og tv-shows. Udforsk vores omfattende bibliotek af klassikere og nye udgivelser, tilgængelige på enhver enhed. Nyd vores tjeneste 100% abonnement-fri og 100% annonce-fri. Dyk ind og begynd binge i dag!",
         "faqTitle": "Ofte Stillede Spørgsmål",
         "q1": {
             "body": "film.kace.dev hoster ikke noget indhold. Når du klikker på noget for at se, bliver internettet gennemsøgt efter det valgte medie (På indlæsningsskærmen og i fanen 'video sources' kan du se, hvilken kilde du bruger). Medier bliver aldrig uploadet af film.kace.dev, alt er gennem denne søgemekanisme.",
@@ -57,7 +57,7 @@
         },
         "p6": {
             "title": "Kontakt Os",
-            "body": "Hvis du har spørgsmål til denne privatlivspolitik, bedes du kontakte os via e-mail på: contact@vidbinge.com"
+            "body": "Hvis du har spørgsmål til denne privatlivspolitik, bedes du kontakte os via e-mail på: user@kace.dev"
         },
         "title": "Privatlivspolitik for VidBinge"
     },
