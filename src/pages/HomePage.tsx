@@ -78,16 +78,16 @@ export function HomePage() {
           <SearchListPart searchQuery={search} />
         ) : (
           <>
+            <BookmarksPart />
+            <WatchingPart />
             <div className="flex justify-center mt-8 mb-16 sm:mb-24">
               <Button
                 className="font-bold h-10 w-40 scale-90 hover:scale-95 transition-all duration-200 px-py p-[0.35em] mt-3 rounded-lg text-type-dimmed box-content text-[18px] bg-largeCard-background text-buttons-secondaryText justify-center items-center"
                 onClick={() => navigate("/discover")}
               >
-                Browse
+                Discover
               </Button>
             </div>
-            <BookmarksPart />
-            <WatchingPart />
           </>
         )}
       </WideContainer>
