@@ -101,8 +101,8 @@ export function DiscoverContent() {
   });
   const movieProviders = [
     { name: "Netflix", id: "8" },
-    { name: "Apple TV+", id: "350" },
-    { name: "Amazon Prime Video", id: "9" },
+    { name: "Apple TV+", id: "2" },
+    { name: "Amazon Prime Video", id: "10" },
     { name: "Hulu", id: "15" },
     { name: "Max", id: "1899" },
     { name: "Paramount Plus", id: "531" },
@@ -119,6 +119,7 @@ export function DiscoverContent() {
     { name: "Disney Plus", id: "337" },
     { name: "Peacock Premium", id: "387" },
     { name: "Discovery +", id: "520" },
+    { name: "fubuTV", id: "257" },
   ];
 
   const [countdown, setCountdown] = useState<number | null>(null);
@@ -496,13 +497,13 @@ export function DiscoverContent() {
 
     // https://tailwindcss.com/docs/border-style
     return (
-      <div className="relative overflow-hidden ml-10 mr-10">
-        <h2 className="mt-2 text-2xl cursor-default font-bold text-white sm:text-3xl md:text-2xl mx-auto pl-5 text-balance">
+      <div className="relative overflow-hidden">
+        <h2 className="mt-2 text-2xl cursor-default font-bold text-white sm:text-3xl md:text-2xl mx-auto pl-5">
           {displayCategory}
         </h2>
         <div
           id={`carousel-${categorySlug}`}
-          className="flex whitespace-nowrap pt-0 pb-4 overflow-auto scrollbar-thin rounded-xl overflow-y-hidden"
+          className="flex whitespace-nowrap pt-0 pb-4 overflow-auto scrollbar rounded-xl overflow-y-hidden"
           style={{
             scrollbarWidth: "thin",
             // scrollbarColor: `${bgColor} transparent`,
@@ -893,7 +894,7 @@ export function DiscoverContent() {
                 </div>
               ) : (
                 <div className="flex items-center inline-block">
-                  <span>Watch Something Random</span>
+                  <span>Watch Something New</span>
                   <img
                     src="/lightbar-images/dice.svg"
                     alt="Small Image"
@@ -932,7 +933,7 @@ export function DiscoverContent() {
 
           {/* Dropdown options */}
           {isDropdownOpen && (
-            <ul className="absolute top-full mb-1 rounded-lg bg-dropdown-background py-3 px-5 text-left text-white shadow-md border-2 border-gray-800 focus:outline-none tabbable cursor-pointer z-50">
+            <ul className="absolute top-full z-50 mb-1 rounded-lg bg-dropdown-background py-3 px-5 text-left text-white shadow-md border-2 border-gray-800 focus:outline-none tabbable cursor-pointer">
               <li
                 className={`cursor-pointer p-2 hover:text-gray-300 ${selectedCategory === "movies" ? "font-bold" : ""}`}
                 onClick={() => handleCategoryChange("movies")}
@@ -960,7 +961,7 @@ export function DiscoverContent() {
               )}
               <div
                 id="button-carousel-providers"
-                className="flex lg:px-4 mb-4 overflow-x-auto scroll-smooth z-40"
+                className="flex mb-4 overflow-x-auto scroll-smooth"
                 style={{
                   scrollbarWidth: "thin",
                   scrollbarColor: "transparent transparent",
@@ -980,7 +981,7 @@ export function DiscoverContent() {
               <div className="">{renderScrollButton("movies", "left")}</div>
               <div
                 id="button-carousel-movies"
-                className="flex lg:px-4 mb-4 overflow-x-auto scroll-smooth"
+                className="flex mb-4 overflow-x-auto scroll-smooth"
                 style={{
                   scrollbarWidth: "thin",
                   scrollbarColor: "transparent transparent",
@@ -1007,7 +1008,7 @@ export function DiscoverContent() {
               )}
               <div
                 id="button-carousel-tv-providers"
-                className="flex lg:px-4 mb-4 overflow-x-auto scroll-smooth z-40"
+                className="flex mb-4 overflow-x-auto scroll-smooth"
                 style={{
                   scrollbarWidth: "thin",
                   scrollbarColor: "transparent transparent",
@@ -1027,7 +1028,7 @@ export function DiscoverContent() {
               <div className="">{renderScrollButton("tvshows", "left")}</div>
               <div
                 id="button-carousel-tvshows"
-                className="flex lg:px-4 mb-4 overflow-x-auto scroll-smooth"
+                className="flex mb-4 overflow-x-auto scroll-smooth"
                 style={{
                   scrollbarWidth: "thin",
                   scrollbarColor: "transparent transparent",
@@ -1117,7 +1118,6 @@ export function DiscoverContent() {
                   renderMovies(
                     providerTVShows[selectedTVProvider.id],
                     `Popular Shows on ${selectedTVProvider.name}`,
-                    true,
                   )
                 ) : (
                   <p className="text-center text-gray-600">
