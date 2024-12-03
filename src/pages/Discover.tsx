@@ -48,12 +48,12 @@ export function Discover() {
           }}
         />
         <h1
-          className="relative text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text z-10"
-          style={{
-            backgroundImage: `linear-gradient(to right, rgba(var(--colors-global-accentA)), rgba(var(--colors-buttons-toggle)))`,
-          }}
+          className="relative text-2xl md:text-5xl font-extrabold text-white bg-clip-text z-10"
+          // style={{
+          //   backgroundImage: `linear-gradient(to right, rgba(var(--colors-global-accentA)), rgba(var(--colors-buttons-toggle)))`,
+          // }}
         >
-          {t("global.pages.discover")} Movies & TV
+          {t("global.pages.discover")}
         </h1>
         <p className="relative text-lg mt-4 text-gray-400 z-10">
           Explore the latest hits and timeless classics.
