@@ -496,13 +496,13 @@ export function DiscoverContent() {
 
     // https://tailwindcss.com/docs/border-style
     return (
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden ml-10 mr-10">
         <h2 className="mt-2 text-2xl cursor-default font-bold text-white sm:text-3xl md:text-2xl mx-auto pl-5 text-balance">
           {displayCategory}
         </h2>
         <div
           id={`carousel-${categorySlug}`}
-          className="flex whitespace-nowrap pt-0 pb-4 overflow-auto scrollbar-thin rounded-xl overflow-y-hidden ml-5 mr-5"
+          className="flex whitespace-nowrap pt-0 pb-4 overflow-auto scrollbar-thin rounded-xl overflow-y-hidden"
           style={{
             scrollbarWidth: "thin",
             // scrollbarColor: `${bgColor} transparent`,
