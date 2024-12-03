@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 import { Loading } from "@/components/layout/Loading";
-import { Lightbar } from "@/components/utils/Lightbar";
 import DiscoverContent from "@/utils/discoverContent";
 
 import { SubPageLayout } from "./layouts/SubPageLayout";
@@ -29,19 +28,6 @@ export function Discover() {
 
   return (
     <SubPageLayout>
-      {/* lightbar */}
-      {!props.noLightbar ? (
-        <div
-          className="absolute inset-x-0 top-0 flex h-[88px] items-center justify-center"
-          style={{
-            top: `${bannerHeight}px`,
-          }}
-        >
-          <div className="absolute inset-x-0 -mt-[22%] flex items-center sm:mt-0">
-            <Lightbar />
-          </div>
-        </div>
-      ) : null}
       <Helmet>
         {/* Hide scrollbar */}
         <style type="text/css">{`
