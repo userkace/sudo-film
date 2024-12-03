@@ -69,7 +69,7 @@ export function PreferencesPart(props: {
           setSelectedItem={(opt) => props.setLanguage(opt.id)}
         />
       </div>
-      <div>
+      {/* <div>
         <p className="text-white font-bold mb-3">
           {t("settings.preferences.ads")}
         </p>
@@ -85,7 +85,7 @@ export function PreferencesPart(props: {
             {t("settings.preferences.adsLabel")}
           </p>
         </div>
-      </div>
+      </div> */}
       <div>
         <p className="text-white font-bold mb-3">
           {t("settings.preferences.thumbnail")}

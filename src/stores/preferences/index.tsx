@@ -17,7 +17,7 @@ export interface PreferencesStore {
 export const usePreferencesStore = create(
   persist(
     immer<PreferencesStore>((set) => ({
-      enableAds: true,
+      enableAds: false,
       enableThumbnails: true,
       enableAutoplay: true,
       sourceOrder: [],
