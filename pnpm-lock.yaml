@@ -1202,8 +1202,8 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  '@movie-web/providers@https://codeload.github.com/sussy-code/providers/tar.gz/e62c98ba05db4fbdc61c519ea07921c82e9f3641':
-    resolution: {tarball: https://codeload.github.com/sussy-code/providers/tar.gz/e62c98ba05db4fbdc61c519ea07921c82e9f3641}
+  '@movie-web/providers@git+https://git@github.com:VidBingeApp/providers.git#f2b5f5d987cffbfe788cc85af8303be867d89ed9':
+    resolution: {tarball: git+https://git@github.com:VidBingeApp/providers.git#f2b5f5d987cffbfe788cc85af8303be867d89ed9}
     version: 2.3.0
 
   '@noble/hashes@1.5.0':
