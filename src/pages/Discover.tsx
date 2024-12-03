@@ -65,10 +65,10 @@ export function Discover() {
         <div className="flex flex-col justify-center items-center h-64 space-y-4">
           <Loading />
           <p className="text-lg font-medium text-gray-400 animate-pulse mt-4">
-            Fetching the latest movies & TV shows...
+            Fetching movies and TV shows...
           </p>
           <p className="text-sm text-gray-500">
-            Please wait while we load the best recommendations for you.
+            This may take a while depending on your internet connection.
           </p>
         </div>
       ) : (
