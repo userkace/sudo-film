@@ -4,38 +4,38 @@
     "contact": "Have any questions? Feel free to contact us at our Discord Server or email us at user@kace.dev",
     "faqTitle": "Frequently Asked Questions",
     "q1": {
-      "body": "film.kace.dev does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by film.kace.dev, everything is through this searching mechanism.",
+      "body": "Imagine film.kace.dev as a giant movie library catalog. It doesn't actually store any movies itself. Instead, when you pick a movie or TV show, it searches the internet for it. So, film.kace.dev is like a helpful friend pointing you in the right direction, not the place where the movies are actually stored.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "It's not possible to request a show or movie, film.kace.dev does not manage any content. All content is viewed through sources on the internet.",
+      "body": "film.kace.dev can't add new movies or shows. It just finds what's already out there on the web, like a search engine for movies! You can't ask for something specific, but you can explore what it finds.",
       "title": "Where can I request a show or movie?"
     },
     "q3": {
-      "body": "Our search results are powered by The Movie Database (TMDB) and is displied regardless of whether our sources actually have the content.",
+      "body": "We use a database called The Movie Database (TMDB) to find movies and shows. Sometimes, we might show you a movie that's in the database, but you won't be able to watch it right away because it's not available on the sources we use.",
       "title": "The search results display the show or movie, why can't I play it?"
     },
     "q4": {
-      "body":"There is no limit to how much you can watch on VidBinge. Stream as much as you want, anytime, without any restrictions or additional costs.",
+      "body":"Binge away! film.kace.dev lets you watch as much as you want, whenever you want. No limits, no fees, just pure streaming fun!",
       "title": "Is there a limit to how much I can watch?"
     },
     "q5":{
       "title": "How often is new content added to film.kace.dev?",
-      "body": "New content availability is based on the sources connected to our platform. As these sources update their libraries, new movies and TV shows will become accessible through VidBinge."
+      "body": "film.kace.dev is like a movie theater that shows what other websites have! New movies and shows pop up on film.kace.dev whenever the websites it works with add them to their collections. So, keep checking back to see what's new!"
     },
     "q6":{
       "title": "What should I do if a video doesn't play?",
-      "body": "If a video doesn’t play, it could be due to issues with the source. Try clicking the Play button again or selecting a different source from the 'video sources' tab. If problems persist, please check your internet connection or try again later."  
+      "body": "If a movie doesn't play, it might be a problem with the website where it's hosted. Try clicking play again or choosing a different source from the 'video sources' tab. If it still doesn't work, check your internet connection or try again later."
     },
     "q7":{
       "title": "Does film.kace.dev offer subtitles or dubbed content?",
-      "body": "Availability of subtitles or dubbed versions depends on the source. Some sources may provide options for subtitles in various languages or dubbed content, which can be selected directly within the video player if available."
+      "body": "Whether you can watch a movie with subtitles or in a different language depends on where it's being streamed from. Some websites offer subtitles or dubbed versions, which you can usually choose from right in the video player."
     },
     "title": "About film.kace.dev"
   },
   "privacy": {
-    "description": "Welcome to VidBinge! Your privacy is important to us. VidBinge (vidbinge.com) is committed to protecting your privacy while you enjoy your favorite movies and shows on our platform. This Privacy Policy explains how we handle and protect your data.",
-    "lastUpdated": "Last Updated: April 21, 2024",
+    "description": "Welcome to film.kace.dev! Your privacy is important to us. Film (film.kace.dev) is committed to protecting your privacy while you enjoy your favorite movies and shows on our platform. This Privacy Policy explains how we handle and protect your data.",
+    "lastUpdated": "Last Updated: December 4, 2024",
     "p1": {
       "body": "film.kace.dev does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by film.kace.dev, everything is through this searching mechanism.",
       "title": "Information We Do Not Collect"
@@ -45,11 +45,11 @@
       "title": "Information We Collect"
     },
     "p3": {
-      "body": "VidBinge uses cookies to enhance your viewing experience. Cookies help us understand user behavior within our site (such as most watched movies), which enables us to improve our services. You can choose to disable cookies through your browser settings, but this may affect the functionality of the site.",
+      "body": "Film uses cookies to enhance your viewing experience. Cookies help us understand user behavior within our site (such as most watched movies), which enables us to improve our services. You can choose to disable cookies through your browser settings, but this may affect the functionality of the site.",
       "title": "Use of Cookies"
     },
     "p4": {
-      "body":"Our use of Google Analytics means we share anonymized demographic data with Google. This information is processed under Google's privacy policy. We do not share or sell any data to other third parties.",
+      "body":"Our use of Cloudflare Analytics means we share anonymized demographic data with Cloudflare. This information is processed under Cloudflare's privacy policy. We do not share or sell any data to other third parties.",
       "title": "Third-Party Services"
     },
     "p5":{
@@ -60,7 +60,7 @@
       "title": "Contact Us",
       "body": "If you have any questions about this Privacy Policy, please contact via email at: user@kace.dev"  
     },
-    "title": "Privacy Policy for VidBinge"
+    "title": "Privacy Policy for Film (film.kace.dev)"
   },
   "actions": {
     "copied": "Copied",
