@@ -11,6 +11,11 @@ const availableThemes = [
     key: "settings.appearance.themes.default",
   },
   {
+    id: "blue",
+    selector: "theme-blue",
+    key: "settings.appearance.themes.blue",
+  },
+  {
     id: "teal",
     selector: "theme-teal",
     key: "settings.appearance.themes.teal",

@@ -18,10 +18,11 @@ import { AudioView } from "./settings/AudioView";
 import { CaptionSettingsView } from "./settings/CaptionSettingsView";
 import { CaptionsView } from "./settings/CaptionsView";
 import { DownloadRoutes } from "./settings/Downloads";
-import { OpenSubtitlesCaptionView } from "./settings/opensubtitles";
+import { OpenSubtitlesCaptionView } from "./settings/OpensubtitlesCaptionsView";
 import { PlaybackSettingsView } from "./settings/PlaybackSettingsView";
 import { QualityView } from "./settings/QualityView";
 import { SettingsMenu } from "./settings/SettingsMenu";
+import SourceCaptionsView from "./settings/SourceCaptionsView";
 
 function SettingsOverlay({ id }: { id: string }) {
   const [chosenSourceId, setChosenSourceId] = useState<string | null>(null);
@@ -40,10 +41,10 @@ function SettingsOverlay({ id }: { id: string }) {
   return (
     <Overlay id={id}>
       <OverlayRouter id={id}>
-        <OverlayPage id={id} path="/" width={343} height={460}>
+        <OverlayPage id={id} path="/" width={343} height={431}>
           <SettingsMenu id={id} />
         </OverlayPage>
-        <OverlayPage id={id} path="/quality" width={343} height={438}>
+        <OverlayPage id={id} path="/quality" width={343} height={400}>
           <Menu.Card>
             <QualityView id={id} />
           </Menu.Card>
@@ -54,6 +55,12 @@ function SettingsOverlay({ id }: { id: string }) {
           </Menu.Card>
         </OverlayPage>
         <OverlayPage id={id} path="/captions" width={343} height={431}>
+          <Menu.CardWithScrollable>
+            <CaptionsView id={id} backLink />
+          </Menu.CardWithScrollable>
+        </OverlayPage>
+        {/* This is used by the captions shortcut in bottomControls of player */}
+        <OverlayPage id={id} path="/captionsOverlay" width={343} height={431}>
           <Menu.CardWithScrollable>
             <CaptionsView id={id} />
           </Menu.CardWithScrollable>
@@ -68,9 +75,47 @@ function SettingsOverlay({ id }: { id: string }) {
             <OpenSubtitlesCaptionView id={id} />
           </Menu.Card>
         </OverlayPage>
+        {/* This is used by the captions shortcut in bottomControls of player */}
+        <OverlayPage
+          id={id}
+          path="/captions/opensubtitlesOverlay"
+          width={343}
+          height={431}
+        >
+          <Menu.Card>
+            <OpenSubtitlesCaptionView id={id} overlayBackLink />
+          </Menu.Card>
+        </OverlayPage>
+        <OverlayPage id={id} path="/captions/source" width={343} height={431}>
+          <Menu.Card>
+            <SourceCaptionsView id={id} />
+          </Menu.Card>
+        </OverlayPage>
+        {/* This is used by the captions shortcut in bottomControls of player */}
+        <OverlayPage
+          id={id}
+          path="/captions/sourceOverlay"
+          width={343}
+          height={431}
+        >
+          <Menu.Card>
+            <SourceCaptionsView id={id} overlayBackLink />
+          </Menu.Card>
+        </OverlayPage>
         <OverlayPage id={id} path="/captions/settings" width={343} height={450}>
           <Menu.Card>
             <CaptionSettingsView id={id} />
+          </Menu.Card>
+        </OverlayPage>
+        {/* This is used by the captions shortcut in bottomControls of player */}
+        <OverlayPage
+          id={id}
+          path="/captions/settingsOverlay"
+          width={343}
+          height={450}
+        >
+          <Menu.Card>
+            <CaptionSettingsView id={id} overlayBackLink />
           </Menu.Card>
         </OverlayPage>
         <OverlayPage id={id} path="/source" width={343} height={431}>

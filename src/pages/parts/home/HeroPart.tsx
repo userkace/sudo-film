@@ -15,14 +15,11 @@ export interface HeroPartProps {
   searchParams: ReturnType<typeof useSearchQuery>;
 }
 
-function getTimeOfDay(
-  date: Date,
-): "night" | "morning" | "day" | "420" | "halloween" {
+function getTimeOfDay(date: Date): "night" | "morning" | "day" | "420" | "69" {
   const month = date.getMonth() + 1;
   const day = date.getDate();
-  if (month === 4 && day === 20) return "420"; // Adding the check for 4/20
-  if (month === 10 && day === 31) return "halloween"; // Adding the check for Halloween
-
+  if (month === 4 && day === 20) return "420";
+  if (month === 6 && day === 9) return "69";
   const hour = date.getHours();
   if (hour < 5) return "night";
   if (hour < 12) return "morning";
@@ -42,30 +39,20 @@ export function HeroPart({ setIsSticky, searchParams }: HeroPartProps) {
     },
     [setShowBg, setIsSticky],
   );
-  const { width: windowWidth, height: windowHeight } = useWindowSize();
 
-  // Detect if running as a PWA on iOS
-  const isIOSPWA =
-    /iPad|iPhone|iPod/i.test(navigator.userAgent) &&
-    window.matchMedia("(display-mode: standalone)").matches;
+  const { width: windowWidth } = useWindowSize();
 
-  const topSpacing = isIOSPWA ? 60 : 16;
+  const topSpacing = 16;
   const [stickyOffset, setStickyOffset] = useState(topSpacing);
-
-  const isLandscape = windowHeight < windowWidth && isIOSPWA;
-  const adjustedOffset = isLandscape
-    ? -40 // landscape
-    : 0; // portrait
-
   useEffect(() => {
-    if (windowWidth > 1280) {
+    if (windowWidth > 1200) {
       // On large screens the bar goes inline with the nav elements
       setStickyOffset(topSpacing);
     } else {
       // On smaller screens the bar goes below the nav elements
-      setStickyOffset(topSpacing + 60 + adjustedOffset);
+      setStickyOffset(topSpacing + 60);
     }
-  }, [adjustedOffset, topSpacing, windowWidth]);
+  }, [windowWidth]);
 
   const time = getTimeOfDay(new Date());
   const title = randomT(`home.titles.${time}`);

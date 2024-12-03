@@ -1,7 +1,0 @@
-
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>film</ShortName>
-  <Description>Dive into endless hours of free streaming entertainment with film.kace.dev! Join the binge-watching revolution and explore a world of movies and TV shows—all without a subscription.</Description>
-  <InputEncoding>UTF-8</InputEncoding>
-  <Url type="text/html" template="https://film.kace.dev/browse/{searchTerms}" />
-</OpenSearchDescription>

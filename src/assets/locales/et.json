@@ -1,37 +1,20 @@
 {
     "about": {
-        "description": "Vid Binge on veebirakendus, mis otsib internetti striimide jaoks. Meie eesmärk on enamasti minimalistlik lähenemine sisu tarbimisele.",
+        "description": "sudo-flix on veebirakendus, mis otsib internetti striimide jaoks. Meie eesmärk on enamasti minimalistlik lähenemine sisu tarbimisele.",
         "faqTitle": "Tihti küsitud küsimused",
         "q1": {
-            "body": "Vid Binge ei hoiusta enda sisu. Kui klõpsate, et midagi vaadata, otsitakse valitud meediat internetist (laadimisekraanil ja vahekaardil \"videoallikad\" näete, millist allikat te kasutate). Meediat ei lae Vid Binge kunagi üles, kõik toimub selle otsingumehhanismi kaudu.",
+            "body": "sudo-flix ei hoiusta enda sisu. Kui klõpsate, et midagi vaadata, otsitakse valitud meediat internetist (laadimisekraanil ja vahekaardil \"videoallikad\" näete, millist allikat te kasutate). Meediat ei lae sudo-flix kunagi üles, kõik toimub selle otsingumehhanismi kaudu.",
             "title": "Kust tuleb meie sisu?"
         },
         "q2": {
-            "body": "Saadet või filmi ei ole võimalik taotelda, Vid Binge ei halda mingit sisu. Kogu sisu vaadatakse interneti allikate kaudu.",
+            "body": "Saadet või filmi ei ole võimalik taotelda, sudo-flix ei halda mingit sisu. Kogu sisu vaadatakse interneti allikate kaudu.",
             "title": "Kust ma saan kindlat saadet või filmi paluda?"
         },
         "q3": {
             "body": "Meie otsingutulemusi toetab The Movie Database (TMDB) ja need kuvatakse sõltumata sellest, kas meie allikates on sisu tegelikult olemas.",
             "title": "Otsingutulemustes kuvatakse saade või film. Miks ma ei saa seda esitada?"
         },
-        "title": "Vid Binge'i kohta",
-        "contact": "",
-        "q4": {
-            "body": "",
-            "title": ""
-        },
-        "q5": {
-            "title": "",
-            "body": ""
-        },
-        "q6": {
-            "title": "",
-            "body": ""
-        },
-        "q7": {
-            "title": "",
-            "body": ""
-        }
+        "title": "sudo-flix'i kohta"
     },
     "actions": {
         "copied": "Kopeeritud",
@@ -99,30 +82,25 @@
     "footer": {
         "legal": {
             "disclaimer": "Lahtiütlemine",
-            "disclaimerText": "Vid Binge ei hoiusta ühtegi faili, vaid ainult lingib kolmandate osapoolte teenustele. Juriidilised küsimused tuleks lahendada failihostide ja teenusepakkujatega. Vid Binge ei vastuta videopakkujate poolt näidatud meediafailide eest."
+            "disclaimerText": "sudo-flix ei hoiusta ühtegi faili, vaid ainult lingib kolmandate osapoolte teenustele. Juriidilised küsimused tuleks lahendada failihostide ja teenusepakkujatega. sudo-flix ei vastuta videopakkujate poolt näidatud meediafailide eest."
         },
         "links": {
             "discord": "Discord",
             "dmca": "DMCA",
-            "github": "GitHub",
-            "telegram": "",
-            "facebook": "",
-            "instagram": ""
+            "github": "GitHub"
         },
         "tagline": "Vaadake selle avatud lähtekoodiga striimimis rakendusega oma lemmiksaateid ja -filme."
     },
     "global": {
-        "name": "Vid Binge",
+        "name": "sudo-flix",
         "pages": {
             "about": "Meist",
             "dmca": "DMCA",
             "login": "Logi sisse",
             "onboarding": "Seadistamine",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - sudo-flix",
             "register": "Registreeri",
-            "settings": "Sätted",
-            "discover": "",
-            "privacy": ""
+            "settings": "Sätted"
         }
     },
     "home": {
@@ -155,39 +133,19 @@
             "day": {
                 "default": "Mida te soovite täna pärastlõunal vaadata?",
                 "extra": [
-                    "Kas tunnete end seiklushimulisena? Jurassic Park võib olla ideaalne valik.",
-                    "",
-                    ""
+                    "Kas tunnete end seiklushimulisena? Jurassic Park võib olla ideaalne valik."
                 ]
             },
             "morning": {
                 "default": "Mida te soovite täna hommikul vaadata?",
                 "extra": [
-                    "Ma kuulsin, et Before Sunrise on hea",
-                    "",
-                    ""
+                    "Ma kuulsin, et Before Sunrise on hea"
                 ]
             },
             "night": {
                 "default": "Mida te soovite täna õhtul vaadata?",
                 "extra": [
-                    "Väsinud? Olen kuulnud, et The Exorcist on hea.",
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            "420": {
-                "default": "",
-                "extra": [
-                    ""
-                ]
-            },
-            "halloween": {
-                "default": "",
-                "extra": [
-                    ""
+                    "Väsinud? Olen kuulnud, et The Exorcist on hea."
                 ]
             }
         }
@@ -206,12 +164,10 @@
         },
         "menu": {
             "about": "Meie kohta",
-            "donation": "Anneta",
             "logout": "Logi välja",
             "register": "Sünkrooni pilvega",
             "settings": "Sätted",
-            "support": "Abi",
-            "discover": ""
+            "support": "Abi"
         }
     },
     "notFound": {
@@ -280,7 +236,7 @@
                     "title": "Kohandatud proxy"
                 }
             },
-            "title": "Teeme algust Vid Bingei kasutamisega"
+            "title": "Teeme algust sudo-flixi kasutamisega"
         }
     },
     "overlays": {
@@ -297,10 +253,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Kopeeri HLS esitusloendi link",
-                "disclaimer": "Allalaadimine toimub otse teenusepakkujalt. Vid Binge ei saa kontrollida, kuidas allalaadimine toimub.",
+                "disclaimer": "Allalaadimine toimub otse teenusepakkujalt. sudo-flix ei saa kontrollida, kuidas allalaadimine toimub.",
                 "downloadSubtitle": "Laadige alla praegune subtiiter",
                 "downloadVideo": "Lae alla video",
-                "hlsDisclaimer": "Allalaadimised võetakse otse teenusepakkujalt. Vid Binge ei kontrolli, kuidas allalaadimisi pakutakse. <br /><br /><bold>Pange tähele, et laadite alla HLS-i esitusloendit, see on mõeldud kasutajatele, kes on tuttavad multimeediumi striimimisega</bold>.",
+                "hlsDisclaimer": "Allalaadimised võetakse otse teenusepakkujalt. sudo-flix ei kontrolli, kuidas allalaadimisi pakutakse. <br /><br /><bold>Pange tähele, et laadite alla HLS-i esitusloendit, see on mõeldud kasutajatele, kes on tuttavad multimeediumi striimimisega</bold>.",
                 "onAndroid": {
                     "1": "Et allalaadida Androidi telefonil, vajuta allalaadimise nupule, siis uuel leheküljel <bold>vajuta ja hoia</bold> video peal, siis vali <bold>salvesta</bold>.",
                     "shortTitle": "Allalaadimine / Android",
@@ -316,8 +272,7 @@
                     "shortTitle": "Allalaadimine / Arvutis",
                     "title": "Arvutis allalaadimine"
                 },
-                "title": "Lae alla",
-                "downloadHlsAsVideo": ""
+                "title": "Lae alla"
             },
             "episodes": {
                 "button": "Episoodid",
@@ -326,8 +281,7 @@
                 "loadingError": "Hooaja laadimine ebaōnnestus",
                 "loadingList": "Laadimine...",
                 "loadingTitle": "Laadimine...",
-                "unairedEpisodes": "Üks või mitu selle hooaja episoodi on välja lülitatud, sest neid ei ole veel eetris olnud.",
-                "seasons": ""
+                "unairedEpisodes": "Üks või mitu selle hooaja episoodi on välja lülitatud, sest neid ei ole veel eetris olnud."
             },
             "playback": {
                 "speedLabel": "Taasesituse kiirus",
@@ -348,8 +302,7 @@
                 "qualityItem": "Kvaliteet",
                 "sourceItem": "Video allikad",
                 "subtitleItem": "Subtiitri sätted",
-                "videoSection": "Video sätted",
-                "watchParty": ""
+                "videoSection": "Video sätted"
             },
             "sources": {
                 "failed": {
@@ -378,8 +331,7 @@
                     "fixCapitals": "Parandage suurtähtede kasutamine"
                 },
                 "title": "Subtiitrid",
-                "unknownLanguage": "Tundmatu",
-                "OpenSubtitlesChoice": ""
+                "unknownLanguage": "Tundmatu"
             }
         },
         "metadata": {
@@ -413,8 +365,7 @@
         },
         "nextEpisode": {
             "cancel": "Tühista",
-            "next": "Järgmine episood",
-            "nextSeason": ""
+            "next": "Järgmine episood"
         },
         "playbackError": {
             "badge": "Taasesituse viga",
@@ -434,7 +385,7 @@
                 "badge": "Brauserilaiendus väljalülitatud",
                 "enableExtension": "Lülita brauserilaiendus sisse",
                 "homeButton": "Tagasi",
-                "text": "Olete allalaadinud Vid Binge'i brauserilaiendue. Selle kasutamiseks peate vajutama brauserilaienduse peale ning andma ligipääsu praegusele saidile.",
+                "text": "Olete allalaadinud sudo-flix'i brauserilaiendue. Selle kasutamiseks peate vajutama brauserilaienduse peale ning andma ligipääsu praegusele saidile.",
                 "title": "Palun lülita brauserilaiendus sisse"
             },
             "items": {
@@ -457,7 +408,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Palun kinnitage, et olete inimene, täites paremal asuva Captcha. See on selleks, et hoida Vid Binge turvalisena!",
+            "description": "Palun kinnitage, et olete inimene, täites paremal asuva Captcha. See on selleks, et hoida sudo-flix turvalisena!",
             "error": "Ei õnnestunud kontrollida teie inimlikkust. Palun proovige uuesti.",
             "title": "Me peame kontrollima, et te olete inimene.",
             "verifyingHumanity": "Kontrollime kas olete robot..."
@@ -465,7 +416,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Tere tulemast Vid Bingei DMCA kontaktilehele! Me austame intellektuaalomandi õigusi ja soovime kiiresti lahendada kõik autoriõigusega seotud probleemid. Kui usute, et teie autoriõigusega kaitstud tööd on meie platvormil vääralt kasutatud, saatke palun üksikasjalik DMCA-teade alljärgnevale e-posti aadressile. Palun lisage autoriõigusega kaitstud materjali kirjeldus, oma kontaktandmed ja avaldus heauskse veendumuse kohta. Oleme pühendunud nende küsimuste kiirele lahendamisele ja hindame teie koostööd, et Vid Binge oleks koht, kus austatakse loovust ja autoriõigusi.",
+            "text": "Tere tulemast sudo-flixi DMCA kontaktilehele! Me austame intellektuaalomandi õigusi ja soovime kiiresti lahendada kõik autoriõigusega seotud probleemid. Kui usute, et teie autoriõigusega kaitstud tööd on meie platvormil vääralt kasutatud, saatke palun üksikasjalik DMCA-teade alljärgnevale e-posti aadressile. Palun lisage autoriõigusega kaitstud materjali kirjeldus, oma kontaktandmed ja avaldus heauskse veendumuse kohta. Oleme pühendunud nende küsimuste kiirele lahendamisele ja hindame teie koostööd, et sudo-flix oleks koht, kus austatakse loovust ja autoriõigusi.",
             "title": "DMCA"
         },
         "loadingApp": "Rakenduse laadimine",
@@ -527,8 +478,7 @@
                 "default": "Vaikimisi",
                 "gray": "Hall",
                 "red": "Punane",
-                "teal": "Tumesinine",
-                "blck": ""
+                "teal": "Tumesinine"
             },
             "title": "Välimus"
         },
@@ -576,15 +526,7 @@
             "thumbnail": "Genereeri pisipilte",
             "thumbnailDescription": "Enamasti pole videodel pisipilte. Selle sätte lubamisega genereeritakse pispildid vaatamise ajal, kuid need võivad teie video aeglasemaks muuta.",
             "thumbnailLabel": "Genereeri pisipilte",
-            "title": "Eelistused",
-            "ads": "",
-            "adsDescription": "",
-            "adsLabel": "",
-            "autoplayDescription": "",
-            "sourceOrderDescription": "",
-            "autoplay": "",
-            "autoplayLabel": "",
-            "sourceOrder": ""
+            "title": "Eelistused"
         },
         "reset": "Lähtesta",
         "save": "Salvesta",
@@ -608,38 +550,8 @@
             "colorLabel": "Värv",
             "previewQuote": "Ma ei tohi karta. Hirm on meelemõrvar.",
             "textSizeLabel": "Teksti suurus",
-            "title": "Subtiitrid",
-            "textBoldLabel": ""
+            "title": "Subtiitrid"
         },
         "unsaved": "Teil on salvestamata muudatusi"
-    },
-    "privacy": {
-        "description": "",
-        "lastUpdated": "",
-        "p1": {
-            "body": "",
-            "title": ""
-        },
-        "p2": {
-            "body": "",
-            "title": ""
-        },
-        "p3": {
-            "body": "",
-            "title": ""
-        },
-        "p4": {
-            "body": "",
-            "title": ""
-        },
-        "p5": {
-            "title": "",
-            "body": ""
-        },
-        "p6": {
-            "title": "",
-            "body": ""
-        },
-        "title": ""
     }
 }

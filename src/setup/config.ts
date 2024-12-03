@@ -2,21 +2,16 @@ import {
   APP_VERSION,
   BACKEND_URL,
   DISCORD_LINK,
-  DONATION_LINK,
-  FACEBOOK_LINK,
   GITHUB_LINK,
-  INSTAGRAM_LINK,
+  TWITTER_LINK,
 } from "./constants";
 
 interface Config {
   APP_VERSION: string;
   GITHUB_LINK: string;
-  DONATION_LINK: string;
   DISCORD_LINK: string;
-  FACEBOOK_LINK: string;
-  INSTAGRAM_LINK: string;
-  HLSCONVERTER_URL: string;
   DMCA_EMAIL: string;
+  TWITTER_LINK: string;
   TMDB_READ_API_KEY: string;
   CORS_PROXY_URL: string;
   NORMAL_ROUTER: boolean;
@@ -34,12 +29,9 @@ interface Config {
 export interface RuntimeConfig {
   APP_VERSION: string;
   GITHUB_LINK: string;
-  DONATION_LINK: string;
   DISCORD_LINK: string;
-  FACEBOOK_LINK: string;
-  INSTAGRAM_LINK: string;
-  HLSCONVERTER_URL: string;
   DMCA_EMAIL: string | null;
+  TWITTER_LINK: string;
   TMDB_READ_API_KEY: string | null;
   NORMAL_ROUTER: boolean;
   PROXY_URLS: string[];
@@ -58,13 +50,9 @@ const env: Record<keyof Config, undefined | string> = {
   TMDB_READ_API_KEY: import.meta.env.VITE_TMDB_READ_API_KEY,
   APP_VERSION: undefined,
   GITHUB_LINK: undefined,
-  DONATION_LINK: undefined,
   DISCORD_LINK: undefined,
-  FACEBOOK_LINK: undefined,
-  INSTAGRAM_LINK: undefined,
-  HLSCONVERTER_URL: import.meta.env.VITE_HLSCONVERTER_URL,
-  ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: import.meta.env
-    .VITE_ONBOARDING_CHROME_EXTENSION_INSTALL_LINK,
+  TWITTER_LINK: undefined,
+  ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: "https://docs.undi.rest/extension",
   ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: import.meta.env
     .VITE_ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK,
   ONBOARDING_PROXY_INSTALL_LINK: import.meta.env
@@ -103,22 +91,16 @@ export function conf(): RuntimeConfig {
   return {
     APP_VERSION,
     GITHUB_LINK,
-    DONATION_LINK,
     DISCORD_LINK,
-    FACEBOOK_LINK,
-    INSTAGRAM_LINK,
-    HLSCONVERTER_URL: getKey(
-      "HLSCONVERTER_URL",
-      "https://hlsdownload.vidbinge.com",
-    ),
+    TWITTER_LINK,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
     ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: getKey(
       "ONBOARDING_CHROME_EXTENSION_INSTALL_LINK",
-      "https://chromewebstore.google.com/detail/movie-web-extension/hoffoikpiofojilgpofjhnkkamfnnhmm",
+      "https://github.com/userkace/film-ext",
     ),
     ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: getKey(
       "ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK",
-      "https://addons.mozilla.org/en-GB/firefox/addon/movie-web-extension",
+      "https://github.com/userkace/film-ext",
     ),
     ONBOARDING_PROXY_INSTALL_LINK: getKey("ONBOARDING_PROXY_INSTALL_LINK"),
     BACKEND_URL: getKey("BACKEND_URL", BACKEND_URL),
@@ -128,7 +110,7 @@ export function conf(): RuntimeConfig {
       .map((v) => v.trim())
       .filter((v) => v.length > 0),
     NORMAL_ROUTER: getKey("NORMAL_ROUTER", "false") === "true",
-    HAS_ONBOARDING: getKey("HAS_ONBOARDING", "true") === "true",
+    HAS_ONBOARDING: getKey("HAS_ONBOARDING", "false") === "true",
     ALLOW_AUTOPLAY: getKey("ALLOW_AUTOPLAY", "false") === "true",
     TURNSTILE_KEY: getKey("TURNSTILE_KEY"),
     DISALLOWED_IDS: getKey("DISALLOWED_IDS", "")

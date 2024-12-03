@@ -216,7 +216,13 @@ export function CaptionSetting(props: {
 
 export const colors = ["#ffffff", "#b0b0b0", "#80b1fa", "#e2e535"];
 
-export function CaptionSettingsView({ id }: { id: string }) {
+export function CaptionSettingsView({
+  id,
+  overlayBackLink,
+}: {
+  id: string;
+  overlayBackLink?: boolean;
+}) {
   const { t } = useTranslation();
   const router = useOverlayRouter(id);
   const styling = useSubtitleStore((s) => s.styling);
@@ -228,7 +234,11 @@ export function CaptionSettingsView({ id }: { id: string }) {
 
   return (
     <>
-      <Menu.BackLink onClick={() => router.navigate("/captions")}>
+      <Menu.BackLink
+        onClick={() =>
+          router.navigate(overlayBackLink ? "/captionsOverlay" : "/captions")
+        }
+      >
         {t("player.menus.subtitles.settings.backlink")}
       </Menu.BackLink>
       <Menu.Section className="space-y-6 pb-5">
@@ -250,6 +260,17 @@ export function CaptionSettingsView({ id }: { id: string }) {
             <Toggle
               enabled={overrideCasing}
               onClick={() => setOverrideCasing(!overrideCasing)}
+            />
+          </div>
+        </div>
+        <div className="flex justify-between items-center">
+          <Menu.FieldTitle>
+            {t("settings.subtitles.textBoldLabel")}
+          </Menu.FieldTitle>
+          <div className="flex justify-center items-center">
+            <Toggle
+              enabled={styling.bold}
+              onClick={() => updateStyling({ bold: !styling.bold })}
             />
           </div>
         </div>
@@ -278,17 +299,6 @@ export function CaptionSettingsView({ id }: { id: string }) {
           onChange={(v) => updateStyling({ size: v / 100 })}
           value={styling.size * 100}
         />
-        <div className="flex justify-between items-center">
-          <Menu.FieldTitle>
-            {t("settings.subtitles.textBoldLabel")}
-          </Menu.FieldTitle>
-          <div className="flex justify-center items-center">
-            <Toggle
-              enabled={styling.bold}
-              onClick={() => updateStyling({ bold: !styling.bold })}
-            />
-          </div>
-        </div>
         <div className="flex justify-between items-center">
           <Menu.FieldTitle>
             {t("settings.subtitles.colorLabel")}

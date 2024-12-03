@@ -1,37 +1,20 @@
 {
     "about": {
-        "description": "Vid Binge은 인터넷에서 스트림을 검색하는 웹 애플리케이션입니다. 저희 팀은 콘텐츠 소비에 대한 최소한의 접근 방식을 지향합니다.",
+        "description": "sudo-flix은 인터넷에서 스트림을 검색하는 웹 애플리케이션입니다. 저희 팀은 콘텐츠 소비에 대한 최소한의 접근 방식을 지향합니다.",
         "faqTitle": "자주 묻는 질문",
         "q1": {
-            "body": "Vid Binge은 어떠한 콘텐츠도 호스팅하지 않습니다. 시청할 콘텐츠를 클릭하면 인터넷에서 선택한 미디어가 검색됩니다(로딩 화면과 '비디오 소스' 탭에서 사용 중인 소스를 확인할 수 있습니다). 무비웹에서 미디어를 업로드하지 않으며, 모든 것이 이 검색 메커니즘을 통해 이루어집니다.",
+            "body": "sudo-flix은 어떠한 콘텐츠도 호스팅하지 않습니다. 시청할 콘텐츠를 클릭하면 인터넷에서 선택한 미디어가 검색됩니다(로딩 화면과 '비디오 소스' 탭에서 사용 중인 소스를 확인할 수 있습니다). 무비웹에서 미디어를 업로드하지 않으며, 모든 것이 이 검색 메커니즘을 통해 이루어집니다.",
             "title": "콘텐츠의 출처는 어디인가요?"
         },
         "q2": {
-            "body": "프로그램이나 영화를 요청할 수 없으며, Vid Binge은 어떠한 콘텐츠도 관리하지 않습니다. 모든 콘텐츠는 인터넷의 소스를 통해 볼 수 있습니다.",
+            "body": "프로그램이나 영화를 요청할 수 없으며, sudo-flix은 어떠한 콘텐츠도 관리하지 않습니다. 모든 콘텐츠는 인터넷의 소스를 통해 볼 수 있습니다.",
             "title": "프로그램이나 영화는 어디에서 요청할 수 있나요?"
         },
         "q3": {
             "body": "검색 결과는 영화 데이터베이스(TMDB)를 기반으로 하며, 출처에 실제 콘텐츠가 있는지 여부와 관계없이 표시됩니다.",
             "title": "검색 결과에 프로그램이나 영화가 표시되는데 왜 재생할 수 없나요?"
         },
-        "title": "Vid Binge에 대하여",
-        "contact": "",
-        "q4": {
-            "body": "",
-            "title": ""
-        },
-        "q5": {
-            "title": "",
-            "body": ""
-        },
-        "q6": {
-            "title": "",
-            "body": ""
-        },
-        "q7": {
-            "title": "",
-            "body": ""
-        }
+        "title": "sudo-flix에 대하여"
     },
     "actions": {
         "copied": "복사되었습니다",
@@ -99,15 +82,12 @@
     "footer": {
         "legal": {
             "disclaimer": "면책 조항",
-            "disclaimerText": "Vid Binge은 어떠한 파일도 호스팅하지 않으며, 제3자 서비스에 대한 링크만 제공합니다. 법적 문제는 파일 호스트 및 제공업체와 해결해야 합니다. 동영상 제공업체가 표시하는 미디어 파일에 대해 Vid Binge은 책임을 지지 않습니다."
+            "disclaimerText": "sudo-flix은 어떠한 파일도 호스팅하지 않으며, 제3자 서비스에 대한 링크만 제공합니다. 법적 문제는 파일 호스트 및 제공업체와 해결해야 합니다. 동영상 제공업체가 표시하는 미디어 파일에 대해 sudo-flix은 책임을 지지 않습니다."
         },
         "links": {
             "discord": "디스코드",
             "dmca": "DMCA",
-            "github": "깃허브",
-            "telegram": "",
-            "facebook": "",
-            "instagram": ""
+            "github": "깃허브"
         },
         "tagline": "이 오픈 소스 스트리밍 앱으로 좋아하는 프로그램과 영화를 시청하세요."
     },
@@ -118,11 +98,9 @@
             "dmca": "DMCA",
             "login": "로그인",
             "onboarding": "기본 구성",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - sudo-flix",
             "register": "회원가입",
-            "settings": "설정",
-            "discover": "",
-            "privacy": ""
+            "settings": "설정"
         }
     },
     "home": {
@@ -155,39 +133,19 @@
             "day": {
                 "default": "오늘 오후에 무엇을 보고 싶으신가요?",
                 "extra": [
-                    "모험을 즐기고 싶으신가요? 쥬라기 공원이 완벽한 선택이 될 수 있습니다.",
-                    "",
-                    ""
+                    "모험을 즐기고 싶으신가요? 쥬라기 공원이 완벽한 선택이 될 수 있습니다."
                 ]
             },
             "morning": {
                 "default": "오늘 아침에 무엇을 보고 싶으신가요?",
                 "extra": [
-                    "Before Sunrise가 좋다고 들었어요",
-                    "",
-                    ""
+                    "Before Sunrise가 좋다고 들었어요"
                 ]
             },
             "night": {
                 "default": "오늘 밤에 무엇을 보고 싶으신가요?",
                 "extra": [
-                    "피곤하신가요? The Exorcist가 좋다고 들었어요.",
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            "420": {
-                "default": "",
-                "extra": [
-                    ""
-                ]
-            },
-            "halloween": {
-                "default": "",
-                "extra": [
-                    ""
+                    "피곤하신가요? The Exorcist가 좋다고 들었어요."
                 ]
             }
         }
@@ -197,8 +155,7 @@
         "types": {
             "movie": "영화",
             "show": "쇼"
-        },
-        "unreleased": ""
+        }
     },
     "navigation": {
         "banner": {
@@ -206,12 +163,10 @@
         },
         "menu": {
             "about": "서비스 소개",
-            "donation": "후원",
             "logout": "로그아웃",
             "register": "클라우드 동기화",
             "settings": "설정",
-            "support": "지원",
-            "discover": ""
+            "support": "지원"
         }
     },
     "notFound": {
@@ -280,7 +235,7 @@
                     "title": "커스텀 프록시"
                 }
             },
-            "title": "Vid Binge의 설정을 진행해 봅시다"
+            "title": "sudo-flix의 설정을 진행해 봅시다"
         }
     },
     "overlays": {
@@ -297,10 +252,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "HLS 플레이리스트 링크 복사하기",
-                "disclaimer": "다운로드는 제공업체에서 직접 가져옵니다. Vid Binge은 다운로드 제공 방식을 통제할 수 없습니다.",
+                "disclaimer": "다운로드는 제공업체에서 직접 가져옵니다. sudo-flix은 다운로드 제공 방식을 통제할 수 없습니다.",
                 "downloadSubtitle": "현재 자막 다운로드",
                 "downloadVideo": "영상 다운로드",
-                "hlsDisclaimer": "다운로드는 제공업체에서 직접 가져옵니다. Vid Binge은 다운로드 제공 방식을 통제할 수 없습니다.<br /><br />사용자께서는 HLS 플레이리스트를 다운로드 하고 있으며, <bold>이는 고급 스트리밍 포맷의 사용에 익숙하지 않은 사용자에게는 추천하지 않는다는 것을 유의해주세요<bold>. 혹은 다른 소스와 포맷을 이용하여 보세요.",
+                "hlsDisclaimer": "다운로드는 제공업체에서 직접 가져옵니다. sudo-flix은 다운로드 제공 방식을 통제할 수 없습니다.<br /><br />사용자께서는 HLS 플레이리스트를 다운로드 하고 있으며, <bold>이는 고급 스트리밍 포맷의 사용에 익숙하지 않은 사용자에게는 추천하지 않는다는 것을 유의해주세요<bold>. 혹은 다른 소스와 포맷을 이용하여 보세요.",
                 "onAndroid": {
                     "1": "Android에서 다운로드하려면 다운로드 버튼을 클릭한 다음 새 페이지에서 동영상을 <bold>길게 눌러</bold>저장을 선택합니다.",
                     "shortTitle": "다운로드 / Android",
@@ -316,8 +271,7 @@
                     "shortTitle": "다운로드 / PC",
                     "title": "PC에서 다운로드하기"
                 },
-                "title": "다운로드",
-                "downloadHlsAsVideo": ""
+                "title": "다운로드"
             },
             "episodes": {
                 "button": "회차",
@@ -326,8 +280,7 @@
                 "loadingError": "시즌 로딩중 에러 발생",
                 "loadingList": "로딩...",
                 "loadingTitle": "로딩...",
-                "unairedEpisodes": "해당 시즌의 다수의 에피소드들이 아직 방송되지 않은 이유로 비공개 처리되었습니다.",
-                "seasons": ""
+                "unairedEpisodes": "해당 시즌의 다수의 에피소드들이 아직 방송되지 않은 이유로 비공개 처리되었습니다."
             },
             "playback": {
                 "speedLabel": "재생 속도",
@@ -347,9 +300,7 @@
                 "qualityItem": "화질",
                 "sourceItem": "영상 소스",
                 "subtitleItem": "자막 설정",
-                "videoSection": "영상 설정",
-                "audioItem": "",
-                "watchParty": ""
+                "videoSection": "영상 설정"
             },
             "sources": {
                 "failed": {
@@ -377,9 +328,7 @@
                     "fixCapitals": "대문자 표기 수정"
                 },
                 "title": "자막",
-                "unknownLanguage": "알수없음",
-                "OpenSubtitlesChoice": "",
-                "dropSubtitleFile": ""
+                "unknownLanguage": "알수없음"
             }
         },
         "metadata": {
@@ -413,8 +362,7 @@
         },
         "nextEpisode": {
             "cancel": "닫기",
-            "next": "다음 회차",
-            "nextSeason": ""
+            "next": "다음 회차"
         },
         "playbackError": {
             "badge": "재생 에러",
@@ -441,13 +389,6 @@
                 "homeButton": "메인으로 돌아가기",
                 "text": "제공업체를 통해 검색했지만 원하는 미디어를 찾을 수 없습니다! 당사는 해당 미디어를 호스팅하지 않으며 이용 가능한 미디어에 대한 통제권이 없습니다. 자세한 내용을 보려면 아래의 '세부 정보 보기'를 클릭하세요.",
                 "title": "찾을 수 없습니다"
-            },
-            "extensionFailure": {
-                "badge": "",
-                "title": "",
-                "text": "",
-                "homeButton": "",
-                "enableExtension": ""
             }
         },
         "time": {
@@ -465,7 +406,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Vid Binge의 DMCA 문의 페이지에 오신 것을 환영합니다! 당사는 지적 재산권을 존중하며 저작권 관련 문제를 신속하게 해결하고자 합니다. 귀하의 저작권이 있는 저작물이 당사 플랫폼에서 부적절하게 사용되었다고 생각되는 경우, 아래 이메일로 자세한 DMCA 통지를 보내주시기 바랍니다. 저작권이 있는 자료에 대한 설명, 연락처 정보, 선의의 신념을 담은 진술서를 포함하시기 바랍니다. 당사는 이러한 문제를 신속하게 해결하기 위해 최선을 다하고 있으며, Vid Binge을 창의성과 저작권을 존중하는 공간으로 유지하는 데 협조해 주셔서 감사합니다.",
+            "text": "sudo-flix의 DMCA 문의 페이지에 오신 것을 환영합니다! 당사는 지적 재산권을 존중하며 저작권 관련 문제를 신속하게 해결하고자 합니다. 귀하의 저작권이 있는 저작물이 당사 플랫폼에서 부적절하게 사용되었다고 생각되는 경우, 아래 이메일로 자세한 DMCA 통지를 보내주시기 바랍니다. 저작권이 있는 자료에 대한 설명, 연락처 정보, 선의의 신념을 담은 진술서를 포함하시기 바랍니다. 당사는 이러한 문제를 신속하게 해결하기 위해 최선을 다하고 있으며, sudo-flix을 창의성과 저작권을 존중하는 공간으로 유지하는 데 협조해 주셔서 감사합니다.",
             "title": "DMCA"
         },
         "loadingApp": "애플리케이션 로딩 중",
@@ -527,8 +468,7 @@
                 "default": "기본",
                 "gray": "그레",
                 "red": "레드",
-                "teal": "청록",
-                "blck": ""
+                "teal": "청록"
             },
             "title": "외관"
         },
@@ -576,15 +516,7 @@
             "thumbnail": "썸네일 생성",
             "thumbnailDescription": "대부분의 영상들은 섬네일을 가지고 있지 않습니다. 사용자가 직접 영상의 섬네일을 생성할 수 있지만, 잦은 버퍼링을 일으킬 수 있습니다.",
             "thumbnailLabel": "섬네일 생성",
-            "title": "환경 설정",
-            "ads": "",
-            "adsDescription": "",
-            "adsLabel": "",
-            "autoplayDescription": "",
-            "autoplayLabel": "",
-            "sourceOrder": "",
-            "sourceOrderDescription": "",
-            "autoplay": ""
+            "title": "환경 설정"
         },
         "reset": "초기화",
         "save": "저장",
@@ -608,38 +540,8 @@
             "colorLabel": "색상",
             "previewQuote": "두려워해서는 안 됩니다. 두려움은 마음을 죽이는 존재입니다.",
             "textSizeLabel": "글자 크기",
-            "title": "자막",
-            "textBoldLabel": ""
+            "title": "자막"
         },
         "unsaved": "저장하지 않은 변경 사항이 있습니다"
-    },
-    "privacy": {
-        "p6": {
-            "title": "",
-            "body": ""
-        },
-        "description": "",
-        "lastUpdated": "",
-        "p1": {
-            "body": "",
-            "title": ""
-        },
-        "p2": {
-            "body": "",
-            "title": ""
-        },
-        "p3": {
-            "body": "",
-            "title": ""
-        },
-        "p4": {
-            "body": "",
-            "title": ""
-        },
-        "p5": {
-            "title": "",
-            "body": ""
-        },
-        "title": ""
     }
 }

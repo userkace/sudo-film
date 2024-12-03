@@ -1,77 +1,39 @@
 {
   "about": {
-    "description": "Welcome to VidBinge.com, your ultimate destination for unlimited streaming of movies and TV shows. Explore our extensive library of classics and new releases, available on any device. Enjoy our service 100% subscription-free and 100% ad-free. Dive in and join the binge today!",
-    "contact": "Have any questions? Feel free to contact us at our Discord Server or email us at contact@vidbinge.com",
-    "faqTitle": "Frequently Asked Questions",
+    "description": "film.kace.dev is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. film.kace.dev runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
+    "faqTitle": "Common questions",
     "q1": {
-      "body": "Vid Binge does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by Vid Binge, everything is through this searching mechanism.",
+      "body": "film.kace.dev does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by film.kace.dev, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "It's not possible to request a show or movie, Vid Binge does not manage any content. All content is viewed through sources on the internet.",
+      "body": "It's not possible to request a show or movie, film.kace.dev does not manage any content. All content is viewed through sources on the internet.",
       "title": "Where can I request a show or movie?"
     },
     "q3": {
-      "body": "Our search results are powered by The Movie Database (TMDB) and is displied regardless of whether our sources actually have the content.",
+      "body": "Our search results are powered by The Movie Database (TMDB) and display regardless of whether our sources actually have the content.",
       "title": "The search results display the show or movie, why can't I play it?"
     },
     "q4": {
-      "body":"There is no limit to how much you can watch on VidBinge. Stream as much as you want, anytime, without any restrictions or additional costs.",
-      "title": "Is there a limit to how much I can watch?"
+      "body": "All data is synced to the sudo-backend which is different than the community backend and is independently hosted by me, anyone is free to use this as well.",
+      "title": "What about my data and stuff?"
     },
-    "q5":{
-      "title": "How often is new content added to Vid Binge?",
-      "body": "New content availability is based on the sources connected to our platform. As these sources update their libraries, new movies and TV shows will become accessible through VidBinge."
+    "q5": {
+      "body": "Well sudo-flix has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
+      "title": "How can I find out more?"
     },
-    "q6":{
-      "title": "What should I do if a video doesn't play?",
-      "body": "If a video doesn’t play, it could be due to issues with the source. Try clicking the Play button again or selecting a different source from the 'video sources' tab. If problems persist, please check your internet connection or try again later."  
-    },
-    "q7":{
-      "title": "Does Vid Binge offer subtitles or dubbed content?",
-      "body": "Availability of subtitles or dubbed versions depends on the source. Some sources may provide options for subtitles in various languages or dubbed content, which can be selected directly within the video player if available."
-    },
-    "title": "About Vid Binge"
-  },
-  "privacy": {
-    "description": "Welcome to VidBinge! Your privacy is important to us. VidBinge (vidbinge.com) is committed to protecting your privacy while you enjoy your favorite movies and shows on our platform. This Privacy Policy explains how we handle and protect your data.",
-    "lastUpdated": "Last Updated: April 21, 2024",
-    "p1": {
-      "body": "Vid Binge does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by Vid Binge, everything is through this searching mechanism.",
-      "title": "Information We Do Not Collect"
-    },
-    "p2": {
-      "body": "We use third-party analytics tools, such as Google Analytics, to collect and process basic demographic information which includes general location, device type, and browsing activities on our site. This information is anonymized and used solely to improve the functionality and content of VidBinge, ensuring you have a better streaming experience.",
-      "title": "Information We Collect"
-    },
-    "p3": {
-      "body": "VidBinge uses cookies to enhance your viewing experience. Cookies help us understand user behavior within our site (such as most watched movies), which enables us to improve our services. You can choose to disable cookies through your browser settings, but this may affect the functionality of the site.",
-      "title": "Use of Cookies"
-    },
-    "p4": {
-      "body":"Our use of Google Analytics means we share anonymized demographic data with Google. This information is processed under Google's privacy policy. We do not share or sell any data to other third parties.",
-      "title": "Third-Party Services"
-    },
-    "p5":{
-      "title": "Changes to This Privacy Policy",
-      "body": "We may update this Privacy Policy from time to time. The most recent version of the policy will always be posted on our site. We encourage you to review this Privacy Policy regularly for any changes."
-    },
-    "p6":{
-      "title": "Contact Us",
-      "body": "If you have any questions about this Privacy Policy, please contact via email at: contact@vidbinge.com"  
-    },
-    "title": "Privacy Policy for VidBinge"
+    "title": "About film.kace.dev (^▽^)"
   },
   "actions": {
     "copied": "Copied",
     "copy": "Copy"
   },
   "auth": {
-    "createAccount": "Don't have an account yet? <0>Create an account.</0>",
+    "createAccount": "Don't have an account yet 😬 <0>Create an account.</0>",
     "deviceNameLabel": "Device name",
     "deviceNamePlaceholder": "Personal phone",
     "generate": {
-      "description": "Your passphrase acts as your username and password. Make sure to keep it safe as you will need to enter it to login to your account",
+      "description": "Your passphrase acts as your username and password. Make sure to keep it safe as you will need to enter it to login to your account. <bold>Do NOT lose your passphrase!</bold>",
       "next": "I have saved my passphrase",
       "passphraseFrameLabel": "Passphrase",
       "title": "Your passphrase"
@@ -84,13 +46,13 @@
       "passphrasePlaceholder": "Passphrase",
       "submit": "Login",
       "title": "Login to your account",
-      "validationError": "Incorrect or incomplete passphrase"
+      "validationError": "Incorrect or incomplete passphrase /ᐠ. .ᐟ\\"
     },
     "register": {
       "information": {
         "color1": "Profile color one",
         "color2": "Profile color two",
-        "header": "Enter a name for your device and pick colours and a user icon of your choosing",
+        "header": "Enter a name for your device then pick colors and a user icon of your choosing!",
         "icon": "User icon",
         "next": "Next",
         "title": "Account information"
@@ -103,15 +65,15 @@
       },
       "noHostTitle": "Server not configured!",
       "noHost": "The server has not been configured, therefore you cannot create an account",
-      "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making an account",
+      "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making an account...",
       "no": "Go back",
-      "title": "Create an account on this server?",
-      "yes": "I trust this server"
+      "title": "Do you trust this server?",
+      "yes": "I trust this server 🤞"
     },
     "verify": {
       "description": "Please enter your passphrase from earlier to confirm you have saved it and to create your account",
       "invalidData": "Data is not valid",
-      "noMatch": "Passphrase doesn't match",
+      "noMatch": "Passphrase doesn't match 😭",
       "passphraseLabel": "Your 12-word passphrase",
       "recaptchaFailed": "ReCaptcha validation failed",
       "register": "Create account",
@@ -119,7 +81,7 @@
     }
   },
   "errors": {
-    "badge": "It broke",
+    "badge": "It broke 💀",
     "details": "Error details",
     "reloadPage": "Reload the page",
     "showError": "Show error details",
@@ -127,31 +89,30 @@
   },
   "footer": {
     "legal": {
-      "disclaimer": "Disclaimer",
-      "disclaimerText": "Vid Binge does not host any files, it merely pulls streams from 3rd party services. Legal issues should be taken up with the file hosts and providers. Vid Binge is not responsible for any media files shown by the video providers."
+      "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
+      "disclaimerText": "film.kace.dev does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
       "discord": "Discord",
-      "telegram": "Telegram",
-      "facebook": "Facebook",
-      "instagram": "Instagram",
       "dmca": "DMCA",
-      "github": "GitHub"
+      "github": "GitHub",
+      "twitter": "Twitter"
     },
-    "tagline": "Dive into endless hours of free streaming entertainment with Vid Binge! Join the binge-watching revolution and explore a world of movies and TV shows—all without a subscription."
+    "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
   },
   "global": {
-    "name": "Vid Binge",
+    "name": "film",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
       "discover": "Discover",
+      "support": "Support",
       "login": "Login",
-      "privacy": "Privacy Policy",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - Vid Binge",
+      "pagetitle": "{{title}} - film",
       "register": "Register",
-      "settings": "Settings"
+      "settings": "Settings",
+      "jip": "Jip"
     }
   },
   "home": {
@@ -159,66 +120,77 @@
       "sectionTitle": "Bookmarks"
     },
     "continueWatching": {
-      "sectionTitle": "Continue Watching"
+      "sectionTitle": "Continue Watching..."
     },
     "mediaList": {
       "stopEditing": "Stop editing"
     },
     "search": {
-      "allResults": "That's all we have!",
+      "allResults": "That's all we have...",
       "failed": "Failed to find media, try again!",
       "loading": "Loading...",
-      "noResults": "We couldn't find anything!",
+      "noResults": "We couldn't find anything :(",
       "placeholder": {
         "default": "What do you want to watch?",
         "extra": [
-          "What do you want to explore?",
-          "What's on your watchlist?",
-          "What's your favorite movie?",
-          "What's your favorite series?"
+          "What are you in the mood for?",
+          "Should we delete your browser history?",
+          "What do you want to stream?",
+          "film.kace.dev is the best site ever!",
+          "What's on your watchlist today?",
+          "How was your day?",
+          "My bad the site never works...",
+          "Isn't film.kace.dev just the best?",
+          ">ᴗ<"
         ]
       },
-      "sectionTitle": "Search results"
+      "empty": {
+        "default": "Welcome, find media to watch here!",
+        "extra": [
+          "There's nothing here :(",
+          "So empty...",
+          "Such emptiness.",
+          "Hi new user :3"
+        ]
+      },
+      "sectionTitle": "Search results",
+      "discoverMore": "Discover more",
+      "discover": "Discover"
     },
     "titles": {
       "day": {
         "default": "What would you like to watch this afternoon?",
-        "extra": [
-          "Viva la Vid Binge!",
-          "Welcome to Vid Binge!",
-          "Can't go wrong with The Big Lebowski!"
-          ]
+        "extra": ["Have you seen Blazing Saddles?"],
+        "extra": ["Welcome to film.kace.dev!"],
+        "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
+        "extra": ["Viva la movie-web!"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
-        "extra": [
-          "Good morning! How about some \"Always Sunny\"?",
-          "I hear The Expanse is popular",
-          "Viva la Vid Binge!"
-        ]
+        "extra": ["Can't go wrong with Friends"],
+        "extra": ["I hear The Expanse is popular"],
+        "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
+        "extra": ["Viva la movie-web!"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
-        "extra": [
-          "Rick & Morty is great with friends!",
-          "The Godfather is a classic!",
-          "Go smoke and watch The Simpsons!",
-          "The Office is always a good choice!",
-          "Viva la Vid Binge!"
-        ]
+        "extra": ["Rick & Morty is great with friends!"],
+        "extra": ["Go smoke and watch The Simpsons!"],
+        "extra": ["(づ ᴗ _ᴗ)づ♡"],
+        "extra": ["Viva la movie-web!"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
         "extra": ["Happy 4/20 🥳!"]
       },
-      "halloween": {
-        "default": "What would you like to watch this Halloween?",
-        "extra": ["Happy Halloween 👻🎃!"]
+      "69": {
+        "default": "Up for something spicy?",
+        "extra": ["Happy 69 day 😘!"]
       }
     }
   },
   "media": {
-    "episodeDisplay": "S{{season}} E{{episode}}",
+    "episodeDisplay": "S{{season}} - E{{episode}}",
     "unreleased": "Unreleased",
     "types": {
       "movie": "Movie",
@@ -227,34 +199,41 @@
   },
   "navigation": {
     "banner": {
-      "offline": "Check your internet connection"
+      "offline": "Check your internet connection, silly goose! 🦢"
     },
     "menu": {
       "about": "About us",
-      "donation": "Donate",
-      "discover": "Discover",
       "logout": "Log out",
       "register": "Sync to cloud",
       "settings": "Settings",
-      "support": "Support"
+      "support": "Support",
+      "discover": "Discover"
     }
   },
   "notFound": {
     "badge": "Not found",
     "goHome": "Back to home",
-    "message": "We looked everywhere: under the bins, in the closet, behind the proxy but ultimately couldn't find the page you are looking for.",
+    "reloadButton": "Try again",
+    "message": "We looked everywhere: under the bins, in the closet, behind the proxy but ultimately couldn't find the page you are looking for. (ಥ﹏ಥ)",
     "title": "Couldn't find that page"
+  },
+  "downtimeNotice": {
+    "badge": "Issues",
+    "goHome": "Go home",
+    "message": "film.kace.dev is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
+    "timeFrame": "<bold>March 31th 11:00 PM - 5:00 AM EST</bold>",
+    "title": "Provider issues"
   },
   "onboarding": {
     "defaultConfirm": {
       "cancel": "Cancel",
       "confirm": "Use default setup",
-      "description": "The default setup does not have the best streams and can be unbearably slow.",
+      "description": "The default setup does not have the best streams and can be unbearably slow. ( ͠° ͟ʖ ͡°)",
       "title": "Are you sure?"
     },
     "extension": {
       "back": "Go back",
-      "explainer": "Using the browser extension, you can get the best streams we have to offer. With just a simple install.",
+      "explainer": "Using the browser extension, you can get the best streams we have to offer. With just a simple install. 👌",
       "explainerIos": "Unfortunately, the browser extension is not supported on iOS, Press <bold>Go back</bold> to choose another option.",
       "extensionHelp": "If you've installed the extension but it's not detected, <bold>open the extension through your browsers extension menu</bold> and follow the steps on screen.",
       "linkChrome": "Install Chrome extension",
@@ -262,7 +241,7 @@
       "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
       "notDetectingAction": "Reload page",
       "status": {
-        "disallowed": "Extension is not enabled for this page",
+        "disallowed": "Extension is not enabled for this page (,,>﹏<,,)",
         "disallowedAction": "Enable extension",
         "failed": "Failed to request status",
         "loading": "Waiting for you to install the extension",
@@ -290,22 +269,22 @@
       "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use.",
       "options": {
         "default": {
-          "text": "I don't want good quality streams,<0 /> <1>use the default setup</1>"
+          "text": "I don't want good quality streams,<0 /> <1>use the default setup ▄︻デ══━一 ʕ•͡-•ʔ</1>"
         },
         "extension": {
           "action": "Install extension",
-          "description": "Install browser extension and gain access to the best sources.",
+          "description": "Install browser extension and gain access to the best sources, but remember to enable it for this site.",
           "quality": "Best quality",
           "title": "Browser extension"
         },
         "proxy": {
           "action": "Setup proxy",
-          "description": "Setup a proxy in just 5 minutes and gain access to great sources.",
+          "description": "Setup a free proxy in just 5 minutes and gain access to great sources...",
           "quality": "Good quality",
           "title": "Custom proxy"
         }
       },
-      "title": "Let's get you setup with Vid Binge"
+      "title": "Let's get you setup with film.kace.dev 🥳"
     }
   },
   "overlays": {
@@ -317,16 +296,15 @@
       "short": "Back"
     },
     "casting": {
-      "enabled": "Casting to device..."
+      "enabled": "Casting to device 🎬"
     },
     "menus": {
       "downloads": {
-        "disclaimer": "Downloads are taken directly from the provider. Vid Binge does not have control over how the downloads are provided.",
+        "disclaimer": "Downloads are taken directly from the provider. film.kace.dev does not have control over how the downloads are provided.",
         "copyHlsPlaylist": "Copy HLS playlist link",
         "downloadSubtitle": "Download current subtitle",
         "downloadVideo": "Download video",
-        "downloadHlsAsVideo": "Download HLS as video",
-        "hlsDisclaimer": "Downloads are direct from the provider; Vid Binge cannot control them. <br> <br> You're downloading an HLS playlist, which is for advanced users. Try different sources for other formats.<br /><br />You may also try our HLS to Video downloader tool, but it may not work for some sources.",
+        "hlsDisclaimer": "Downloads are taken directly from the provider. film.kace.dev does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
         "onAndroid": {
           "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
           "shortTitle": "Download / Android",
@@ -346,7 +324,7 @@
       },
       "episodes": {
         "button": "Episodes",
-        "emptyState": "There are no episodes in this season, check back later!",
+        "emptyState": "There are no episodes in this season, check back later (sorry :3)...",
         "episodeBadge": "E{{episode}}",
         "loadingError": "Error loading season",
         "loadingList": "Loading...",
@@ -361,12 +339,11 @@
       "quality": {
         "automaticLabel": "Automatic quality",
         "hint": "You can try <0>switching source</0> to get different quality options.",
-        "iosNoQuality": "Due to Apple-defined limitations, quality selection is not available on iOS for this source. You can try <0>switching to another source</0> to get different quality options.",
+        "iosNoQuality": "Due to Apple-defined (common IOS L) limitations, quality selection is not available on iOS for this source. You can try <0>switching to another source</0> to get different quality options.",
         "title": "Quality"
       },
       "settings": {
         "downloadItem": "Download",
-        "watchParty": "Watch Party",
         "enableSubtitles": "Enable Subtitles",
         "experienceSection": "Viewing experience",
         "playbackItem": "Playback settings",
@@ -378,7 +355,7 @@
       },
       "sources": {
         "failed": {
-          "text": "There was an error while trying to find any videos, please try a different source.",
+          "text": "There was an error while trying to find any videos... Try a different source?",
           "title": "Failed to scrape"
         },
         "noEmbeds": {
@@ -386,8 +363,8 @@
           "title": "No embeds found"
         },
         "noStream": {
-          "text": "This source has no streams for this movie or show.",
-          "title": "No stream"
+          "text": "This source has no streams for this movie or show. /ᐠ - ˕ -マ Ⳋ",
+          "title": "No stream :("
         },
         "title": "Sources",
         "unknownOption": "Unknown"
@@ -396,6 +373,7 @@
         "customChoice": "Drop or upload file",
         "customizeLabel": "Customize",
         "offChoice": "Off",
+        "SourceChoice": "Source Captions",
         "OpenSubtitlesChoice": "OpenSubtitles",
         "settings": {
           "backlink": "Custom subtitles",
@@ -404,7 +382,10 @@
         },
         "title": "Subtitles",
         "unknownLanguage": "Unknown",
-        "dropSubtitleFile": "Drop subtitle file here"
+        "dropSubtitleFile": "Drop subtitle file here! >_<",
+        "scrapeButton": "Scrape subtitles",
+        "empty": "There are no provided subtitles for this.",
+        "notFound": "None of the available options match your query"
       }
     },
     "metadata": {
@@ -414,13 +395,13 @@
       },
       "dmca": {
         "badge": "Removed",
-        "text": "This media is no longer available due to a takedown notice or copyright claim.",
+        "text": "This media is no longer available due to a takedown notice or copyright claim. 😨",
         "title": "Media has been removed"
       },
       "extensionPermission": {
         "badge": "Permission Missing",
         "button": "Use extension",
-        "text": "You have the browser extension, but we need your permission to get started using the extension.",
+        "text": "You have the browser extension, but we need your permission to get started using the extension. (¬_¬)",
         "title": "Configure the extension"
       },
       "failed": {
@@ -432,12 +413,12 @@
       "notFound": {
         "badge": "Not found",
         "homeButton": "Back to home",
-        "text": "We couldn't find the media you requested. Either it's been removed or you tampered with the URL.",
+        "text": "We couldn't find the media you requested. Either it's been removed or you tampered with the URL (naughty, naughty).",
         "title": "Couldn't find that media."
       }
     },
     "nextEpisode": {
-      "cancel": "Cancel",
+      "replay": "Replay",
       "next": "Next episode",
       "nextSeason": "Next season"
     },
@@ -451,19 +432,20 @@
         "errorNotSupported": "The media or media provider object is not supported."
       },
       "homeButton": "Go home",
-      "text": "There was an error trying to play the media. Please try again.",
+      "text": "There was an error trying to play the media 😖. Please try again!",
       "title": "Failed to play video!"
     },
     "scraping": {
       "items": {
         "failure": "Error occurred",
-        "notFound": "Doesn't have the video",
+        "notFound": "Doesn't have the video (╥﹏╥)",
         "pending": "Checking for videos..."
       },
       "notFound": {
         "badge": "Not found",
         "detailsButton": "Show details",
         "homeButton": "Go home",
+        "discoverButton": "Discover more",
         "text": "We have searched through our providers and cannot find the media you are looking for! We do not host the media and have no control over what is available. Please click 'Show details' below for more details.",
         "title": "We couldn't find that"
       },
@@ -472,7 +454,7 @@
         "homeButton": "Go home",
         "enableExtension": "Enable extension",
         "title": "Please enable the extension",
-        "text": "You've installed the Vid Binge extension. To start using it, you need to enable the extension for this site."
+        "text": "You've installed the movie-web extension. To start using it, you need to enable the extension for this site."
       }
     },
     "time": {
@@ -482,16 +464,40 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please verify that you are human by completing the Captcha on the right. This is to keep Vid Binge safe!",
-      "error": "Failed to verify your humanity. Please try again.",
-      "title": "We need to verify that you're human.",
-      "verifyingHumanity": "Verifying your humanity..."
+      "description": "Please prove your humanity by completing the quick challenge, this is to keep film.kace.dev safe.",
+      "error": "Failed to verify your humanity! Please try again.",
+      "title": "Are You a Robot 🤖?",
+      "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "text": "film.kace.dev is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
+    "q1": {
+      "body": "Well, you can join the official <0>kace.dev discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "title": "Where can I get help?"
+    },
+    "q2": {
+      "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
+      "title": "How can I report a bug or issue?"
+    }
+  },
+  "jip": {
+    "title": "Jip",
+    "text": "film.kace.dev didn't fall out of a coconut tree, it was made mostly by a single person (a very epic one at that).",
+    "q1": {
+      "body": "Well, you can join the official <0>kace.dev discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "title": "Where can I get help?"
+    },
+    "q2": {
+      "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
+      "title": "How can I report a bug or issue?"
     }
   },
   "screens": {
     "dmca": {
-      "text": "Welcome to Vid Binge's DMCA contact page! We respect intellectual property rights and want to address any copyright concerns swiftly. If you believe your copyrighted work has been improperly used on our platform, please send a detailed DMCA notice to the email below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation in keeping Vid Binge a place that respects creativity and copyrights.",
-      "title": "DMCA"
+      "text": "Welcome to film.kace.dev's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
+      "title": "DMCA :("
     },
     "loadingApp": "Loading application",
     "loadingUser": "Loading your profile",
@@ -499,11 +505,12 @@
       "logout": "Logout",
       "reset": "Reset custom server",
       "text": "Failed to load your profile",
+      "reload": "Reload",
       "textWithReset": "Failed to load your profile from your custom server, want to reset back to the default server?"
     },
     "migration": {
-      "failed": "Failed to migrate your data.",
-      "inProgress": "Please hold, we are migrating your data. This shouldn't take long."
+      "failed": "Failed to migrate your data. 😿",
+      "inProgress": "Please hold, we are migrating your data. This shouldn't take long..."
     }
   },
   "settings": {
@@ -514,11 +521,16 @@
         "editProfile": "Edit",
         "logoutButton": "Log out"
       },
+      "admin": {
+        "title": "Admin panel",
+        "text": "Utilize tools made for testing film.kace.dev's condition.",
+        "button": "Check it out"
+      },
       "actions": {
         "delete": {
           "button": "Delete account",
           "confirmButton": "Delete account",
-          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost!",
+          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost! ૮₍˶Ó﹏Ò ⑅₎ა",
           "confirmTitle": "Are you sure?",
           "text": "This action is irreversible. All data will be deleted and nothing can be recovered.",
           "title": "Delete account"
@@ -540,7 +552,7 @@
       },
       "register": {
         "cta": "Get started",
-        "text": "Share your watch progress between devices and keep them synced.",
+        "text": "Share your watch progress between devices and keep them synced. ( ̧⸝⸝⍢⸝⸝)ෆ",
         "title": "Sync to the cloud"
       },
       "title": "Account"
@@ -567,9 +579,9 @@
         "doSetup": "Do setup",
         "errorStatus": {
           "description": "It seems that one or more items in this setup need your attention.",
-          "title": "Something needs your attention"
+          "title": "Something needs your attention 😱"
         },
-        "itemError": "There is something wrong with this setting. Go through setup again to fix it.",
+        "itemError": "There is something wrong with this setting. Go through setup again to fix it. (ᴗ_ ᴗ。)",
         "items": {
           "default": "Default setup",
           "extension": "Extension",
@@ -577,7 +589,7 @@
         },
         "redoSetup": "Redo setup",
         "successStatus": {
-          "description": "All things are in place for you to start watching your favourite media.",
+          "description": "All things are in place for you to start watching your favorite media. (๑>◡<๑)",
           "title": "Everything is set up!"
         },
         "unsetStatus": {
@@ -589,7 +601,7 @@
       "workers": {
         "addButton": "Add new worker",
         "description": "To make the application function, all traffic is routed through proxies. Enable this if you want to bring your own workers. <0>Instructions.</0>",
-        "emptyState": "No workers yet, add one below",
+        "emptyState": "No workers yet (｡•́︿•̀｡), add one below",
         "label": "Use custom proxy workers",
         "urlLabel": "Worker URLs",
         "urlPlaceholder": "https://"
@@ -597,11 +609,8 @@
     },
     "preferences": {
       "language": "Application language",
-      "languageDescription": "Language applied to the entire application.",
+      "languageDescription": "Language applied to the entire application, only English has silly stuff 🙁.",
       "thumbnail": "Generate thumbnails",
-      "ads": "Enable Ads",
-      "adsDescription": "Ads help support the platform and keep it free for everyone. Disabling this will remove all ads.",
-      "adsLabel": "Enable Ads",
       "thumbnailDescription": "Most of the time, videos don't have thumbnails. You can enable this setting to generate them on the fly but they can make your video slower.",
       "thumbnailLabel": "Generate thumbnails",
       "autoplay": "Autoplay",
@@ -622,7 +631,7 @@
         "insecure": "Insecure",
         "notLoggedIn": "You are not logged in",
         "secure": "Secure",
-        "title": "App information",
+        "title": "App stats (for nerds) 🤓",
         "unknownVersion": "Unknown",
         "userId": "User ID"
       }
@@ -631,11 +640,11 @@
       "backgroundLabel": "Background opacity",
       "backgroundBlurLabel": "Background blur",
       "colorLabel": "Color",
-      "previewQuote": "The quick brown fox jumps over the lazy dog.",
+      "previewQuote": "Would you rather have a thot daughter or a gay son? 🤔",
       "textSizeLabel": "Text size",
       "title": "Subtitles",
       "textBoldLabel": "Bold text"
     },
-    "unsaved": "You have unsaved changes"
+    "unsaved": "You have unsaved changes... ฅ^•ﻌ•^ฅ"
   }
 }

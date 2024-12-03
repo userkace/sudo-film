@@ -1,37 +1,20 @@
 {
     "about": {
-        "description": "Vid Binge é uma aplicação web que busca na internet por streams. A equipe visa uma abordagem principalmente minimalista para consumir conteúdo.",
+        "description": "sudo-flix é uma aplicação web que busca na internet por streams. A equipe visa uma abordagem principalmente minimalista para consumir conteúdo.",
         "faqTitle": "Perguntas comuns",
         "q1": {
-            "body": "Vid Binge não hospeda nenhum conteúdo. Quando você clica em algo para assistir, a internet é pesquisada pela mídia selecionada (Na tela de carregamento e na aba 'fontes de vídeo' você pode ver qual fonte está usando). A mídia nunca é carregada pelo Vid Binge, tudo é através deste mecanismo de busca.",
+            "body": "sudo-flix não hospeda nenhum conteúdo. Quando você clica em algo para assistir, a internet é pesquisada pela mídia selecionada (Na tela de carregamento e na aba 'fontes de vídeo' você pode ver qual fonte está usando). A mídia nunca é carregada pelo sudo-flix, tudo é através deste mecanismo de busca.",
             "title": "De onde vem o conteúdo?"
         },
         "q2": {
-            "body": "Não é possível solicitar um filme ou série, o Vid Binge não gerencia nenhum conteúdo. Todo o conteúdo é visualizado através de fontes na internet.",
+            "body": "Não é possível solicitar um filme ou série, o sudo-flix não gerencia nenhum conteúdo. Todo o conteúdo é visualizado através de fontes na internet.",
             "title": "Onde posso solicitar um filme ou série?"
         },
         "q3": {
             "body": "Nossos resultados de pesquisa são alimentados pelo The Movie Database (TMDB) e são exibidos independentemente de nossas fontes terem ou não o conteúdo.",
             "title": "Os resultados da pesquisa mostram o filme ou série, por que não consigo reproduzi-lo?"
         },
-        "title": "Sobre o Vid Binge",
-        "contact": "",
-        "q4": {
-            "body": "",
-            "title": ""
-        },
-        "q5": {
-            "title": "",
-            "body": ""
-        },
-        "q6": {
-            "title": "",
-            "body": ""
-        },
-        "q7": {
-            "title": "",
-            "body": ""
-        }
+        "title": "Sobre o sudo-flix"
     },
     "actions": {
         "copied": "Copiado",
@@ -99,30 +82,25 @@
     "footer": {
         "legal": {
             "disclaimer": "Aviso legal",
-            "disclaimerText": "Vid Binge não hospeda nenhum arquivo, apenas fornece links para serviços de terceiros. Questões legais devem ser tratadas com os hosts de arquivos e provedores. Vid Binge não é responsável por quaisquer arquivos de mídia exibidos pelos provedores de vídeo."
+            "disclaimerText": "sudo-flix não hospeda nenhum arquivo, apenas fornece links para serviços de terceiros. Questões legais devem ser tratadas com os hosts de arquivos e provedores. sudo-flix não é responsável por quaisquer arquivos de mídia exibidos pelos provedores de vídeo."
         },
         "links": {
             "discord": "Discord",
             "dmca": "DMCA",
-            "github": "GitHub",
-            "telegram": "",
-            "facebook": "",
-            "instagram": ""
+            "github": "GitHub"
         },
         "tagline": "Assista seus programas e filmes favoritos com este aplicativo de streaming de código aberto."
     },
     "global": {
-        "name": "Vid Binge",
+        "name": "sudo-flix",
         "pages": {
             "about": "Sobre",
             "dmca": "DMCA",
             "login": "Entrar",
             "onboarding": "Configuração",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - sudo-flix",
             "register": "Registrar",
-            "settings": "Configurações",
-            "discover": "",
-            "privacy": ""
+            "settings": "Configurações"
         }
     },
     "home": {
@@ -155,39 +133,19 @@
             "day": {
                 "default": "O que você gostaria de assistir esta tarde?",
                 "extra": [
-                    "Se sentindo aventureiro? Jurassic Park pode ser a escolha perfeita.",
-                    "",
-                    ""
+                    "Se sentindo aventureiro? Jurassic Park pode ser a escolha perfeita."
                 ]
             },
             "morning": {
                 "default": "O que você gostaria de assistir esta manhã?",
                 "extra": [
-                    "Ouvi dizer que Antes do Amanhecer é bom",
-                    "",
-                    ""
+                    "Ouvi dizer que Antes do Amanhecer é bom"
                 ]
             },
             "night": {
                 "default": "O que você gostaria de assistir esta noite?",
                 "extra": [
-                    "Cansado? Ouvi dizer que O Exorcista é bom.",
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            "420": {
-                "default": "",
-                "extra": [
-                    ""
-                ]
-            },
-            "halloween": {
-                "default": "",
-                "extra": [
-                    ""
+                    "Cansado? Ouvi dizer que O Exorcista é bom."
                 ]
             }
         }
@@ -206,12 +164,10 @@
         },
         "menu": {
             "about": "Sobre nós",
-            "donation": "Doar",
             "logout": "Sair",
             "register": "Sincronizar com a nuvem",
             "settings": "Configurações",
-            "support": "Suporte",
-            "discover": ""
+            "support": "Suporte"
         }
     },
     "notFound": {
@@ -280,7 +236,7 @@
                     "title": "Proxy personalizado"
                 }
             },
-            "title": "Vamos juntos configurar o Vid Binge"
+            "title": "Vamos juntos configurar o sudo-flix"
         }
     },
     "overlays": {
@@ -297,10 +253,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Copiar link da playlist HLS",
-                "disclaimer": "Os downloads são feitos diretamente do provedor. Vid Binge não tem controle sobre como os downloads são fornecidos.",
+                "disclaimer": "Os downloads são feitos diretamente do provedor. sudo-flix não tem controle sobre como os downloads são fornecidos.",
                 "downloadSubtitle": "Baixar legenda atual",
                 "downloadVideo": "Baixar vídeo",
-                "hlsDisclaimer": "Os downloads são feitos diretamente do provedor. Vid Binge não tem controle sobre como os downloads são fornecidos.<br /><br />Por favor, note que você está baixando uma playlist HLS, <bold>isso é destinado para usuários familiarizados com streaming multimídia avançado.</bold>. Experimente outras fontes para formatos diferentes.",
+                "hlsDisclaimer": "Os downloads são feitos diretamente do provedor. sudo-flix não tem controle sobre como os downloads são fornecidos.<br /><br />Por favor, note que você está baixando uma playlist HLS, <bold>isso é destinado para usuários familiarizados com streaming multimídia avançado.</bold>. Experimente outras fontes para formatos diferentes.",
                 "onAndroid": {
                     "1": "Para baixar no Android, clique no botão de download e, na nova página, <bold>toque e segure</bold> no vídeo, depois selecione <bold>salvar</bold>.",
                     "shortTitle": "Baixar / Android",
@@ -316,8 +272,7 @@
                     "shortTitle": "Baixar / PC",
                     "title": "Baixando no PC"
                 },
-                "title": "Baixar",
-                "downloadHlsAsVideo": ""
+                "title": "Baixar"
             },
             "episodes": {
                 "button": "Episódios",
@@ -326,8 +281,7 @@
                 "loadingError": "Erro ao carregar temporada",
                 "loadingList": "Carregando...",
                 "loadingTitle": "Carregando...",
-                "unairedEpisodes": "Um ou mais episódios nesta temporada foram desabilitados porque ainda não foram ao ar.",
-                "seasons": ""
+                "unairedEpisodes": "Um ou mais episódios nesta temporada foram desabilitados porque ainda não foram ao ar."
             },
             "playback": {
                 "speedLabel": "Velocidade de reprodução",
@@ -348,8 +302,7 @@
                 "qualityItem": "Qualidade",
                 "sourceItem": "Fontes de vídeo",
                 "subtitleItem": "Configurações de legenda",
-                "videoSection": "Configurações de vídeo",
-                "watchParty": ""
+                "videoSection": "Configurações de vídeo"
             },
             "sources": {
                 "failed": {
@@ -378,8 +331,7 @@
                     "fixCapitals": "Corrigir letras maiúsculas"
                 },
                 "title": "Legendas",
-                "unknownLanguage": "Desconhecido",
-                "OpenSubtitlesChoice": ""
+                "unknownLanguage": "Desconhecido"
             }
         },
         "metadata": {
@@ -413,8 +365,7 @@
         },
         "nextEpisode": {
             "cancel": "Cancelar",
-            "next": "Próximo episódio",
-            "nextSeason": ""
+            "next": "Próximo episódio"
         },
         "playbackError": {
             "badge": "Erro de reprodução",
@@ -434,7 +385,7 @@
                 "badge": "Extensão desativada",
                 "enableExtension": "Ativar extensão",
                 "homeButton": "Ir para o início",
-                "text": "Você instalou a extensão Vid Binge. Para começar a usá-la, você precisa ativar a extensão neste site.",
+                "text": "Você instalou a extensão sudo-flix. Para começar a usá-la, você precisa ativar a extensão neste site.",
                 "title": "Por favor, ative a extensão"
             },
             "items": {
@@ -457,7 +408,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Por favor, confirme que você é um humano completando o Captcha à direita. Isso é para manter Vid Binge seguro!",
+            "description": "Por favor, confirme que você é um humano completando o Captcha à direita. Isso é para manter sudo-flix seguro!",
             "error": "Falha ao verificar sua humanidade. Por favor, tente novamente.",
             "title": "Precisamos verificar se você é humano.",
             "verifyingHumanity": "Verificando sua humanidade..."
@@ -465,7 +416,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Bem-vindo à página de contato do DMCA do Vid Binge! Respeitamos os direitos de propriedade intelectual e queremos resolver quaisquer preocupações com direitos autorais rapidamente. Se você acredita que seu trabalho protegido por direitos autorais foi usado indevidamente em nossa plataforma, envie um aviso detalhado de DMCA para o e-mail abaixo. Inclua uma descrição do material protegido por direitos autorais, seus detalhes de contato e uma declaração de crença de boa fé. Estamos comprometidos em resolver essas questões prontamente e agradecemos sua cooperação em manter o Vid Binge um lugar que respeita a criatividade e os direitos autorais.",
+            "text": "Bem-vindo à página de contato do DMCA do sudo-flix! Respeitamos os direitos de propriedade intelectual e queremos resolver quaisquer preocupações com direitos autorais rapidamente. Se você acredita que seu trabalho protegido por direitos autorais foi usado indevidamente em nossa plataforma, envie um aviso detalhado de DMCA para o e-mail abaixo. Inclua uma descrição do material protegido por direitos autorais, seus detalhes de contato e uma declaração de crença de boa fé. Estamos comprometidos em resolver essas questões prontamente e agradecemos sua cooperação em manter o sudo-flix um lugar que respeita a criatividade e os direitos autorais.",
             "title": "DMCA"
         },
         "loadingApp": "Carregando aplicativo",
@@ -527,8 +478,7 @@
                 "default": "Padrão",
                 "gray": "Cinza",
                 "red": "Vermelho",
-                "teal": "Verde-azulado",
-                "blck": ""
+                "teal": "Verde-azulado"
             },
             "title": "Aparência"
         },
@@ -576,15 +526,7 @@
             "thumbnail": "Gerar miniaturas",
             "thumbnailDescription": "Na maior parte do tempo, os vídeos não possuem miniaturas. Você pode ativar esta configuração para gerá-las dinamicamente, mas elas podem tornar seu vídeo mais lento.",
             "thumbnailLabel": "Gerar miniaturas",
-            "title": "Preferências",
-            "ads": "",
-            "adsDescription": "",
-            "adsLabel": "",
-            "autoplay": "",
-            "autoplayDescription": "",
-            "autoplayLabel": "",
-            "sourceOrder": "",
-            "sourceOrderDescription": ""
+            "title": "Preferências"
         },
         "reset": "Redefinir",
         "save": "Salvar",
@@ -608,38 +550,8 @@
             "colorLabel": "Cor",
             "previewQuote": "Eu não devo ter medo. Medo é o assassino da mente.",
             "textSizeLabel": "Tamanho do texto",
-            "title": "Legendas",
-            "textBoldLabel": ""
+            "title": "Legendas"
         },
         "unsaved": "Você tem alterações não salvas"
-    },
-    "privacy": {
-        "description": "",
-        "lastUpdated": "",
-        "p1": {
-            "body": "",
-            "title": ""
-        },
-        "p2": {
-            "body": "",
-            "title": ""
-        },
-        "p3": {
-            "body": "",
-            "title": ""
-        },
-        "p4": {
-            "body": "",
-            "title": ""
-        },
-        "p5": {
-            "title": "",
-            "body": ""
-        },
-        "p6": {
-            "title": "",
-            "body": ""
-        },
-        "title": ""
     }
 }

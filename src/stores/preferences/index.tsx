@@ -15,7 +15,7 @@ export interface PreferencesStore {
 export const usePreferencesStore = create(
   persist(
     immer<PreferencesStore>((set) => ({
-      enableThumbnails: true,
+      enableThumbnails: false,
       enableAutoplay: true,
       sourceOrder: [],
       setEnableThumbnails(v) {

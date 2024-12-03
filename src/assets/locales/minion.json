@@ -14,24 +14,7 @@
             "body": "Our banana results are banana by The Banana Banana (TBMB) and banana regardless of whether our bananas actually have the banana.",
             "title": "The banana results banana the banana or banana, banana can't I banana it?"
         },
-        "title": "About Minion-web",
-        "contact": "",
-        "q4": {
-            "body": "",
-            "title": ""
-        },
-        "q5": {
-            "title": "",
-            "body": ""
-        },
-        "q6": {
-            "title": "",
-            "body": ""
-        },
-        "q7": {
-            "title": "",
-            "body": ""
-        }
+        "title": "About Minion-web"
     },
     "actions": {
         "copied": "Banana",
@@ -75,9 +58,7 @@
             "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making a banana account",
             "no": "Go back, banana",
             "title": "Do you trust this server?",
-            "yes": "I trust this server, banana!",
-            "noHostTitle": "",
-            "noHost": ""
+            "yes": "I trust this server, banana!"
         },
         "verify": {
             "description": "Please enter your banana passphrase from earlier to confirm you have saved it and to create your banana account",
@@ -104,10 +85,7 @@
         "links": {
             "discord": "Banana",
             "dmca": "Banana",
-            "github": "Banana",
-            "telegram": "",
-            "facebook": "",
-            "instagram": ""
+            "github": "Banana"
         },
         "tagline": "Banana your favourite bananas and bananas with this open source banana app."
     },
@@ -119,10 +97,7 @@
             "login": "Banana Login",
             "pagetitle": "{{title}} - banana-web",
             "register": "Banana Register",
-            "settings": "Banana Settings",
-            "discover": "",
-            "privacy": "",
-            "onboarding": ""
+            "settings": "Banana Settings"
         }
     },
     "home": {
@@ -141,13 +116,7 @@
             "loading": "Loading...",
             "noResults": "We couldn't banana anything!",
             "placeholder": {
-                "default": "Banana do you want to banana?",
-                "extra": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
+                "default": "Banana do you want to banana?"
             },
             "sectionTitle": "Banana results"
         },
@@ -155,39 +124,19 @@
             "day": {
                 "default": "What would you like to banana this banana?",
                 "extra": [
-                    "Feeling banana? Jurassic banana banana banana banana perfect banana.",
-                    "",
-                    ""
+                    "Feeling banana? Jurassic banana banana banana banana perfect banana."
                 ]
             },
             "morning": {
                 "default": "What would you like to banana this banana?",
                 "extra": [
-                    "Banana! I hear Banana Sunrise is banana",
-                    "",
-                    ""
+                    "Banana! I hear Banana Sunrise is banana"
                 ]
             },
             "night": {
                 "default": "What would you like to banana banana?",
                 "extra": [
-                    "Banana? I hear The Banana is banana.",
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            "420": {
-                "default": "",
-                "extra": [
-                    ""
-                ]
-            },
-            "halloween": {
-                "default": "",
-                "extra": [
-                    ""
+                    "Banana? I hear The Banana is banana."
                 ]
             }
         }
@@ -197,8 +146,7 @@
         "types": {
             "movie": "Banana Movie",
             "show": "Banana Show"
-        },
-        "unreleased": ""
+        }
     },
     "navigation": {
         "banner": {
@@ -206,12 +154,10 @@
         },
         "menu": {
             "about": "Banana us",
-            "donation": "Banana",
             "logout": "Banana out",
             "register": "Banana to banana",
             "settings": "Banana",
-            "support": "Banana",
-            "discover": ""
+            "support": "Banana"
         }
     },
     "notFound": {
@@ -252,9 +198,7 @@
                     "shortTitle": "Banana / PC",
                     "title": "Banana"
                 },
-                "title": "Banana",
-                "copyHlsPlaylist": "",
-                "downloadHlsAsVideo": ""
+                "title": "Banana"
             },
             "episodes": {
                 "button": "Banana",
@@ -263,8 +207,7 @@
                 "loadingError": "Error loading banana",
                 "loadingList": "Loading...",
                 "loadingTitle": "Loading...",
-                "unairedEpisodes": "One or more banana in this banana have been banana because they haven't been aired yet.",
-                "seasons": ""
+                "unairedEpisodes": "One or more banana in this banana have been banana because they haven't been aired yet."
             },
             "playback": {
                 "speedLabel": "Banana speed",
@@ -284,9 +227,7 @@
                 "qualityItem": "Banana",
                 "sourceItem": "Banana sources",
                 "subtitleItem": "Banana settings",
-                "videoSection": "Banana Video settings",
-                "audioItem": "",
-                "watchParty": ""
+                "videoSection": "Banana Video settings"
             },
             "sources": {
                 "failed": {
@@ -314,9 +255,7 @@
                     "fixCapitals": "Fix bananas"
                 },
                 "title": "Bananas",
-                "unknownLanguage": "Whaat? Unknown banana!",
-                "OpenSubtitlesChoice": "",
-                "dropSubtitleFile": ""
+                "unknownLanguage": "Whaat? Unknown banana!"
             }
         },
         "metadata": {
@@ -335,23 +274,11 @@
                 "homeButton": "Back to banana",
                 "text": "We couldn't find the banana you requested. Either it's been banana or you tampered with the banana.",
                 "title": "Couldn't find that banana."
-            },
-            "dmca": {
-                "badge": "",
-                "text": "",
-                "title": ""
-            },
-            "extensionPermission": {
-                "badge": "",
-                "button": "",
-                "text": "",
-                "title": ""
             }
         },
         "nextEpisode": {
             "cancel": "Banana",
-            "next": "Next banana",
-            "nextSeason": ""
+            "next": "Next banana"
         },
         "playbackError": {
             "badge": "Banana Playback error",
@@ -378,13 +305,6 @@
                 "homeButton": "Go home",
                 "text": "We have searched through our banana providers and cannot find the banana you are looking for! We do not host the banana and have no control over what is available. Please click 'Show details' below for more details.",
                 "title": "We couldn't find that banana"
-            },
-            "extensionFailure": {
-                "badge": "",
-                "homeButton": "",
-                "enableExtension": "",
-                "title": "",
-                "text": ""
             }
         },
         "time": {
@@ -464,8 +384,7 @@
                 "default": "Banana",
                 "gray": "Banana",
                 "red": "Banana",
-                "teal": "Banana",
-                "blck": ""
+                "teal": "Banana"
             },
             "title": "Banana"
         },
@@ -483,28 +402,6 @@
                 "label": "Banana custom banana workers",
                 "urlLabel": "Banana URLs",
                 "urlPlaceholder": "banana://"
-            },
-            "setup": {
-                "itemError": "",
-                "doSetup": "",
-                "errorStatus": {
-                    "description": "",
-                    "title": ""
-                },
-                "items": {
-                    "default": "",
-                    "extension": "",
-                    "proxy": ""
-                },
-                "redoSetup": "",
-                "successStatus": {
-                    "description": "",
-                    "title": ""
-                },
-                "unsetStatus": {
-                    "description": "",
-                    "title": ""
-                }
             }
         },
         "reset": "Banana",
@@ -528,118 +425,8 @@
             "colorLabel": "Banana",
             "previewQuote": "I must not banana. Banana is the minion-killer.",
             "textSizeLabel": "Banana size",
-            "title": "Bananas",
-            "textBoldLabel": "",
-            "backgroundBlurLabel": ""
+            "title": "Bananas"
         },
-        "unsaved": "Whaaat? You have unsaved bananas",
-        "preferences": {
-            "ads": "",
-            "adsDescription": "",
-            "adsLabel": "",
-            "thumbnailDescription": "",
-            "autoplay": "",
-            "autoplayDescription": "",
-            "autoplayLabel": "",
-            "sourceOrder": "",
-            "sourceOrderDescription": "",
-            "title": "",
-            "thumbnailLabel": "",
-            "language": "",
-            "languageDescription": "",
-            "thumbnail": ""
-        }
-    },
-    "privacy": {
-        "description": "",
-        "lastUpdated": "",
-        "p1": {
-            "body": "",
-            "title": ""
-        },
-        "p2": {
-            "body": "",
-            "title": ""
-        },
-        "p3": {
-            "body": "",
-            "title": ""
-        },
-        "p4": {
-            "body": "",
-            "title": ""
-        },
-        "p5": {
-            "title": "",
-            "body": ""
-        },
-        "p6": {
-            "title": "",
-            "body": ""
-        },
-        "title": ""
-    },
-    "onboarding": {
-        "defaultConfirm": {
-            "cancel": "",
-            "confirm": "",
-            "description": "",
-            "title": ""
-        },
-        "extension": {
-            "back": "",
-            "explainer": "",
-            "explainerIos": "",
-            "extensionHelp": "",
-            "linkChrome": "",
-            "linkFirefox": "",
-            "notDetecting": "",
-            "notDetectingAction": "",
-            "status": {
-                "disallowed": "",
-                "disallowedAction": "",
-                "failed": "",
-                "loading": "",
-                "outdated": "",
-                "success": ""
-            },
-            "submit": "",
-            "title": ""
-        },
-        "proxy": {
-            "back": "",
-            "explainer": "",
-            "input": {
-                "errorConnection": "",
-                "errorInvalidUrl": "",
-                "errorNotProxy": "",
-                "label": "",
-                "placeholder": ""
-            },
-            "link": "",
-            "submit": "",
-            "title": ""
-        },
-        "start": {
-            "explainer": "",
-            "options": {
-                "default": {
-                    "text": ""
-                },
-                "extension": {
-                    "action": "",
-                    "description": "",
-                    "quality": "",
-                    "title": ""
-                },
-                "proxy": {
-                    "action": "",
-                    "description": "",
-                    "quality": "",
-                    "title": ""
-                }
-            },
-            "title": ""
-        }
+        "unsaved": "Whaaat? You have unsaved bananas"
     }
 }

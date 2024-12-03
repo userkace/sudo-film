@@ -14,24 +14,7 @@
             "body": "আমাদের অনুসন্ধানের ফলাফলগুলি The Movie Database (TMDB) দ্বারা চালিত হয় এবং আমাদের উত্সগুলিতে প্রকৃতপক্ষে সামগ্রী আছে কিনা তা নির্বিশেষে প্রদর্শন করা হয়।",
             "title": "সার্চ রেজাল্টে শো বা মুভি দেখায়, কেন আমি এটা চালাতে পারি না?"
         },
-        "title": "মুভি-ওয়েব সম্পর্কে",
-        "contact": "",
-        "q4": {
-            "body": "",
-            "title": ""
-        },
-        "q5": {
-            "title": "",
-            "body": ""
-        },
-        "q6": {
-            "title": "",
-            "body": ""
-        },
-        "q7": {
-            "title": "",
-            "body": ""
-        }
+        "title": "মুভি-ওয়েব সম্পর্কে"
     },
     "actions": {
         "copied": "অনুলিপি করা",
@@ -75,9 +58,7 @@
             "host": "আপনি <0>{{hostname}}</0>-এর সাথে সংযোগ করছেন - একটি অ্যাকাউন্ট করার আগে দয়া করে নিশ্চিত করুন যে আপনি এটি বিশ্বাস করেন",
             "no": "ফিরে যাও",
             "title": "আপনি এই সার্ভার বিশ্বাস করেন?",
-            "yes": "আমি এই সার্ভার বিশ্বাস",
-            "noHostTitle": "",
-            "noHost": ""
+            "yes": "আমি এই সার্ভার বিশ্বাস"
         },
         "verify": {
             "description": "আপনি এটি সংরক্ষণ করেছেন তা নিশ্চিত করতে এবং আপনার অ্যাকাউন্ট তৈরি করতে অনুগ্রহ করে আগে থেকে আপনার পাসফ্রেজ লিখুন",
@@ -104,10 +85,7 @@
         "links": {
             "discord": "বিরোধ",
             "dmca": "ডিএমসিএ",
-            "github": "গিটহাব",
-            "telegram": "",
-            "facebook": "",
-            "instagram": ""
+            "github": "গিটহাব"
         },
         "tagline": "এই ওপেন সোর্স স্ট্রিমিং অ্যাপের মাধ্যমে আপনার প্রিয় শো এবং সিনেমা দেখুন।"
     },
@@ -119,10 +97,7 @@
             "login": "প্রবেশ করুন",
             "pagetitle": "{{title}} - মুভি-ওয়েব",
             "register": "নিবন্ধন",
-            "settings": "সেটিংস",
-            "discover": "",
-            "privacy": "",
-            "onboarding": ""
+            "settings": "সেটিংস"
         }
     },
     "home": {
@@ -141,13 +116,7 @@
             "loading": "লোড হচ্ছে..।",
             "noResults": "আমরা কিছুই খুঁজে পাইনি!",
             "placeholder": {
-                "default": "আপনি কি দেখতে চান?",
-                "extra": [
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
+                "default": "আপনি কি দেখতে চান?"
             },
             "sectionTitle": "অনুসন্ধান ফলাফল"
         },
@@ -155,39 +124,19 @@
             "day": {
                 "default": "আপনি এই বিকেলে কি দেখতে চান?",
                 "extra": [
-                    "দুঃসাহসিক বোধ করছেন? জুরাসিক পার্ক নিখুঁত পছন্দ হতে পারে।",
-                    "",
-                    ""
+                    "দুঃসাহসিক বোধ করছেন? জুরাসিক পার্ক নিখুঁত পছন্দ হতে পারে।"
                 ]
             },
             "morning": {
                 "default": "আপনি এই সকালে কি দেখতে চান?",
                 "extra": [
-                    "শুনি সূর্যোদয়ের আগে ভালো",
-                    "",
-                    ""
+                    "শুনি সূর্যোদয়ের আগে ভালো"
                 ]
             },
             "night": {
                 "default": "আপনি আজ রাতে কি দেখতে চান?",
                 "extra": [
-                    "ক্লান্ত? আমি শুনেছি দ্য এক্সরসিস্ট ভাল।",
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            "420": {
-                "default": "",
-                "extra": [
-                    ""
-                ]
-            },
-            "halloween": {
-                "default": "",
-                "extra": [
-                    ""
+                    "ক্লান্ত? আমি শুনেছি দ্য এক্সরসিস্ট ভাল।"
                 ]
             }
         }
@@ -197,8 +146,7 @@
         "types": {
             "movie": "সিনেমা",
             "show": "দেখান"
-        },
-        "unreleased": ""
+        }
     },
     "navigation": {
         "banner": {
@@ -206,12 +154,10 @@
         },
         "menu": {
             "about": "আমাদের সম্পর্কে",
-            "donation": "দান করুন",
             "logout": "প্রস্থান",
             "register": "ক্লাউডে সিঙ্ক করুন",
             "settings": "সেটিংস",
-            "support": "সমর্থন",
-            "discover": ""
+            "support": "সমর্থন"
         }
     },
     "notFound": {
@@ -252,9 +198,7 @@
                     "shortTitle": "ডাউনলোড/পিসি",
                     "title": "পিসিতে ডাউনলোড হচ্ছে"
                 },
-                "title": "ডাউনলোড করুন",
-                "copyHlsPlaylist": "",
-                "downloadHlsAsVideo": ""
+                "title": "ডাউনলোড করুন"
             },
             "episodes": {
                 "button": "পর্বগুলি",
@@ -263,8 +207,7 @@
                 "loadingError": "ঋতু লোড করার সময় ত্রুটি৷",
                 "loadingList": "লোড হচ্ছে..।",
                 "loadingTitle": "লোড হচ্ছে..।",
-                "unairedEpisodes": "এই সিজনের এক বা একাধিক পর্ব অক্ষম করা হয়েছে কারণ সেগুলি এখনও সম্প্রচার করা হয়নি।",
-                "seasons": ""
+                "unairedEpisodes": "এই সিজনের এক বা একাধিক পর্ব অক্ষম করা হয়েছে কারণ সেগুলি এখনও সম্প্রচার করা হয়নি।"
             },
             "playback": {
                 "speedLabel": "প্লেব্যাক গতি",
@@ -284,9 +227,7 @@
                 "qualityItem": "গুণমান",
                 "sourceItem": "ভিডিও সূত্র",
                 "subtitleItem": "সাবটাইটেল সক্রিয় করুন",
-                "videoSection": "ভিডিও সেটিংস",
-                "audioItem": "",
-                "watchParty": ""
+                "videoSection": "ভিডিও সেটিংস"
             },
             "sources": {
                 "failed": {
@@ -314,9 +255,7 @@
                     "fixCapitals": "মূলধন ঠিক করুন"
                 },
                 "title": "সাবটাইটেল",
-                "unknownLanguage": "অজানা",
-                "OpenSubtitlesChoice": "",
-                "dropSubtitleFile": ""
+                "unknownLanguage": "অজানা"
             }
         },
         "metadata": {
@@ -333,19 +272,7 @@
             "notFound": {
                 "badge": "পাওয়া যায়নি",
                 "homeButton": "বাড়িতে ফিরে যাও",
-                "text": "আপনার অনুরোধ করা মিডিয়া আমরা খুঁজে পাইনি। হয় এটি সরানো হয়েছে অথবা আপনি URL-এর সাথে হেরফের করেছেন।",
-                "title": ""
-            },
-            "dmca": {
-                "badge": "",
-                "text": "",
-                "title": ""
-            },
-            "extensionPermission": {
-                "badge": "",
-                "button": "",
-                "text": "",
-                "title": ""
+                "text": "আপনার অনুরোধ করা মিডিয়া আমরা খুঁজে পাইনি। হয় এটি সরানো হয়েছে অথবা আপনি URL-এর সাথে হেরফের করেছেন।"
             }
         },
         "turnstile": {
@@ -353,293 +280,6 @@
             "error": "আপনার মানবতা যাচাই করতে ব্যর্থ হয়েছে. অনুগ্রহপূর্বক আবার চেষ্টা করুন।",
             "title": "আপনি যে মানুষ তা আমাদের যাচাই করতে হবে।",
             "verifyingHumanity": "আপনার মানবতা যাচাই করা হচ্ছে..।"
-        },
-        "nextEpisode": {
-            "cancel": "",
-            "next": "",
-            "nextSeason": ""
-        },
-        "playbackError": {
-            "badge": "",
-            "errors": {
-                "errorAborted": "",
-                "errorDecode": "",
-                "errorGenericMedia": "",
-                "errorNetwork": "",
-                "errorNotSupported": ""
-            },
-            "homeButton": "",
-            "text": "",
-            "title": ""
-        },
-        "scraping": {
-            "items": {
-                "failure": "",
-                "notFound": "",
-                "pending": ""
-            },
-            "notFound": {
-                "badge": "",
-                "detailsButton": "",
-                "homeButton": "",
-                "text": "",
-                "title": ""
-            },
-            "extensionFailure": {
-                "badge": "",
-                "homeButton": "",
-                "enableExtension": "",
-                "title": "",
-                "text": ""
-            }
-        },
-        "time": {
-            "regular": "",
-            "remaining": "",
-            "shortRegular": "",
-            "shortRemaining": ""
-        }
-    },
-    "settings": {
-        "subtitles": {
-            "previewQuote": "",
-            "textBoldLabel": "",
-            "backgroundLabel": "",
-            "backgroundBlurLabel": "",
-            "colorLabel": "",
-            "textSizeLabel": "",
-            "title": ""
-        },
-        "preferences": {
-            "autoplay": "",
-            "ads": "",
-            "adsDescription": "",
-            "adsLabel": "",
-            "thumbnailDescription": "",
-            "autoplayDescription": "",
-            "sourceOrder": "",
-            "sourceOrderDescription": "",
-            "language": "",
-            "languageDescription": "",
-            "thumbnail": "",
-            "thumbnailLabel": "",
-            "autoplayLabel": "",
-            "title": ""
-        },
-        "reset": "",
-        "save": "",
-        "sidebar": {
-            "info": {
-                "appVersion": "",
-                "backendUrl": "",
-                "backendVersion": "",
-                "hostname": "",
-                "insecure": "",
-                "notLoggedIn": "",
-                "secure": "",
-                "title": "",
-                "unknownVersion": "",
-                "userId": ""
-            }
-        },
-        "unsaved": "",
-        "account": {
-            "accountDetails": {
-                "deviceNameLabel": "",
-                "deviceNamePlaceholder": "",
-                "editProfile": "",
-                "logoutButton": ""
-            },
-            "actions": {
-                "delete": {
-                    "button": "",
-                    "confirmButton": "",
-                    "confirmDescription": "",
-                    "confirmTitle": "",
-                    "text": "",
-                    "title": ""
-                },
-                "title": ""
-            },
-            "devices": {
-                "deviceNameLabel": "",
-                "failed": "",
-                "removeDevice": "",
-                "title": ""
-            },
-            "profile": {
-                "finish": "",
-                "firstColor": "",
-                "secondColor": "",
-                "title": "",
-                "userIcon": ""
-            },
-            "register": {
-                "cta": "",
-                "text": "",
-                "title": ""
-            },
-            "title": ""
-        },
-        "appearance": {
-            "activeTheme": "",
-            "themes": {
-                "blue": "",
-                "default": "",
-                "gray": "",
-                "red": "",
-                "teal": "",
-                "blck": ""
-            },
-            "title": ""
-        },
-        "connections": {
-            "server": {
-                "description": "",
-                "label": "",
-                "urlLabel": ""
-            },
-            "setup": {
-                "doSetup": "",
-                "errorStatus": {
-                    "description": "",
-                    "title": ""
-                },
-                "itemError": "",
-                "items": {
-                    "default": "",
-                    "extension": "",
-                    "proxy": ""
-                },
-                "redoSetup": "",
-                "successStatus": {
-                    "description": "",
-                    "title": ""
-                },
-                "unsetStatus": {
-                    "description": "",
-                    "title": ""
-                }
-            },
-            "title": "",
-            "workers": {
-                "addButton": "",
-                "description": "",
-                "emptyState": "",
-                "label": "",
-                "urlLabel": "",
-                "urlPlaceholder": ""
-            }
-        }
-    },
-    "privacy": {
-        "description": "",
-        "lastUpdated": "",
-        "p1": {
-            "body": "",
-            "title": ""
-        },
-        "p2": {
-            "body": "",
-            "title": ""
-        },
-        "p3": {
-            "body": "",
-            "title": ""
-        },
-        "p4": {
-            "body": "",
-            "title": ""
-        },
-        "p5": {
-            "title": "",
-            "body": ""
-        },
-        "p6": {
-            "title": "",
-            "body": ""
-        },
-        "title": ""
-    },
-    "onboarding": {
-        "defaultConfirm": {
-            "cancel": "",
-            "confirm": "",
-            "description": "",
-            "title": ""
-        },
-        "extension": {
-            "back": "",
-            "explainer": "",
-            "explainerIos": "",
-            "extensionHelp": "",
-            "linkChrome": "",
-            "linkFirefox": "",
-            "notDetecting": "",
-            "notDetectingAction": "",
-            "status": {
-                "disallowed": "",
-                "disallowedAction": "",
-                "failed": "",
-                "loading": "",
-                "outdated": "",
-                "success": ""
-            },
-            "submit": "",
-            "title": ""
-        },
-        "proxy": {
-            "back": "",
-            "explainer": "",
-            "input": {
-                "errorConnection": "",
-                "errorInvalidUrl": "",
-                "errorNotProxy": "",
-                "label": "",
-                "placeholder": ""
-            },
-            "link": "",
-            "submit": "",
-            "title": ""
-        },
-        "start": {
-            "explainer": "",
-            "options": {
-                "default": {
-                    "text": ""
-                },
-                "extension": {
-                    "action": "",
-                    "description": "",
-                    "quality": "",
-                    "title": ""
-                },
-                "proxy": {
-                    "action": "",
-                    "description": "",
-                    "quality": "",
-                    "title": ""
-                }
-            },
-            "title": ""
-        }
-    },
-    "screens": {
-        "dmca": {
-            "title": "",
-            "text": ""
-        },
-        "loadingApp": "",
-        "loadingUser": "",
-        "loadingUserError": {
-            "logout": "",
-            "reset": "",
-            "text": "",
-            "textWithReset": ""
-        },
-        "migration": {
-            "failed": "",
-            "inProgress": ""
         }
     }
 }

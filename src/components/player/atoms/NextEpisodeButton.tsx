@@ -23,7 +23,7 @@ function shouldShowNextEpisodeButton(
   const percentage = time / duration;
   const secondsFromEnd = duration - time;
   if (secondsFromEnd <= 30) return "always";
-  if (percentage >= 0.9) return "hover";
+  if (percentage >= 0.93) return "hover";
   return "none";
 }
 
@@ -99,7 +99,6 @@ export function NextEpisodeButton(props: {
   const isHidden = usePlayerStore((s) => s.interface.hideNextEpisodeBtn);
   const meta = usePlayerStore((s) => s.meta);
   const { setDirectMeta } = usePlayerMeta();
-  const hideNextEpisodeButton = usePlayerStore((s) => s.hideNextEpisodeButton);
   const metaType = usePlayerStore((s) => s.meta?.type);
   const time = usePlayerStore((s) => s.progress.time);
   const showingState = shouldShowNextEpisodeButton(time, duration);
@@ -172,6 +171,19 @@ export function NextEpisodeButton(props: {
     nextSeason,
   ]);
 
+  const startCurrentEpisodeFromBeginning = useCallback(() => {
+    if (!meta || !meta.episode) return;
+    const metaCopy = { ...meta };
+    setShouldStartFromBeginning(true);
+    setDirectMeta(metaCopy);
+    props.onChange?.(metaCopy);
+    const defaultProgress = { duration: 0, watched: 0 };
+    updateItem({
+      meta: metaCopy,
+      progress: defaultProgress,
+    });
+  }, [setDirectMeta, meta, props, setShouldStartFromBeginning, updateItem]);
+
   useEffect(() => {
     if (!enableAutoplay || metaType !== "show") return;
     const onePercent = duration / 100;
@@ -200,10 +212,10 @@ export function NextEpisodeButton(props: {
         ])}
       >
         <Button
-          className="py-px box-content bg-buttons-secondary hover:bg-buttons-secondaryHover bg-opacity-90 text-buttons-secondaryText"
-          onClick={hideNextEpisodeButton}
+          className="py-px box-content bg-buttons-secondary hover:bg-buttons-secondaryHover bg-opacity-90 text-buttons-secondaryText justify-center items-center"
+          onClick={() => startCurrentEpisodeFromBeginning()}
         >
-          {t("player.nextEpisode.cancel")}
+          {t("player.nextEpisode.replay")}
         </Button>
         <Button
           onClick={() => loadNextEpisode()}

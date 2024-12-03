@@ -66,8 +66,8 @@ function VideoElement() {
   const trackEl = useRef<HTMLTrackElement>(null);
   const display = usePlayerStore((s) => s.display);
   const srtData = usePlayerStore((s) => s.caption.selected?.srtData);
+  const captionAsTrack = usePlayerStore((s) => s.caption.asTrack);
   const language = usePlayerStore((s) => s.caption.selected?.language);
-  const isCasting = usePlayerStore((state) => state.interface.isCasting);
   const trackObjectUrl = useObjectUrl(
     () => (srtData ? convertSubtitlesToObjectUrl(srtData) : null),
     [srtData],
@@ -88,7 +88,7 @@ function VideoElement() {
   }, [trackEl]);
 
   let subtitleTrack: ReactNode = null;
-  if (isCasting && trackObjectUrl && language)
+  if (captionAsTrack && trackObjectUrl && language)
     subtitleTrack = (
       <track
         label="movie-web"
@@ -101,7 +101,6 @@ function VideoElement() {
 
   return (
     <video
-      id="video-element"
       className="absolute inset-0 w-full h-screen bg-black"
       autoPlay
       playsInline

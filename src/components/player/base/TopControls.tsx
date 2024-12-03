@@ -44,7 +44,7 @@ export function TopControls(props: {
         <Transition
           animation="slide-down"
           show={props.show}
-          className="top-content text-white"
+          className="text-white"
         >
           {props.children}
         </Transition>

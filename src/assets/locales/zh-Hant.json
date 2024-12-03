@@ -1,37 +1,20 @@
 {
     "about": {
-        "description": "Vid Binge 是一款在互聯網上搜尋串流媒體的網路應用程式。團隊致力於讓使用者以最簡約的方式觀看內容。",
+        "description": "sudo-flix 是一款在互聯網上搜尋串流媒體的網路應用程式。團隊致力於讓使用者以最簡約的方式觀看內容。",
         "faqTitle": "常見問題",
         "q1": {
-            "body": "Vid Binge 不託管任何內容。您點選觀看內容時，系統均從互聯網搜尋（在加載提示頁和“視頻源”選項卡中，您可以看到正在使用的源）。媒體從未在 Vid Binge 中上傳，所有內容均通過搜索機制而得。",
+            "body": "sudo-flix 不託管任何內容。您點選觀看內容時，系統均從互聯網搜尋（在加載提示頁和“視頻源”選項卡中，您可以看到正在使用的源）。媒體從未在 sudo-flix 中上傳，所有內容均通過搜索機制而得。",
             "title": "內容來自哪裡？"
         },
         "q2": {
-            "body": "無法主動要求影視劇或其他節目，Vid Binge 不管理任何內容。所有內容均從網路影片來源取得並供您觀看。",
+            "body": "無法主動要求影視劇或其他節目，sudo-flix 不管理任何內容。所有內容均從網路影片來源取得並供您觀看。",
             "title": "我可以從哪裡請求觀看影視劇或其他節目？"
         },
         "q3": {
             "body": "我們的搜尋結果由電影資料庫（TMDB）驅動，無論視訊來源是否有對應內容，都會顯示結果。",
             "title": "搜尋結果中已顯示了電視劇或其他節目，為何我無法播放？"
         },
-        "title": "關於 Vid Binge",
-        "contact": "",
-        "q4": {
-            "body": "",
-            "title": ""
-        },
-        "q5": {
-            "title": "",
-            "body": ""
-        },
-        "q6": {
-            "title": "",
-            "body": ""
-        },
-        "q7": {
-            "title": "",
-            "body": ""
-        }
+        "title": "關於 sudo-flix"
     },
     "actions": {
         "copied": "已複製",
@@ -99,30 +82,25 @@
     "footer": {
         "legal": {
             "disclaimer": "免責聲明",
-            "disclaimerText": "Vid Binge 不託管任何文件，僅連結至第三方服務。法律問題應由文件託管者和內容提供者解決。 Vid Binge 對影片提供者顯示的任何媒體檔案不承擔任何責任。"
+            "disclaimerText": "sudo-flix 不託管任何文件，僅連結至第三方服務。法律問題應由文件託管者和內容提供者解決。 sudo-flix 對影片提供者顯示的任何媒體檔案不承擔任何責任。"
         },
         "links": {
             "discord": "Discord",
             "dmca": "DMCA",
-            "github": "GitHub",
-            "telegram": "",
-            "facebook": "",
-            "instagram": ""
+            "github": "GitHub"
         },
         "tagline": "使用這個開源串流媒體應用程式觀看您最喜歡的節目和電影。"
     },
     "global": {
-        "name": "Vid Binge",
+        "name": "sudo-flix",
         "pages": {
             "about": "關於",
             "dmca": "DMCA",
             "login": "登入",
             "onboarding": "設定",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - sudo-flix",
             "register": "註冊",
-            "settings": "設定",
-            "discover": "",
-            "privacy": ""
+            "settings": "設定"
         }
     },
     "home": {
@@ -155,39 +133,19 @@
             "day": {
                 "default": "您今天下午想看什麼？",
                 "extra": [
-                    "想要來場冒險嗎？《侏羅紀公園》可能是完美選擇。",
-                    "",
-                    ""
+                    "想要來場冒險嗎？《侏羅紀公園》可能是完美選擇。"
                 ]
             },
             "morning": {
                 "default": "您今天早上想看什麼？",
                 "extra": [
-                    "我聽說《情留半天》不錯",
-                    "",
-                    ""
+                    "我聽說《情留半天》不錯"
                 ]
             },
             "night": {
                 "default": "您今晚想看什麼？",
                 "extra": [
-                    "你疲倦嗎？我聽說《驅魔人》不錯。",
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            "420": {
-                "default": "",
-                "extra": [
-                    ""
-                ]
-            },
-            "halloween": {
-                "default": "",
-                "extra": [
-                    ""
+                    "你疲倦嗎？我聽說《驅魔人》不錯。"
                 ]
             }
         }
@@ -206,12 +164,10 @@
         },
         "menu": {
             "about": "關於我們",
-            "donation": "捐錢",
             "logout": "登出",
             "register": "同步到雲端",
             "settings": "設定",
-            "support": "支援",
-            "discover": ""
+            "support": "支援"
         }
     },
     "notFound": {
@@ -280,7 +236,7 @@
                     "title": "自訂代理伺服器"
                 }
             },
-            "title": "讓我們為您設定 Vid Binge"
+            "title": "讓我們為您設定 sudo-flix"
         }
     },
     "overlays": {
@@ -297,10 +253,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "複製 HLS 播放清單鏈接",
-                "disclaimer": "視頻直接從供應商處獲取。Vid Binge 無法控制下載的提供方式。",
+                "disclaimer": "視頻直接從供應商處獲取。sudo-flix 無法控制下載的提供方式。",
                 "downloadSubtitle": "下載當前字幕",
                 "downloadVideo": "下載視頻",
-                "hlsDisclaimer": "下載直接從供應商處獲取。Vid Binge 無法控制下載的提供方式。<br /><br /> 請注意，您正在下載 HLS 播放清單， <bold>如果您不熟悉高級流媒體格式，則不建議下載 </bold> 。嘗試使用不同格式的不同來源。",
+                "hlsDisclaimer": "下載直接從供應商處獲取。sudo-flix 無法控制下載的提供方式。<br /><br /> 請注意，您正在下載 HLS 播放清單， <bold>如果您不熟悉高級流媒體格式，則不建議下載 </bold> 。嘗試使用不同格式的不同來源。",
                 "onAndroid": {
                     "1": "要在 Android 上下載，請按下下載按鈕，然後在新頁面上<bold>點擊並按住 </bold>視頻，然後選擇 <bold>保存</bold>。",
                     "shortTitle": "下載 / Android",
@@ -316,8 +272,7 @@
                     "shortTitle": "下載 / PC",
                     "title": "正在PC 上下载"
                 },
-                "title": "下載",
-                "downloadHlsAsVideo": ""
+                "title": "下載"
             },
             "episodes": {
                 "button": "集數",
@@ -326,8 +281,7 @@
                 "loadingError": "加載集數時出錯",
                 "loadingList": "載入中...",
                 "loadingTitle": "載入中...",
-                "unairedEpisodes": "本季中的一集或多集已因尚未播出而被禁用。",
-                "seasons": ""
+                "unairedEpisodes": "本季中的一集或多集已因尚未播出而被禁用。"
             },
             "playback": {
                 "speedLabel": "播放速度",
@@ -348,8 +302,7 @@
                 "qualityItem": "品質",
                 "sourceItem": "影片來源",
                 "subtitleItem": "字幕設定",
-                "videoSection": "影片設定",
-                "watchParty": ""
+                "videoSection": "影片設定"
             },
             "sources": {
                 "failed": {
@@ -378,8 +331,7 @@
                     "fixCapitals": "修復大小寫"
                 },
                 "title": "字幕",
-                "unknownLanguage": "未知",
-                "OpenSubtitlesChoice": ""
+                "unknownLanguage": "未知"
             }
         },
         "metadata": {
@@ -413,8 +365,7 @@
         },
         "nextEpisode": {
             "cancel": "取消",
-            "next": "下一集",
-            "nextSeason": ""
+            "next": "下一集"
         },
         "playbackError": {
             "badge": "播放錯誤",
@@ -457,7 +408,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "請通過右側的驗證碼來確認您是人類。這是為了保護 Vid Binge 的安全！",
+            "description": "請通過右側的驗證碼來確認您是人類。這是為了保護 sudo-flix 的安全！",
             "error": "無法驗證您是一個人類。請再試一次。",
             "title": "我們需要驗證您是否為人類。",
             "verifyingHumanity": "正在驗證您是不是一個人類..."
@@ -465,7 +416,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "歡迎來到Vid Binge的DMCA聯繫頁面！我們尊重智慧財產權，並希望迅速解決任何版權問題。如果您認為您的版權作品在我們的平臺上被不當使用，請向以下電子郵件發送詳細的DMCA通知。請附上受版權保護材料的描述、您的聯繫方式以及善意信念的聲明。我們致力於迅速解決這些問題，並感謝您的合作，使電影網成為一個尊重創意和版權的地方。",
+            "text": "歡迎來到sudo-flix的DMCA聯繫頁面！我們尊重智慧財產權，並希望迅速解決任何版權問題。如果您認為您的版權作品在我們的平臺上被不當使用，請向以下電子郵件發送詳細的DMCA通知。請附上受版權保護材料的描述、您的聯繫方式以及善意信念的聲明。我們致力於迅速解決這些問題，並感謝您的合作，使電影網成為一個尊重創意和版權的地方。",
             "title": "DMCA"
         },
         "loadingApp": "正在載入應用程式",
@@ -527,8 +478,7 @@
                 "default": "預設",
                 "gray": "灰色",
                 "red": "紅色",
-                "teal": "青色",
-                "blck": ""
+                "teal": "青色"
             },
             "title": "外觀"
         },
@@ -576,15 +526,7 @@
             "thumbnail": "生成縮圖",
             "thumbnailDescription": "大多數時候，視頻沒有縮圖。您可以啟用此設置以即時生成它們，但它們會使您的視頻變慢。",
             "thumbnailLabel": "生成縮圖",
-            "title": "偏好設定",
-            "ads": "",
-            "adsDescription": "",
-            "adsLabel": "",
-            "autoplay": "",
-            "autoplayDescription": "",
-            "autoplayLabel": "",
-            "sourceOrder": "",
-            "sourceOrderDescription": ""
+            "title": "偏好設定"
         },
         "reset": "重置",
         "save": "保存",
@@ -608,38 +550,8 @@
             "colorLabel": "顏色",
             "previewQuote": "我絕不能害怕。 恐懼會扼殺思維能力。",
             "textSizeLabel": "字體大小",
-            "title": "字幕",
-            "textBoldLabel": ""
+            "title": "字幕"
         },
         "unsaved": "您有未儲存的變更"
-    },
-    "privacy": {
-        "description": "",
-        "lastUpdated": "",
-        "p1": {
-            "body": "",
-            "title": ""
-        },
-        "p2": {
-            "body": "",
-            "title": ""
-        },
-        "p3": {
-            "body": "",
-            "title": ""
-        },
-        "p4": {
-            "body": "",
-            "title": ""
-        },
-        "p5": {
-            "title": "",
-            "body": ""
-        },
-        "p6": {
-            "title": "",
-            "body": ""
-        },
-        "title": ""
     }
 }

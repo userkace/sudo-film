@@ -1,37 +1,20 @@
 {
     "about": {
-        "description": "Vid Binge jest aplikacją internetową, która wyszukuje w internecie strumienia. Zespół dąży do minimalistycznego podejścia do konsumpcji treści.",
+        "description": "sudo-flix jest aplikacją internetową, która wyszukuje w internecie strumienia. Zespół dąży do minimalistycznego podejścia do konsumpcji treści.",
         "faqTitle": "Częste pytania",
         "q1": {
-            "body": "Vid Binge nie udostępnia żadnych treści. Kiedy klikniesz na coś co chcesz obejrzeć, internet zostanie przeszukany pod kątem wybranych multimediów (na ekranie ładowania oraz w zakładce „źródła wideo” możesz zobaczyć, z jakiego źródła korzystasz). Media nigdy nie są przesyłane przez Vid Binge, wszystko odbywa się za pośrednictwem tego mechanizmu wyszukiwania.",
+            "body": "sudo-flix nie udostępnia żadnych treści. Kiedy klikniesz na coś co chcesz obejrzeć, internet zostanie przeszukany pod kątem wybranych multimediów (na ekranie ładowania oraz w zakładce „źródła wideo” możesz zobaczyć, z jakiego źródła korzystasz). Media nigdy nie są przesyłane przez sudo-flix, wszystko odbywa się za pośrednictwem tego mechanizmu wyszukiwania.",
             "title": "Skąd pochodzą treści?"
         },
         "q2": {
-            "body": "Nie można złożyć wniosku o serialu ani filmu, Vid Binge nie zarządza żadną treścią. Wszystkie treści są przeglądane za pośrednictwem źródeł w Internecie.",
+            "body": "Nie można złożyć wniosku o serialu ani filmu, sudo-flix nie zarządza żadną treścią. Wszystkie treści są przeglądane za pośrednictwem źródeł w Internecie.",
             "title": "Gdzie mogę złożyć wniosek o seriale lub filmie?"
         },
         "q3": {
             "body": "Nasze wyniki wyszukiwania pochodzą z TMDB i są wyświetlane niezależnie od tego, czy nasze źródła faktycznie posiadają daną treść.",
             "title": "W wyniku wyszukiwania wyświetlany jest serial lub film. Dlaczego nie mogę go odtworzyć?"
         },
-        "title": "O Vid Binge",
-        "contact": "",
-        "q4": {
-            "body": "",
-            "title": ""
-        },
-        "q5": {
-            "title": "",
-            "body": ""
-        },
-        "q6": {
-            "title": "",
-            "body": ""
-        },
-        "q7": {
-            "title": "",
-            "body": ""
-        }
+        "title": "O sudo-flix"
     },
     "actions": {
         "copied": "Skopiowano",
@@ -99,30 +82,25 @@
     "footer": {
         "legal": {
             "disclaimer": "Zastrzeżenie",
-            "disclaimerText": "Vid Binge nie przechowuje żadnych plików, zawiera jedynie łącza do usług stron trzecich. Kwestie prawne należy konsultować z hostami plików i dostawcami. Vid Binge nie ponosi odpowiedzialności za jakiekolwiek pliki multimedialne prezentowane przez dostawców wideo."
+            "disclaimerText": "sudo-flix nie przechowuje żadnych plików, zawiera jedynie łącza do usług stron trzecich. Kwestie prawne należy konsultować z hostami plików i dostawcami. sudo-flix nie ponosi odpowiedzialności za jakiekolwiek pliki multimedialne prezentowane przez dostawców wideo."
         },
         "links": {
             "discord": "Discord",
             "dmca": "DMCA",
-            "github": "GitHub",
-            "telegram": "",
-            "facebook": "",
-            "instagram": ""
+            "github": "GitHub"
         },
         "tagline": "Oglądaj swoje ulubione seriale i filmy za pomocą tej aplikacji streamingowej typu open source."
     },
     "global": {
-        "name": "Vid Binge",
+        "name": "sudo-flix",
         "pages": {
             "about": "Informacje",
             "dmca": "DMCA",
             "login": "Zaloguj sie",
             "onboarding": "Konfiguracja",
-            "pagetitle": "{{title}} - Vid Binge",
+            "pagetitle": "{{title}} - sudo-flix",
             "register": "Zarejestruj się",
-            "settings": "Ustawienia",
-            "discover": "",
-            "privacy": ""
+            "settings": "Ustawienia"
         }
     },
     "home": {
@@ -155,39 +133,19 @@
             "day": {
                 "default": "Co chciałbyś obejrzeć dziś po południu?",
                 "extra": [
-                    "Masz ochotę na przygodę? Park Jurajski może być idealnym wyborem.",
-                    "",
-                    ""
+                    "Masz ochotę na przygodę? Park Jurajski może być idealnym wyborem."
                 ]
             },
             "morning": {
                 "default": "Co chciałbyś obejrzeć dziś rano?",
                 "extra": [
-                    "Słyszałem że „Przed wschodem słońca” jest dobre",
-                    "",
-                    ""
+                    "Słyszałem że „Przed wschodem słońca” jest dobre"
                 ]
             },
             "night": {
                 "default": "Co chciałbyś obejrzeć dziś wieczorem?",
                 "extra": [
-                    "Zmęczony? Słyszałem że „Egzorcysta” jest dobry.",
-                    "",
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            "420": {
-                "default": "",
-                "extra": [
-                    ""
-                ]
-            },
-            "halloween": {
-                "default": "",
-                "extra": [
-                    ""
+                    "Zmęczony? Słyszałem że „Egzorcysta” jest dobry."
                 ]
             }
         }
@@ -197,8 +155,7 @@
         "types": {
             "movie": "Film",
             "show": "Serial"
-        },
-        "unreleased": ""
+        }
     },
     "navigation": {
         "banner": {
@@ -206,12 +163,10 @@
         },
         "menu": {
             "about": "O nas",
-            "donation": "Wspieraj nas",
             "logout": "Wyloguj się",
             "register": "Synchronizuj z chmurą",
             "settings": "Ustawienia",
-            "support": "Wsparcie",
-            "discover": ""
+            "support": "Wsparcie"
         }
     },
     "notFound": {
@@ -280,7 +235,7 @@
                     "title": "Niestandardowy serwer proxy"
                 }
             },
-            "title": "Przejdźmy do konfiguracji z Vid Binge"
+            "title": "Przejdźmy do konfiguracji z sudo-flix"
         }
     },
     "overlays": {
@@ -297,10 +252,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Kopiuj link do listy odtwarzania HLS",
-                "disclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. Vid Binge nie ma kontroli nad sposobem dostarczania plików do pobrania.",
+                "disclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. sudo-flix nie ma kontroli nad sposobem dostarczania plików do pobrania.",
                 "downloadSubtitle": "Pobierz aktualne napisy",
                 "downloadVideo": "Pobierz wideo",
-                "hlsDisclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. Vid Binge nie ma kontroli nad sposobem dostarczania plików do pobrania.<br /><br />Należy pamiętać, że pobierasz playlistę HLS, <bold>nie zaleca się pobierania, jeśli nie jesteś zaznajomiony z zaawansowanymi formatami przesyłania strumieniowego</bold>. Wypróbuj różne źródła dla innych formatów.",
+                "hlsDisclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. sudo-flix nie ma kontroli nad sposobem dostarczania plików do pobrania.<br /><br />Należy pamiętać, że pobierasz playlistę HLS, <bold>nie zaleca się pobierania, jeśli nie jesteś zaznajomiony z zaawansowanymi formatami przesyłania strumieniowego</bold>. Wypróbuj różne źródła dla innych formatów.",
                 "onAndroid": {
                     "1": "Aby pobrać na Androidzie, kliknij przycisk pobierania, a następnie na nowej stronie <bold>dotknij i przytrzymaj</bold> na filmie, a następnie wybierz <bold>zapisz</bold>.",
                     "shortTitle": "Pobierz / Android",
@@ -316,8 +271,7 @@
                     "shortTitle": "Pobierz / Komputer",
                     "title": "Pobieranie na komputerze"
                 },
-                "title": "Pobierz",
-                "downloadHlsAsVideo": ""
+                "title": "Pobierz"
             },
             "episodes": {
                 "button": "Odcinki",
@@ -326,8 +280,7 @@
                 "loadingError": "Błąd podczas ładowania sezonu",
                 "loadingList": "Wczytywanie...",
                 "loadingTitle": "Wczytywanie...",
-                "unairedEpisodes": "Jeden lub więcej odcinków tego sezonu zostało wyłączonych, ponieważ nie zostały jeszcze wyemitowane.",
-                "seasons": ""
+                "unairedEpisodes": "Jeden lub więcej odcinków tego sezonu zostało wyłączonych, ponieważ nie zostały jeszcze wyemitowane."
             },
             "playback": {
                 "speedLabel": "Szybkość odtwarzania",
@@ -348,8 +301,7 @@
                 "qualityItem": "Jakość",
                 "sourceItem": "Źródła wideo",
                 "subtitleItem": "Ustawienia napisów",
-                "videoSection": "Ustawienia wideo",
-                "watchParty": ""
+                "videoSection": "Ustawienia wideo"
             },
             "sources": {
                 "failed": {
@@ -378,8 +330,7 @@
                     "fixCapitals": "Popraw kapitalizację"
                 },
                 "title": "Napisy",
-                "unknownLanguage": "Nieznany",
-                "OpenSubtitlesChoice": ""
+                "unknownLanguage": "Nieznany"
             }
         },
         "metadata": {
@@ -413,8 +364,7 @@
         },
         "nextEpisode": {
             "cancel": "Anuluj",
-            "next": "Następny odcinek",
-            "nextSeason": ""
+            "next": "Następny odcinek"
         },
         "playbackError": {
             "badge": "Błąd odtwarzania",
@@ -441,13 +391,6 @@
                 "homeButton": "Wróć na stronę główną",
                 "text": "Przeszukaliśmy naszych dostawców i nie możemy znaleźć poszukiwanych multimediów! Nie przechowujemy multimediów i nie mamy kontroli nad ich dostępnością. Kliknij \"Pokaż szczegóły\" poniżej, aby uzyskać więcej informacji.",
                 "title": "Nie mogliśmy znaleźć tego"
-            },
-            "extensionFailure": {
-                "title": "",
-                "badge": "",
-                "homeButton": "",
-                "enableExtension": "",
-                "text": ""
             }
         },
         "time": {
@@ -457,7 +400,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Proszę potwierdź że jesteś człowiekiem, wypełniając Captcha po prawej stronie. Ma to zapewnić bezpieczeństwo Vid Binge!",
+            "description": "Proszę potwierdź że jesteś człowiekiem, wypełniając Captcha po prawej stronie. Ma to zapewnić bezpieczeństwo sudo-flix!",
             "error": "Nie udało się zweryfikować Twojego człowieczeństwa. Proszę spróbuj ponownie.",
             "title": "Musimy sprawdzić, czy jesteś człowiekiem.",
             "verifyingHumanity": "Sprawdzasz swoje człowieczeństwo..."
@@ -465,7 +408,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Witamy na stronie kontaktowej DMCA serwisu Vid Binge! Szanujemy prawa własności intelektualnej i chcemy szybko rozwiązywać wszelkie problemy związane z prawami autorskimi. Jeśli uważasz że twoja praca chroniona prawem autorskim została niewłaściwie wykorzystana na naszej platformie, proszę wysłać szczegółowe powiadomienie DMCA na poniższy adres e-mail. Prosimy o dołączenie opisu materiału chronionego prawem autorskim, danych kontaktowych i oświadczenia w dobrej wierze. Zależy nam na szybkim rozwiązywaniu takich spraw i będziemy wdzięczni za współpracę w utrzymaniu Vid Binge jako miejsce w którym szanuje się kreatywność i prawa autorskie.",
+            "text": "Witamy na stronie kontaktowej DMCA serwisu sudo-flix! Szanujemy prawa własności intelektualnej i chcemy szybko rozwiązywać wszelkie problemy związane z prawami autorskimi. Jeśli uważasz że twoja praca chroniona prawem autorskim została niewłaściwie wykorzystana na naszej platformie, proszę wysłać szczegółowe powiadomienie DMCA na poniższy adres e-mail. Prosimy o dołączenie opisu materiału chronionego prawem autorskim, danych kontaktowych i oświadczenia w dobrej wierze. Zależy nam na szybkim rozwiązywaniu takich spraw i będziemy wdzięczni za współpracę w utrzymaniu sudo-flix jako miejsce w którym szanuje się kreatywność i prawa autorskie.",
             "title": "DMCA"
         },
         "loadingApp": "Wczytywanie aplikacji",
@@ -527,8 +470,7 @@
                 "default": "Domyślny",
                 "gray": "Szary",
                 "red": "Czerwony",
-                "teal": "Morski",
-                "blck": ""
+                "teal": "Morski"
             },
             "title": "Wygląd"
         },
@@ -576,15 +518,7 @@
             "thumbnail": "Generuj miniatury",
             "thumbnailDescription": "W większości przypadków filmy nie mają miniatur. Możesz włączyć to ustawienie, aby generować je na bieżąco, ale może to spowolnić wideo.",
             "thumbnailLabel": "Generuj miniatury",
-            "title": "Preferencje",
-            "ads": "",
-            "adsDescription": "",
-            "adsLabel": "",
-            "autoplayDescription": "",
-            "autoplayLabel": "",
-            "sourceOrder": "",
-            "sourceOrderDescription": "",
-            "autoplay": ""
+            "title": "Preferencje"
         },
         "reset": "Reset",
         "save": "Zapisz",
@@ -608,38 +542,8 @@
             "colorLabel": "Kolor",
             "previewQuote": "Nie wolno mi się bać. Strach zabija myślenie.",
             "textSizeLabel": "Rozmiar czcionki",
-            "title": "Napisy",
-            "textBoldLabel": ""
+            "title": "Napisy"
         },
         "unsaved": "Masz niezapisane zmiany"
-    },
-    "privacy": {
-        "description": "",
-        "lastUpdated": "",
-        "p1": {
-            "body": "",
-            "title": ""
-        },
-        "p2": {
-            "body": "",
-            "title": ""
-        },
-        "p3": {
-            "body": "",
-            "title": ""
-        },
-        "p4": {
-            "body": "",
-            "title": ""
-        },
-        "p5": {
-            "title": "",
-            "body": ""
-        },
-        "p6": {
-            "title": "",
-            "body": ""
-        },
-        "title": ""
     }
 }
