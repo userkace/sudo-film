@@ -1,20 +1,37 @@
 {
     "about": {
-        "description": "sudo-flix és una aplicació web que cerca fluxos a internet. L'equip té com a objectiu un enfocament majoritàriament minimalista del consum de contingut.",
+        "description": "Vid Binge és una aplicació web que cerca fluxos a internet. L'equip té com a objectiu un enfocament majoritàriament minimalista del consum de contingut.",
         "faqTitle": "Preguntes freqüents",
         "q1": {
-            "body": "sudo-flix no allotja cap contingut. Quan feu clic en un contingut per a mirar-lo, es busca a Internet (a la pantalla de càrrega i a la pestanya «Fonts de vídeo» podeu mirar quina font utilitzeu). sudo-flix mai puja contingut, tot és a través del mecanisme de cerca.",
+            "body": "Vid Binge no allotja cap contingut. Quan feu clic en un contingut per a mirar-lo, es busca a Internet (a la pantalla de càrrega i a la pestanya «Fonts de vídeo» podeu mirar quina font utilitzeu). Vid Binge mai puja contingut, tot és a través del mecanisme de cerca.",
             "title": "D'on prové el contingut?"
         },
         "q2": {
-            "body": "No és possible sol·licitar un programa o una pel·lícula, sudo-flix no gestiona cap contingut. Tot el contingut es visualitza a través de fonts a internet.",
+            "body": "No és possible sol·licitar un programa o una pel·lícula, Vid Binge no gestiona cap contingut. Tot el contingut es visualitza a través de fonts a internet.",
             "title": "On puc sol·licitar un programa o una pel·lícula?"
         },
         "q3": {
             "body": "Els resultats de cerca funcionen amb The Movie Database (TMDB) i es mostren independentment de si les nostres fonts realment tenen el contingut.",
             "title": "Els resultats de la cerca mostren el programa o la pel·lícula, per què no puc reproduir-lo?"
         },
-        "title": "Sobre sudo-flix"
+        "title": "Sobre Vid Binge",
+        "contact": "",
+        "q4": {
+            "body": "",
+            "title": ""
+        },
+        "q5": {
+            "title": "",
+            "body": ""
+        },
+        "q6": {
+            "title": "",
+            "body": ""
+        },
+        "q7": {
+            "title": "",
+            "body": ""
+        }
     },
     "actions": {
         "copied": "S'ha copiat",
@@ -82,25 +99,30 @@
     "footer": {
         "legal": {
             "disclaimer": "Avís d'exempció de responsabilitat",
-            "disclaimerText": "sudo-flix no allotja cap fitxer, només enllaça a serveis de tercers. Els problemes legals s'han d'abordar amb qui allotja i els proveïdors de fitxers. sudo-flix no es fa responsable del contingut mostrat pels proveïdors de vídeo."
+            "disclaimerText": "Vid Binge no allotja cap fitxer, només enllaça a serveis de tercers. Els problemes legals s'han d'abordar amb qui allotja i els proveïdors de fitxers. Vid Binge no es fa responsable del contingut mostrat pels proveïdors de vídeo."
         },
         "links": {
             "discord": "Discord",
             "dmca": "DMCA",
-            "github": "GitHub"
+            "github": "GitHub",
+            "telegram": "",
+            "facebook": "",
+            "instagram": ""
         },
         "tagline": "Mireu els vostres programes i pel·lícules preferits amb esta aplicació de codi obert de reproducció en temps real."
     },
     "global": {
-        "name": "sudo-flix",
+        "name": "Vid Binge",
         "pages": {
             "about": "Quant a",
             "dmca": "DMCA",
             "login": "Inicia sessió",
             "onboarding": "Configura",
-            "pagetitle": "{{title}} - sudo-flix",
+            "pagetitle": "{{title}} - Vid Binge",
             "register": "Registra",
-            "settings": "Configuració"
+            "settings": "Configuració",
+            "discover": "",
+            "privacy": ""
         }
     },
     "home": {
@@ -133,19 +155,39 @@
             "day": {
                 "default": "Què vos agradaria mirar esta vesprada?",
                 "extra": [
-                    "Voleu aventura? Jurassic Park podria ser l'elecció perfecta."
+                    "Voleu aventura? Jurassic Park podria ser l'elecció perfecta.",
+                    "",
+                    ""
                 ]
             },
             "morning": {
                 "default": "Què vos agradaria mirar este matí?",
                 "extra": [
-                    "He sentit que «Abans de l'alba» és bona"
+                    "He sentit que «Abans de l'alba» és bona",
+                    "",
+                    ""
                 ]
             },
             "night": {
                 "default": "Què vos agradaria mirar esta nit?",
                 "extra": [
-                    "Esteu cansat? He sentit que «L'exorcista» és bona."
+                    "Esteu cansat? He sentit que «L'exorcista» és bona.",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "420": {
+                "default": "",
+                "extra": [
+                    ""
+                ]
+            },
+            "halloween": {
+                "default": "",
+                "extra": [
+                    ""
                 ]
             }
         }
@@ -155,7 +197,8 @@
         "types": {
             "movie": "Pel·lícula",
             "show": "Sèrie/Programa"
-        }
+        },
+        "unreleased": ""
     },
     "navigation": {
         "banner": {
@@ -163,10 +206,12 @@
         },
         "menu": {
             "about": "Quant a nosaltres",
+            "donation": "Feu una donació",
             "logout": "Tanca la sessió",
             "register": "Sincronitza al núvol",
             "settings": "Configuració",
-            "support": "Ajuda"
+            "support": "Ajuda",
+            "discover": ""
         }
     },
     "notFound": {
@@ -235,7 +280,7 @@
                     "title": "Servidor intermediari personalitzat"
                 }
             },
-            "title": "Configurem el sudo-flix"
+            "title": "Configurem el Vid Binge"
         }
     },
     "overlays": {
@@ -252,10 +297,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Copia l'enllaç de la llista HLS",
-                "disclaimer": "Les baixades s'obtenen directament del proveïdor. sudo-flix no té control sobre com es proporcionen les baixades.",
+                "disclaimer": "Les baixades s'obtenen directament del proveïdor. Vid Binge no té control sobre com es proporcionen les baixades.",
                 "downloadSubtitle": "Baixa els subtítols actuals",
                 "downloadVideo": "Baixa el vídeo",
-                "hlsDisclaimer": "Les baixades s'obtenen directament del proveïdor. sudo-flix no té control sobre com es proporcionen les baixades. <br /><br />Tingueu en compte que esteu baixant una llista de reproducció HLS, <bold>no es recomana baixar-la si no esteu familiaritzat amb formats de transmissió avançats</bold>. Proveu diferents fonts per a diferents formats.",
+                "hlsDisclaimer": "Les baixades s'obtenen directament del proveïdor. Vid Binge no té control sobre com es proporcionen les baixades. <br /><br />Tingueu en compte que esteu baixant una llista de reproducció HLS, <bold>no es recomana baixar-la si no esteu familiaritzat amb formats de transmissió avançats</bold>. Proveu diferents fonts per a diferents formats.",
                 "onAndroid": {
                     "1": "Per a baixar-lo a Android, feu clic al botó de baixada i, a la pàgina nova, <bold>manteniu premut</bold> el vídeo i, a continuació, seleccioneu <bold>Desa</bold>.",
                     "shortTitle": "Baixa / Android",
@@ -271,7 +316,8 @@
                     "shortTitle": "Baixa / PC",
                     "title": "Baixada a un PC"
                 },
-                "title": "Baixa"
+                "title": "Baixa",
+                "downloadHlsAsVideo": ""
             },
             "episodes": {
                 "button": "Episodi",
@@ -280,7 +326,8 @@
                 "loadingError": "Error en carregar la temporada",
                 "loadingList": "S'està carregant…",
                 "loadingTitle": "S'està carregant…",
-                "unairedEpisodes": "Un o més episodis d'esta temporada s'han desactivat perquè encara no s'han emés."
+                "unairedEpisodes": "Un o més episodis d'esta temporada s'han desactivat perquè encara no s'han emés.",
+                "seasons": ""
             },
             "playback": {
                 "speedLabel": "Velocitat de la reproducció",
@@ -300,7 +347,9 @@
                 "qualityItem": "Qualitat",
                 "sourceItem": "Fonts de vídeo",
                 "subtitleItem": "Configuració dels subtítols",
-                "videoSection": "Configuració de vídeo"
+                "videoSection": "Configuració de vídeo",
+                "audioItem": "",
+                "watchParty": ""
             },
             "sources": {
                 "failed": {
@@ -328,7 +377,9 @@
                     "fixCapitals": "Corregeix les majúscules/minúscules"
                 },
                 "title": "Subtítols",
-                "unknownLanguage": "Desconeguda"
+                "unknownLanguage": "Desconeguda",
+                "OpenSubtitlesChoice": "",
+                "dropSubtitleFile": ""
             }
         },
         "metadata": {
@@ -362,7 +413,8 @@
         },
         "nextEpisode": {
             "cancel": "Cancel·la",
-            "next": "Episodi següent"
+            "next": "Episodi següent",
+            "nextSeason": ""
         },
         "playbackError": {
             "badge": "Error en la reproducció",
@@ -389,6 +441,13 @@
                 "homeButton": "Torna a l'inici",
                 "text": "Hem buscat a través dels nostres proveïdors i no trobem el contingut que busqueu! No allotgem contingut i no tenim control sobre què hi ha disponible. Feu clic a «Mostra els detalls» a continuació per a més informació.",
                 "title": "No s'ha pogut trobar"
+            },
+            "extensionFailure": {
+                "badge": "",
+                "homeButton": "",
+                "enableExtension": "",
+                "title": "",
+                "text": ""
             }
         },
         "time": {
@@ -398,7 +457,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Verifiqueu que sou humà completant el Captcha de la dreta. Ho fem per a mantindre segura sudo-flix!",
+            "description": "Verifiqueu que sou humà completant el Captcha de la dreta. Ho fem per a mantindre segura Vid Binge!",
             "error": "No s'ha pogut verificar la humanitat. Torneu-ho a provar.",
             "title": "Necessitem verificar que sou humà.",
             "verifyingHumanity": "Verificant la vostra humanitat…"
@@ -406,7 +465,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Vos donem la benvinguda a la pàgina de contacte DMCA de sudo-flix! Respectem els drets de propietat intel·lectual i volem resoldre qualsevol problema de drets d'autor ràpidament. Si creieu que la vostra obra protegida per drets d'autor s'ha utilitzat incorrectament a la nostra plataforma, envieu un avís detallat de la DMCA al correu electrònic següent. Incloeu una descripció del material protegit per drets d'autor, les vostres dades de contacte i una declaració de creença de bona fe. Ens comprometem a resoldre estes assumptes amb agilitat i agraïm la vostra col·laboració per a mantindre sudo-flix en un lloc que respecta la creativitat i els drets d'autor.",
+            "text": "Vos donem la benvinguda a la pàgina de contacte DMCA de Vid Binge! Respectem els drets de propietat intel·lectual i volem resoldre qualsevol problema de drets d'autor ràpidament. Si creieu que la vostra obra protegida per drets d'autor s'ha utilitzat incorrectament a la nostra plataforma, envieu un avís detallat de la DMCA al correu electrònic següent. Incloeu una descripció del material protegit per drets d'autor, les vostres dades de contacte i una declaració de creença de bona fe. Ens comprometem a resoldre estes assumptes amb agilitat i agraïm la vostra col·laboració per a mantindre Vid Binge en un lloc que respecta la creativitat i els drets d'autor.",
             "title": "DMCA"
         },
         "loadingApp": "S'està carregant l'aplicació",
@@ -468,7 +527,8 @@
                 "default": "Per defecte",
                 "gray": "Gris",
                 "red": "Vermell",
-                "teal": "Verd blavós"
+                "teal": "Verd blavós",
+                "blck": ""
             },
             "title": "Aparença"
         },
@@ -516,7 +576,15 @@
             "thumbnail": "Genera miniatures",
             "thumbnailDescription": "Majoritàriament, els vídeos no tenen miniatures. Podeu activar esta opció per a generar-les sobre la marxa, però poden alentir el vídeo.",
             "thumbnailLabel": "Genera miniatures",
-            "title": "Configuració"
+            "title": "Configuració",
+            "ads": "",
+            "adsDescription": "",
+            "adsLabel": "",
+            "autoplay": "",
+            "autoplayDescription": "",
+            "autoplayLabel": "",
+            "sourceOrder": "",
+            "sourceOrderDescription": ""
         },
         "reset": "Restableix",
         "save": "Desa",
@@ -540,8 +608,38 @@
             "colorLabel": "Color",
             "previewQuote": "No he de tindre por. La por és l'assassina de la ment.",
             "textSizeLabel": "Grandària del text",
-            "title": "Subtítols"
+            "title": "Subtítols",
+            "textBoldLabel": ""
         },
         "unsaved": "Hi ha canvis sense desar"
+    },
+    "privacy": {
+        "p3": {
+            "title": "",
+            "body": ""
+        },
+        "description": "",
+        "lastUpdated": "",
+        "p1": {
+            "body": "",
+            "title": ""
+        },
+        "p2": {
+            "body": "",
+            "title": ""
+        },
+        "p4": {
+            "body": "",
+            "title": ""
+        },
+        "p5": {
+            "title": "",
+            "body": ""
+        },
+        "p6": {
+            "title": "",
+            "body": ""
+        },
+        "title": ""
     }
 }

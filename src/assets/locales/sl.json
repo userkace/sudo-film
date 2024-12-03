@@ -1,20 +1,37 @@
 {
     "about": {
-        "description": "sudo-flix je spletna aplikacija, ki omogoča enostavno iskanje filmov in serij. Ekipa si prizadeva za minimalističen pristop pri ogledu vsebin.",
+        "description": "Vid Binge je spletna aplikacija, ki omogoča enostavno iskanje filmov in serij. Ekipa si prizadeva za minimalističen pristop pri ogledu vsebin.",
         "faqTitle": "Pogosto zastavljena vprašanja",
         "q1": {
-            "body": "sudo-flix ne hrani nobene vsebine. Ko si želite film ali serijo ogledati, se izvede iskanje vsebine na internetu (na zaslonu za nalaganje in v zavihku \"viri videa\" lahko vidite, kateri vir uporabljate). Vsebina medija se nikoli ne naloži na strežnike sudo-flixa, ker vse poteka iskalnega mehanizma.",
+            "body": "Vid Binge ne hrani nobene vsebine. Ko si želite film ali serijo ogledati, se izvede iskanje vsebine na internetu (na zaslonu za nalaganje in v zavihku \"viri videa\" lahko vidite, kateri vir uporabljate). Vsebina medija se nikoli ne naloži na strežnike Vid Bingea, ker vse poteka iskalnega mehanizma.",
             "title": "Od kod prihaja vsebina?"
         },
         "q2": {
-            "body": "Serije in filmov ni mogoče zahtevati, ker sudo-flix ne upravlja z nobeno vsebino. Vse vsebine si lahko ogledate prek virov na internetu.",
+            "body": "Serije in filmov ni mogoče zahtevati, ker Vid Binge ne upravlja z nobeno vsebino. Vse vsebine si lahko ogledate prek virov na internetu.",
             "title": "Kje lahko oddam predlog za serijo ali film?"
         },
         "q3": {
             "body": "Rezultati iskanja so privzeti iz podatkovne baze \"The Movie Database\" (TMDB) in se prikazujejo ne glede na to, ali je vsebina dejansko na voljo.",
             "title": "Rezultati iskanja prikazujejo serijo oz. film, zakaj ga potem ne morem predvajati?"
         },
-        "title": "O sudo-flixbu"
+        "title": "O Vid Bingebu",
+        "contact": "",
+        "q4": {
+            "body": "",
+            "title": ""
+        },
+        "q5": {
+            "title": "",
+            "body": ""
+        },
+        "q6": {
+            "title": "",
+            "body": ""
+        },
+        "q7": {
+            "title": "",
+            "body": ""
+        }
     },
     "actions": {
         "copied": "Kopirano",
@@ -82,25 +99,30 @@
     "footer": {
         "legal": {
             "disclaimer": "Opozorilo",
-            "disclaimerText": "sudo-flix ne gosti nobenih medijev ali datotek, temveč le povezave do storitev tretjih oseb. Pravna vprašanja je potrebno posredovati gostiteljem in ponudnikom datotek. sudo-flix ni odgovoren za medijske datoteke, ki jih prikazujejo ponudniki."
+            "disclaimerText": "Vid Binge ne gosti nobenih medijev ali datotek, temveč le povezave do storitev tretjih oseb. Pravna vprašanja je potrebno posredovati gostiteljem in ponudnikom datotek. Vid Binge ni odgovoren za medijske datoteke, ki jih prikazujejo ponudniki."
         },
         "links": {
             "discord": "Discord",
             "dmca": "DMCA",
-            "github": "GitHub"
+            "github": "GitHub",
+            "telegram": "",
+            "facebook": "",
+            "instagram": ""
         },
-        "tagline": "Z odprtokodno aplikacijo sudo-flix si oglejte najljubše oddaje in filme."
+        "tagline": "Z odprtokodno aplikacijo Vid Binge si oglejte najljubše oddaje in filme."
     },
     "global": {
-        "name": "sudo-flix",
+        "name": "Vid Binge",
         "pages": {
             "about": "O projektu",
             "dmca": "DMCA",
             "login": "Prijava",
             "onboarding": "Nastavitev",
-            "pagetitle": "{{title}} - sudo-flix",
+            "pagetitle": "{{title}} - Vid Binge",
             "register": "Registriraj se",
-            "settings": "Nastavitve"
+            "settings": "Nastavitve",
+            "discover": "",
+            "privacy": ""
         }
     },
     "home": {
@@ -133,19 +155,39 @@
             "day": {
                 "default": "Kateri film ali serijo bi si želeli ogledati ob tem popoldnevu?",
                 "extra": [
-                    "Se počutite pustolovsko? Jurski park je morda odlična izbira."
+                    "Se počutite pustolovsko? Jurski park je morda odlična izbira.",
+                    "",
+                    ""
                 ]
             },
             "morning": {
                 "default": "Kateri film ali serijo bi si želeli ogledati ob tem jutru?",
                 "extra": [
-                    "Slišala sem, da je film \"Pred sončnim vzhodom\" odličen"
+                    "Slišala sem, da je film \"Pred sončnim vzhodom\" odličen",
+                    "",
+                    ""
                 ]
             },
             "night": {
                 "default": "Kateri film ali serijo bi si želeli ogledati nocoj?",
                 "extra": [
-                    "Utrujeni? Slišal sem, da je \"Izganjalec mrtvih\" odličen film."
+                    "Utrujeni? Slišal sem, da je \"Izganjalec mrtvih\" odličen film.",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "420": {
+                "default": "",
+                "extra": [
+                    ""
+                ]
+            },
+            "halloween": {
+                "default": "",
+                "extra": [
+                    ""
                 ]
             }
         }
@@ -164,10 +206,12 @@
         },
         "menu": {
             "about": "O nas",
+            "donation": "Doniraj",
             "logout": "Odjava",
             "register": "Sinhronizacija z oblakom",
             "settings": "Nastavitve",
-            "support": "Podpora"
+            "support": "Podpora",
+            "discover": ""
         }
     },
     "notFound": {
@@ -253,10 +297,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Kopiranje povezave do seznama predvajanja HLS",
-                "disclaimer": "Prenosi se opravijo neposredno pri ponudniku vsebin. sudo-flix nima nadzora nad načinom zagotavljanja prenosov.",
+                "disclaimer": "Prenosi se opravijo neposredno pri ponudniku vsebin. Vid Binge nima nadzora nad načinom zagotavljanja prenosov.",
                 "downloadSubtitle": "Prenesi trenutne podnapise",
                 "downloadVideo": "Prenesi video",
-                "hlsDisclaimer": "Prenosi se opravijo neposredno pri ponudniku vsebin. sudo-flix nima nadzora nad načinom zagotavljanja prenosov. Upoštevajte, da prenašate seznam predvajanja tipa \"HLS\" namenjen uporabnikom, ki poznajo napredno pretakanje večpredstavnostnih vsebin.",
+                "hlsDisclaimer": "Prenosi se opravijo neposredno pri ponudniku vsebin. Vid Binge nima nadzora nad načinom zagotavljanja prenosov. Upoštevajte, da prenašate seznam predvajanja tipa \"HLS\" namenjen uporabnikom, ki poznajo napredno pretakanje večpredstavnostnih vsebin.",
                 "onAndroid": {
                     "1": "Če želite prenesti v sistemu Android, kliknite gumb za prenos, nato na novi strani <bold>tipnite in držite</bold> videoposnetek ter izberite <bold>shrani</bold>.",
                     "shortTitle": "Prenesi / Android",
@@ -272,7 +316,8 @@
                     "shortTitle": "Prenesi / Računalnik",
                     "title": "Prenos na računalnik"
                 },
-                "title": "Prenos"
+                "title": "Prenos",
+                "downloadHlsAsVideo": ""
             },
             "episodes": {
                 "button": "Epizode",
@@ -281,7 +326,8 @@
                 "loadingError": "Napaka pri nalaganju sezone",
                 "loadingList": "Nalaganje...",
                 "loadingTitle": "Nalaganje...",
-                "unairedEpisodes": "Ena ali več epizod v tej sezoni so onemogočene, ker še niso bile predvajane."
+                "unairedEpisodes": "Ena ali več epizod v tej sezoni so onemogočene, ker še niso bile predvajane.",
+                "seasons": ""
             },
             "playback": {
                 "speedLabel": "Hitrost predvajanja",
@@ -302,7 +348,8 @@
                 "qualityItem": "Kvaliteta",
                 "sourceItem": "Viri vsebin",
                 "subtitleItem": "Nastavitve podnapisov",
-                "videoSection": "Nastavitve ogleda"
+                "videoSection": "Nastavitve ogleda",
+                "watchParty": ""
             },
             "sources": {
                 "failed": {
@@ -331,7 +378,8 @@
                     "fixCapitals": "Popravi velike začetnice"
                 },
                 "title": "Podnapisi",
-                "unknownLanguage": "Neznano"
+                "unknownLanguage": "Neznano",
+                "OpenSubtitlesChoice": ""
             }
         },
         "metadata": {
@@ -365,7 +413,8 @@
         },
         "nextEpisode": {
             "cancel": "Prekliči",
-            "next": "Naslednja epizoda"
+            "next": "Naslednja epizoda",
+            "nextSeason": ""
         },
         "playbackError": {
             "badge": "Napaka v predvajanju",
@@ -385,7 +434,7 @@
                 "badge": "Razširitev brskalnika je onemogočena",
                 "enableExtension": "Vklopi razširitev brskalnika",
                 "homeButton": "Pojdi domov",
-                "text": "Namestili ste razširitev sudo-flix. Če jo želite začeti uporabljati, morate razširitev omogočiti za to spletno mesto.",
+                "text": "Namestili ste razširitev Vid Binge. Če jo želite začeti uporabljati, morate razširitev omogočiti za to spletno mesto.",
                 "title": "Prosim vklopite razširitev brskalnika"
             },
             "items": {
@@ -416,7 +465,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Dobrodošli na sudo-flixovi kontaktni strani DMCA! Spoštujemo pravice intelektualne lastnine in želimo hitro odpraviti vse težave v zvezi z avtorskimi pravicami. Če menite, da je bilo vaše avtorsko zaščiteno delo na naši platformi nepravilno uporabljeno, pošljite podrobno obvestilo DMCA na spodnji e-poštni naslov. Vključite opis avtorsko zaščitenega gradiva, svoje kontaktne podatke in izjavo o \"prepričanju v dobri veri\". Zavezani smo k takojšnji rešitvi teh zadev in cenimo vaše sodelovanje pri ohranjanju filmskega spleta, ki spoštuje ustvarjalnost in avtorske pravice.",
+            "text": "Dobrodošli na Vid Bingeovi kontaktni strani DMCA! Spoštujemo pravice intelektualne lastnine in želimo hitro odpraviti vse težave v zvezi z avtorskimi pravicami. Če menite, da je bilo vaše avtorsko zaščiteno delo na naši platformi nepravilno uporabljeno, pošljite podrobno obvestilo DMCA na spodnji e-poštni naslov. Vključite opis avtorsko zaščitenega gradiva, svoje kontaktne podatke in izjavo o \"prepričanju v dobri veri\". Zavezani smo k takojšnji rešitvi teh zadev in cenimo vaše sodelovanje pri ohranjanju filmskega spleta, ki spoštuje ustvarjalnost in avtorske pravice.",
             "title": "DMCA"
         },
         "loadingApp": "Nalagam aplikacijo",
@@ -478,7 +527,8 @@
                 "default": "Privzeto",
                 "gray": "Siva",
                 "red": "Rdeča",
-                "teal": "Turkizna"
+                "teal": "Turkizna",
+                "blck": ""
             },
             "title": "Izgled"
         },
@@ -526,7 +576,15 @@
             "thumbnail": "Naloži predoglede",
             "thumbnailDescription": "Videoposnetki večinoma nimajo predogledov. To nastavitev lahko omogočite in jih ustvarite sproti, vendar lahko zaradi tega videoposnetek postane počasnejši.",
             "thumbnailLabel": "Naloži predoglede",
-            "title": "Nastavitve"
+            "title": "Nastavitve",
+            "ads": "",
+            "adsDescription": "",
+            "adsLabel": "",
+            "autoplay": "",
+            "autoplayDescription": "",
+            "autoplayLabel": "",
+            "sourceOrder": "",
+            "sourceOrderDescription": ""
         },
         "reset": "Ponastavi",
         "save": "Shrani",
@@ -550,8 +608,38 @@
             "colorLabel": "Barva",
             "previewQuote": "Ne smem se bati. Strah je ubijalec misli.",
             "textSizeLabel": "Velikost pisave",
-            "title": "Podnapisi"
+            "title": "Podnapisi",
+            "textBoldLabel": ""
         },
         "unsaved": "Imate neshranjene spremembe"
+    },
+    "privacy": {
+        "description": "",
+        "lastUpdated": "",
+        "p1": {
+            "body": "",
+            "title": ""
+        },
+        "p2": {
+            "body": "",
+            "title": ""
+        },
+        "p3": {
+            "body": "",
+            "title": ""
+        },
+        "p4": {
+            "body": "",
+            "title": ""
+        },
+        "p5": {
+            "title": "",
+            "body": ""
+        },
+        "p6": {
+            "title": "",
+            "body": ""
+        },
+        "title": ""
     }
 }

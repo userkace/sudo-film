@@ -29,13 +29,18 @@ import { changeAppLanguage, useLanguageStore } from "@/stores/language";
 import { ProgressSyncer } from "@/stores/progress/ProgressSyncer";
 import { SettingsSyncer } from "@/stores/subtitles/SettingsSyncer";
 import { ThemeProvider } from "@/stores/theme";
+import { TurnstileProvider } from "@/stores/turnstile";
 
 import {
   extensionInfo,
   isExtensionActiveCached,
 } from "./backend/extension/messaging";
+import IframeMessage from "./components/utils/iframe";
 import { initializeChromecast } from "./setup/chromecast";
+// eslint-disable-next-line import/order
 import { initializeOldStores } from "./stores/__old/migrations";
+
+// Import the IframeMessage component
 
 // initialize
 initializeChromecast();
@@ -169,12 +174,14 @@ function ExtensionStatus() {
   }
   return null;
 }
+
 const container = document.getElementById("root");
 const root = createRoot(container!);
 
 root.render(
   <StrictMode>
     <ErrorBoundary>
+      <TurnstileProvider />
       <HelmetProvider>
         <Suspense fallback={<LoadingScreen type="lazy" />}>
           <ExtensionStatus />
@@ -185,18 +192,10 @@ root.render(
             <TheRouter>
               <MigrationRunner />
             </TheRouter>
+            <IframeMessage />
           </ThemeProvider>
         </Suspense>
       </HelmetProvider>
     </ErrorBoundary>
   </StrictMode>,
 );
-
-// Cloudflare Web Analytics
-(window as any).CF_BEACON = {
-  token: "22de9b01c7d34bdfa6cc51ac9d6f8ee9",
-};
-const script = document.createElement("script");
-script.defer = true;
-script.src = "https://static.cloudflareinsights.com/beacon.min.js";
-document.head.appendChild(script);

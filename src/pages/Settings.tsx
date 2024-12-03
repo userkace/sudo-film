@@ -37,7 +37,6 @@ import { useSubtitleStore } from "@/stores/subtitles";
 import { usePreviewThemeStore, useThemeStore } from "@/stores/theme";
 
 import { SubPageLayout } from "./layouts/SubPageLayout";
-import { AdminPanelPart } from "./parts/settings/AdminPanel";
 import { PreferencesPart } from "./parts/settings/PreferencesPart";
 
 function SettingsLayout(props: { children: React.ReactNode }) {
@@ -289,9 +288,6 @@ export function SettingsPage() {
           ) : (
             <RegisterCalloutPart />
           )}
-        </div>
-        <div className="mt-10">
-          <AdminPanelPart />
         </div>
         <div id="settings-preferences" className="mt-48">
           <PreferencesPart

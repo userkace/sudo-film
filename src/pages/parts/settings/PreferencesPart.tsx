@@ -67,7 +67,14 @@ export function PreferencesPart(props: {
           setSelectedItem={(opt) => props.setLanguage(opt.id)}
         />
       </div>
-
+      <div>
+        <p className="text-white font-bold mb-3">
+          {t("settings.preferences.ads")}
+        </p>
+        <p className="max-w-[25rem] font-medium">
+          {t("settings.preferences.adsDescription")}
+        </p>
+      </div>
       <div>
         <p className="text-white font-bold mb-3">
           {t("settings.preferences.thumbnail")}
