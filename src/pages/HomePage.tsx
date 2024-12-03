@@ -67,7 +67,7 @@ export function HomePage() {
       <div>
         <Helmet>
           {/* prettier-ignore */}
-          <title> {t("global.name")} | Stream Your Favorite Movies & TV Shows in 4K for Free{" "}</title>
+          <title> {t("global.name")}{" "}</title>
         </Helmet>
         <HeroPart searchParams={searchParams} setIsSticky={setShowBg} />
       </div>

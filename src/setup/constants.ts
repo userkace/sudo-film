@@ -1,5 +1,5 @@
 export const APP_VERSION = import.meta.env.PACKAGE_VERSION;
-export const DISCORD_LINK = "https://discord.gg/3Y6zrJ2kXU";
+export const DISCORD_LINK = "https://kace.dev/discord";
 export const GITHUB_LINK = "https://github.com/userkace/film";
 export const DONATION_LINK = "https://ko-fi.com/userkace";
 export const FACEBOOK_LINK = "https://facebook.com/userkace";
