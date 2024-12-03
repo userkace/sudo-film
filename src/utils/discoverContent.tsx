@@ -876,7 +876,7 @@ export function DiscoverContent() {
 
   return (
     <div>
-      <div className="w-full max-w-screen-xl mx-auto px-4">
+      <div className="mx-auto max-w-full px-8 w-[900px] sm:px-8 ">
         <div className="flex items-center justify-center">
           <button
             type="button"
@@ -894,7 +894,7 @@ export function DiscoverContent() {
                 </div>
               ) : (
                 <div className="flex items-center inline-block">
-                  <span>Watch Something New</span>
+                  <span>Try your luck?</span>
                   <img
                     src="/lightbar-images/dice.svg"
                     alt="Small Image"
