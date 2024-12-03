@@ -876,7 +876,7 @@ export function DiscoverContent() {
 
   return (
     <div>
-      <div className="mx-auto max-w-full px-8 w-[900px] sm:px-8 ">
+      <div className="w-full max-w-screen-xl mx-auto px-4">
         <div className="flex items-center justify-center">
           <button
             type="button"
@@ -1044,7 +1044,7 @@ export function DiscoverContent() {
           </>
         )}
       </div>
-      <div className="">
+      <div className="mx-auto max-w-full px-8 w-[900px] sm:px-8 ">
         {selectedCategory === "movies" && (
           <>
             <div className="flex items-center mt-5 mb-4">
