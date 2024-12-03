@@ -72,7 +72,6 @@
     "semver": "^7.6.3",
     "slugify": "^1.6.6",
     "subsrt-ts": "^2.1.2",
-    "sudo-flix": "file:",
     "zustand": "^4.5.5"
   },
   "devDependencies": {
