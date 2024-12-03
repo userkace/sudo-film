@@ -1044,7 +1044,7 @@ export function DiscoverContent() {
           </>
         )}
       </div>
-      <div className="mx-auto max-w-full px-8 w-[900px] sm:px-8">
+      <div className="mx-auto max-w-full px-8 w-[1125px] sm:px-8">
         {selectedCategory === "movies" && (
           <>
             <div className="flex items-center mt-5 mb-4">
