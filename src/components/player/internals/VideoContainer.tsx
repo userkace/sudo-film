@@ -91,7 +91,7 @@ function VideoElement() {
   if (captionAsTrack && trackObjectUrl && language)
     subtitleTrack = (
       <track
-        label="P-Stream Captions"
+        label="film.kace.dev Captions"
         kind="subtitles"
         srcLang={language}
         src={trackObjectUrl}

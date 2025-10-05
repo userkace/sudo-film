@@ -15,7 +15,7 @@
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" />  
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" />
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#120f1d" />
   <meta name="msapplication-TileColor" content="#120f1d" />
   <meta name="theme-color" content="#000000" />
@@ -23,9 +23,9 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <!-- P-Stream Preview Embed -->
+  <!-- film.kace.dev Preview Embed -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="/embed-preview.png" /> 
+  <meta property="twitter:image" content="/embed-preview.png" />
   <meta property="og:image" content="/embed-preview.png">
 
   <link rel="apple-touch-startup-image"
@@ -133,10 +133,12 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <script src="/config.js"></script>
-  
+
   {{#if env.VITE_TRACK_SCRIPT }}
   {{{ env.VITE_TRACK_SCRIPT }}}
   {{/if}}
@@ -149,28 +151,29 @@
   <meta name="referrer" content="always">
 
 
-  <title>P-Stream</title>
+  <title>film.kace.dev</title>
 
   {{#if opensearchEnabled }}
   <!-- OpenSearch -->
-  <link rel="search" type="application/opensearchdescription+xml" title="P-Stream" href="/opensearch.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="film.kace.dev" href="/opensearch.xml">
 
   <!-- Google Sitelinks -->
   <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "url": "{{ routeDomain }}",
-          "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "{{ routeDomain }}/browse/?q={search_term_string}"
-          },
-          "query-input": "required name=search_term_string"
-          }
-        }
-      </script>
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "{{ routeDomain }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ routeDomain }}/browse/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+
+  </script>
   {{/if}}
 </head>
 

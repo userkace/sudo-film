@@ -70,9 +70,9 @@ export function LegalPage() {
             description={
               <>
                 <Paragraph>
-                  P-Stream functions as a search engine and content aggregator
-                  that indexes publicly available media from across the
-                  internet.
+                  film.kace.dev functions as a search engine and content
+                  aggregator that indexes publicly available media from across
+                  the internet.
                   <br />
                   <br />
                   We don&apos;t host, store, or control any media files -
@@ -84,7 +84,9 @@ export function LegalPage() {
                   that&apos;s already available online, without bypassing any
                   security measures.
                 </Paragraph>
-                <Link to="/about">Learn more about how P-Stream works</Link>
+                <Link to="/about">
+                  Learn more about how film.kace.dev works
+                </Link>
               </>
             }
           />
@@ -131,7 +133,7 @@ export function LegalPage() {
                 information or identifying data.
                 <br />
                 <br />
-                P-Stream is entirely self hostable, and can be run on any
+                film.kace.dev is entirely self hostable, and can be run on any
                 server. Even by yourself.
               </Paragraph>
             }
@@ -165,7 +167,7 @@ export function LegalPage() {
             colorClass="text-red-400"
             description={
               <Paragraph>
-                P-Stream is licensed under the MIT license.
+                film.kace.dev is licensed under the MIT license.
                 <br />
                 <br />
                 By using our platform, you acknowledge these terms and agree
@@ -191,8 +193,8 @@ export function LegalPage() {
                 files.
                 <br />
                 <br />
-                P-Stream operates within legal boundaries and cooperates with
-                legitimate requests when technically feasible.
+                film.kace.dev operates within legal boundaries and cooperates
+                with legitimate requests when technically feasible.
               </Paragraph>
             }
           >
